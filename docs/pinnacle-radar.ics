@@ -1,0 +1,804 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PINNACLE//pinnacle-radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Pinnacle — Radar
+X-WR-TIMEZONE:UTC
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:starship-flight-13@pinnacle
+DTSTAMP:20260701T000000Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:🟡 RADAR: SpaceX Starship Flight 13 (Block 3)
+DESCRIPTION:🟢 Next integrated test of the world's largest rocket after t
+ he successful Block 3 debut (Flight 12\, May 22)\; Booster 20 / Ship 40\, 
+ stepping toward first ship catch on a later flight. Starbase Pad 2\, Boca 
+ Chica TX.\nFree: SpaceX webcast on X (x.com/spacex)\; NASASpaceflight & Ev
+ eryday Astronaut restream on YouTube\nhttps://www.spacex.com/launches/\nWi
+ ndow: Jul 2026 (NET mid-late Jul\, no official date\; slips likely)\nInteg
+ rated flight tests recur every ~6-10 weeks
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:SPACE
+URL:https://www.spacex.com/launches/
+END:VEVENT
+BEGIN:VEVENT
+UID:mvpw06-mayer-cameron-unification@pinnacle
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:🟡 RADAR: Mikaela Mayer vs Chantelle Cameron — Super Welterweig
+ ht Unification
+DESCRIPTION:🔴 Confirmed for Sat Aug 29\, 2026: WBA/WBC champ Mayer vs WB
+ O champ Cameron\, three-belt 154-lb unification headlining MVPW-06 at bp p
+ ulse LIVE\, Birmingham. Time TBD (UK evening card\; unofficial ringwalk es
+ timates ~22:00 BST) — upgrade to locked when Sky/MVP publish times.\nPre
+ mium: Sky Sports (UK)\; ESPN+ (US)\nhttps://www.mostvaluablepromotions.com
+ /mikaela-mayer-vs-chantelle-cameron-set-for-mvpw-06-uk-vs-usa/\nWindow: Au
+ gust 2026
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:STRENGTH
+URL:https://www.mostvaluablepromotions.com/mikaela-mayer-vs-chantelle-camer
+ on-set-for-mvpw-06-uk-vs-usa/
+END:VEVENT
+BEGIN:VEVENT
+UID:ti-2026-grand-final@pinnacle
+DTSTAMP:20260801T000000Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:🟡 RADAR: The International 2026 — Grand Final
+DESCRIPTION:🟢 Dota 2's world championship Bo5 decider\, Aug 23 at Orient
+ al Sports Center\, Shanghai (main event Aug 20-23)\; time TBA.\nFree: Twit
+ ch (twitch.tv/dota2ti) and YouTube — free worldwide\nhttps://liquipedia.
+ net/dota2/The_International/2026\nWindow: Aug 2026\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MIND
+URL:https://liquipedia.net/dota2/The_International/2026
+END:VEVENT
+BEGIN:VEVENT
+UID:blue-moon-mk1-pathfinder@pinnacle
+DTSTAMP:20260901T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:🟡 RADAR: Blue Origin Blue Moon MK1 'Endurance' — First Lunar L
+ anding Attempt
+DESCRIPTION:🟢 Blue Origin's first Moon landing attempt — largest lande
+ r since Apollo\, BE-7 cryogenic propulsion\, precision landing near lunar 
+ South Pole with NASA SCALPSS. New Glenn from Cape Canaveral LC-36.\nFree: 
+ Blue Origin webcast (blueorigin.com) and YouTube\nhttps://www.blueorigin.c
+ om/blue-moon\nWindow: Sep-Dec 2026 (NET fall 2026\, no date announced)
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:SPACE
+URL:https://www.blueorigin.com/blue-moon
+END:VEVENT
+BEGIN:VEVENT
+UID:crew-13@pinnacle
+DTSTAMP:20260901T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:🟡 RADAR: NASA/SpaceX Crew-13 Launch to ISS
+DESCRIPTION:🟢 Crewed Dragon rotation — Watkins (commander)\, Delaney\,
+  Kutryk (CSA)\, Teteryatnikov (Roscosmos) to Expedition 75. Cape Canaveral
+  SLC-40\, Florida.\nFree: NASA+ and NASA YouTube\; SpaceX webcast on X\nht
+ tps://plus.nasa.gov/\nWindow: Sep 2026 (NET mid-Sep)\nISS Dragon crew rota
+ tions recur ~every 6 months
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:SPACE
+URL:https://plus.nasa.gov/
+END:VEVENT
+BEGIN:VEVENT
+UID:ifsc-koper-2026@pinnacle
+DTSTAMP:20260901T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:🟡 RADAR: World Climbing Series (IFSC World Cup) Koper — Lead F
+ inals
+DESCRIPTION:🟢 Lead finals evening of the Koper World Cup\, Slovenia (eve
+ nt Sep 4-5\; finals Sat Sep 5\, session time TBA).\nFree: YouTube live str
+ eam (most regions\; geo-blocked in Europe)\nPremium: Eurosport / HBO Max (
+ Europe)\nhttps://www.worldclimbing.com/events/world-climbing-series-koper-
+ 2026\nWindow: September 2026\nAnnual World Cup stop
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ADVENTURE
+URL:https://www.worldclimbing.com/events/world-climbing-series-koper-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:taylor-pili-croke-park-undisputed@pinnacle
+DTSTAMP:20260901T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:🟡 RADAR: Katie Taylor vs Flora Pili — Undisputed Super Lightwe
+ ight\, Croke Park Farewell
+DESCRIPTION:🔴 Confirmed for Sat Sep 5\, 2026: Taylor's farewell in front
+  of 80\,000 at Croke Park\, Dublin — WBA/WBO/IBF/Ring belts + vacant WBC
+  for undisputed at 140. First pro boxing at Croke Park since Ali in 1972. 
+ Upgrade to locked when DAZN confirms broadcast/ringwalk times (expected ~2
+ 2:00 local).\nFree: Possible free-to-air in Ireland (RTE/Virgin Media righ
+ ts talks ongoing\, unconfirmed)\nPremium: DAZN (live worldwide)\nhttps://w
+ ww.matchroomboxing.com/news/katie-taylor-lands-historic-croke-park-undispu
+ ted-world-title-farewell-in-ireland-against-flora-pili-on-saturday-septemb
+ er-5-live-worldwide-on-dazn/\nWindow: September 2026
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:STRENGTH
+URL:https://www.matchroomboxing.com/news/katie-taylor-lands-historic-croke-
+ park-undisputed-world-title-farewell-in-ireland-against-flora-pili-on-satu
+ rday-september-5-live-worldwide-on-dazn/
+END:VEVENT
+BEGIN:VEVENT
+UID:dream-chaser-demo-1@pinnacle
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🟡 RADAR: Sierra Space Dream Chaser 'Tenacity' — First Orbital 
+ Flight
+DESCRIPTION:🟢 First orbital flight of a commercial winged spaceplane —
+  first runway-landing orbital vehicle since the Shuttle. ULA Vulcan Centau
+ r from Cape Canaveral\; free-flyer demo mission.\nFree: ULA webcast (ulala
+ unch.com) and YouTube\nhttps://www.ulalaunch.com/\nWindow: Oct-Dec 2026 (N
+ ET Q4 2026\, long slip history)
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:SPACE
+URL:https://www.ulalaunch.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2026-title-clinch-watch@pinnacle
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🟡 RADAR: F1 2026 Title-Clinch Race (TBD)
+DESCRIPTION:🔴 Any race where the drivers' title can be clinched is pinna
+ cle. Unknowable at round 10 of 24\; earliest plausible clinch is ~Austin (
+ Oct 23-25) / Mexico City (Oct 30-Nov 1). Refresh runs will lock the specif
+ ic clinch-possible races as standings develop.\nFree: Race highlights free
+  on YouTube post-race\nPremium: F1 TV Pro/Premium\; Sky Sports F1 (UK)\; E
+ SPN (US)\nhttps://www.formula1.com/en/racing/2026\nWindow: Oct 2026
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MOTOR
+URL:https://www.formula1.com/en/racing/2026
+END:VEVENT
+BEGIN:VEVENT
+UID:ifsc-salt-lake-city-2026@pinnacle
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🟡 RADAR: World Climbing Series (IFSC World Cup) Salt Lake City 
+ — Boulder Finals
+DESCRIPTION:🟢 Boulder finals of the only 2026 US World Cup\, Salt Lake C
+ ity (event Oct 16-18\; finals evenings\, times TBA).\nFree: YouTube live s
+ tream (free in US/Canada and most regions)\nPremium: Eurosport / HBO Max (
+ Europe)\nhttps://www.worldclimbing.com/calendar/index\nWindow: October 202
+ 6\nAnnual World Cup stop
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ADVENTURE
+URL:https://www.worldclimbing.com/calendar/index
+END:VEVENT
+BEGIN:VEVENT
+UID:ifsc-santiago-2026@pinnacle
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🟡 RADAR: World Climbing Series (IFSC World Cup) Santiago — Lea
+ d Finals (Season Finale)
+DESCRIPTION:🟢 Season-closing lead (+speed) finals in Santiago\, Chile\, 
+ Oct 23-25 — first World Cup ever held in South America\; session times T
+ BA.\nFree: YouTube live stream (most regions)\nPremium: Eurosport / HBO Ma
+ x (Europe)\nhttps://www.worldclimbing.com/calendar/index\nWindow: October 
+ 2026\nAnnual World Cup season finale
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ADVENTURE
+URL:https://www.worldclimbing.com/calendar/index
+END:VEVENT
+BEGIN:VEVENT
+UID:ironman-worlds-kona-2026@pinnacle
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🟡 RADAR: IRONMAN World Championship 2026 — Kona
+DESCRIPTION:🟢 Sat Oct 10\, Kailua-Kona\, Hawaii — men's and women's pr
+ o races back on the same day on the sport's most iconic course for the fir
+ st time since 2019\; start times TBA.\nFree: YouTube live stream (IRONMAN 
+ Triathlon channel) + Ironman Pro Series\nhttps://www.ironman.com/races/im-
+ world-championship\nWindow: October 2026\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ADVENTURE
+URL:https://www.ironman.com/races/im-world-championship
+END:VEVENT
+BEGIN:VEVENT
+UID:neutron-first-flight@pinnacle
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🟡 RADAR: Rocket Lab Neutron — First Flight
+DESCRIPTION:🟢 Debut of Rocket Lab's reusable medium-lift Neutron — fir
+ st new US medium-class reusable rocket to challenge Falcon 9. Launch Compl
+ ex 3\, Wallops Island\, Virginia.\nFree: Rocket Lab webcast (rocketlabusa.
+ com) and YouTube\nhttps://www.rocketlabusa.com/live-stream/\nWindow: Oct-D
+ ec 2026 (NET Q4 2026\, slips likely after Jan tank-test failure)
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:SPACE
+URL:https://www.rocketlabusa.com/live-stream/
+END:VEVENT
+BEGIN:VEVENT
+UID:rampage-2026@pinnacle
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🟡 RADAR: Red Bull Rampage 2026
+DESCRIPTION:🟢 Freeride MTB's ultimate proving ground near Virgin\, Utah 
+ — 25th anniversary edition\, with a permit filed to return to the origin
+ al 2001 Kolob Terrace venue.\nFree: Red Bull TV live stream\nhttps://www.r
+ edbull.com/us-en/event-series/red-bull-rampage\nWindow: October 2026 (expe
+ cted\; dates TBA)\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ADVENTURE
+URL:https://www.redbull.com/us-en/event-series/red-bull-rampage
+END:VEVENT
+BEGIN:VEVENT
+UID:shenzhou-24@pinnacle
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🟡 RADAR: Shenzhou-24 Crew Launch to Tiangong
+DESCRIPTION:🟢 Crewed Tiangong rotation carrying the first Pakistani astr
+ onaut (short-duration visit). Jiuquan Satellite Launch Center\, China.\nFr
+ ee: CGTN live stream (YouTube/cgtn.com)\nhttps://www.cgtn.com/\nWindow: Oc
+ t 2026 (NET\, per CMSA planning)\nShenzhou crew rotations recur ~every 6 m
+ onths
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:SPACE
+URL:https://www.cgtn.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:world-series-2026@pinnacle
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🟡 RADAR: World Series 2026
+DESCRIPTION:🟢 MLB's championship series — Game 1 Fri Oct 23\, potentia
+ l Game 7 on Halloween Oct 31\, 2026\; ballparks TBD by pennant winners. Cl
+ inching games + any Game 7 get locked by refresh runs.\nFree: FOX (US OTA)
+ \nPremium: Fubo / MLB.tv market restrictions apply\nhttps://www.mlb.com/po
+ stseason\nWindow: Oct 2026\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:TEAM
+URL:https://www.mlb.com/postseason
+END:VEVENT
+BEGIN:VEVENT
+UID:blue-ghost-mission-2@pinnacle
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🟡 RADAR: Firefly Blue Ghost Mission 2 — First Commercial Far-S
+ ide Moon Landing
+DESCRIPTION:🟢 First American/commercial landing attempt on the Moon's fa
+ r side ('Riders 2 the Dark') with Elytra relay orbiter\, ESA Lunar Pathfin
+ der and UAE Rashid 2 rover. Falcon 9 from Cape Canaveral.\nFree: NASA+ / S
+ paceX launch webcast\; Firefly mission updates\nhttps://fireflyspace.com/m
+ issions/blue-ghost-mission-2/\nWindow: Nov-Dec 2026 (NET late 2026)
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:SPACE
+URL:https://fireflyspace.com/missions/blue-ghost-mission-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:lol-worlds-2026-final@pinnacle
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🟡 RADAR: LoL Worlds 2026 — Grand Final
+DESCRIPTION:🟢 Bo5 for the Summoner's Cup\, Nov 14 at Barclays Center\, B
+ rooklyn — first Worlds final on the US East Coast\; time TBA.\nFree: lol
+ esports.com\, Twitch\, YouTube — free worldwide\nhttps://lolesports.com\
+ nWindow: Nov 2026\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MIND
+URL:https://lolesports.com
+END:VEVENT
+BEGIN:VEVENT
+UID:nazare-big-wave-2026-27@pinnacle
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🟡 RADAR: TUDOR Nazaré Big Wave Challenge 2026-27
+DESCRIPTION:🟢 The world's biggest ridden waves at Praia do Norte\, Nazar
+ é\, Portugal — contest window Nov 1\, 2026 to Mar 31\, 2027\, greenlit 
+ only when a monster swell lines up.\nFree: worldsurfleague.com + YouTube l
+ ive stream\nhttps://www.worldsurfleague.com/watch\nWindow: November 2026 (
+ season window opens\; swell-dependent)\nAnnual season window
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ADVENTURE
+URL:https://www.worldsurfleague.com/watch
+END:VEVENT
+BEGIN:VEVENT
+UID:redbull-cliff-diving-muscat-2026@pinnacle
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🟡 RADAR: Red Bull Cliff Diving World Series 2026 — Season Fina
+ le\, Muscat
+DESCRIPTION:🟢 World Series title decided Nov 12-14 across Wadi Hawer's c
+ anyon and final dives off Mutrah harbour\, Muscat\, Oman — first women's
+  competition in Oman\; schedule TBA.\nFree: Red Bull TV live stream\nhttps
+ ://www.redbull.com/int-en/event-series/red-bull-cliff-diving\nWindow: Nove
+ mber 2026\nAnnual series finale
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ADVENTURE
+URL:https://www.redbull.com/int-en/event-series/red-bull-cliff-diving
+END:VEVENT
+BEGIN:VEVENT
+UID:wcc-2026-gukesh-sindarov@pinnacle
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🟡 RADAR: FIDE World Chess Championship 2026: Gukesh vs Sindarov
+DESCRIPTION:🟢 Chess's ultimate title match — every game is the final. 
+ Gukesh (IND) defends vs Candidates winner Sindarov (UZB)\; provisionally N
+ ov 23-Dec 17\, host city TBD.\nFree: FIDE YouTube/Twitch official broadcas
+ t + Chess.com and ChessBase India coverage — free\nhttps://liquipedia.ne
+ t/chess/FIDE_World_Chess_Championship/2026\nWindow: Nov 2026\nBiennial (ev
+ ery 2 years)
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MIND
+URL:https://liquipedia.net/chess/FIDE_World_Chess_Championship/2026
+END:VEVENT
+BEGIN:VEVENT
+UID:cs2-pgl-major-singapore-2026-grand-final@pinnacle
+DTSTAMP:20261201T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:🟡 RADAR: PGL Major Singapore 2026 (CS2) — Grand Final
+DESCRIPTION:🟢 Counter-Strike's Valve Major decider\, Dec 13 at Singapore
+  Indoor Stadium — first Major in Southeast Asia\; time TBA.\nFree: Twitc
+ h (twitch.tv/pgl) and PGL YouTube — free worldwide\nhttps://liquipedia.n
+ et/counterstrike/PGL/2026/Singapore\nWindow: Dec 2026\nTwo Valve Majors pe
+ r year
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MIND
+URL:https://liquipedia.net/counterstrike/PGL/2026/Singapore
+END:VEVENT
+BEGIN:VEVENT
+UID:eddie-aikau-2026-27@pinnacle
+DTSTAMP:20261201T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:🟡 RADAR: The Eddie Aikau Big Wave Invitational 2026-27
+DESCRIPTION:🟢 Big-wave surfing's most hallowed one-day event at Waimea B
+ ay\, Oahu — runs only on 40 ft+ faces\; the 2025-26 window closed Mar 6 
+ without running.\nFree: YouTube live stream (Rip Curl / event channels) + 
+ theeddieaikau.com\nhttps://www.theeddieaikau.com/\nWindow: December 2026 (
+ holding period opens\, conditions-dependent)\nAnnual holding period (rarel
+ y runs)
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ADVENTURE
+URL:https://www.theeddieaikau.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:pipe-masters-2026@pinnacle
+DTSTAMP:20261201T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:🟡 RADAR: WSL Pipe Masters 2026 — World Title Decider
+DESCRIPTION:🟢 WSL scrapped the one-day Finals for 2026 — both world ti
+ tles are now decided at a reimagined\, 1.5x-points Pipe Masters at Banzai 
+ Pipeline\, Oahu.\nFree: worldsurfleague.com / WSL app / YouTube (region-de
+ pendent)\nPremium: ESPN+ (US\, later rounds)\nhttps://www.worldsurfleague.
+ com/\nWindow: December 2026 (holding window Dec 8-20\, swell-dependent)\nA
+ nnual season finale
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ADVENTURE
+URL:https://www.worldsurfleague.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:aus-open-2027-mens-final@pinnacle
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:🟡 RADAR: Australian Open 2027 Men's Singles Final
+DESCRIPTION:🟢 First Grand Slam men's final of 2027\, confirmed for Sun J
+ an 31. Rod Laver Arena\, Melbourne Park.\nFree: Nine / 9Now (Australia)\nP
+ remium: ESPN (US)\, Eurosport (EU)\nhttps://ausopen.com/schedule\nWindow: 
+ Jan 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:TEAM
+URL:https://ausopen.com/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:aus-open-2027-womens-final@pinnacle
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:🟡 RADAR: Australian Open 2027 Women's Singles Final
+DESCRIPTION:🟢 First Grand Slam final of 2027\, confirmed for Sat Jan 30.
+  Rod Laver Arena\, Melbourne Park.\nFree: Nine / 9Now (Australia)\nPremium
+ : ESPN (US)\, Eurosport (EU)\nhttps://ausopen.com/schedule\nWindow: Jan 20
+ 27\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:TEAM
+URL:https://ausopen.com/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:axiom-5@pinnacle
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:🟡 RADAR: Axiom Mission 5 (Ax-5) — Private Astronaut Mission to
+  ISS
+DESCRIPTION:🟢 Fifth private astronaut mission to the ISS on Crew Dragon\
+ ; up to 14 days docked. Kennedy Space Center\, Florida.\nFree: Axiom Space
+  webcast\; SpaceX webcast on X\; NASA+\nhttps://www.axiomspace.com/mission
+ s\nWindow: Jan 2027 (NET\, depends on ISS traffic)\nAxiom private missions
+  recur roughly annually
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:SPACE
+URL:https://www.axiomspace.com/missions
+END:VEVENT
+BEGIN:VEVENT
+UID:gaganyaan-h1@pinnacle
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:🟡 RADAR: ISRO Gaganyaan H1 — India's First Crewed Spaceflight
+DESCRIPTION:🟢 India becomes the fourth nation to launch humans to orbit 
+ on its own vehicle — HLVM3 from Satish Dhawan Space Centre\, Sriharikota
+ .\nFree: ISRO official webcast (isro.gov.in) and ISRO YouTube\nhttps://www
+ .isro.gov.in/\nWindow: Jan-Mar 2027 (NET Q1 2027\, slips likely\; uncrewed
+  G-tests must fly first)
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:SPACE
+URL:https://www.isro.gov.in/
+END:VEVENT
+BEGIN:VEVENT
+UID:haven-1-launch@pinnacle
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:🟡 RADAR: Vast Haven-1 — First Commercial Space Station Launch
+DESCRIPTION:🟢 First-ever commercial space station reaches orbit — heav
+ iest spacecraft ever lofted by Falcon 9\; Vast-1 crew visit to follow. Fal
+ con 9 from Florida.\nFree: SpaceX webcast on X\; Vast updates at vastspace
+ .com\nhttps://www.vastspace.com/haven-1\nWindow: Jan-Mar 2027 (NET Q1 2027
+ \, slipped from 2026)
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:SPACE
+URL:https://www.vastspace.com/haven-1
+END:VEVENT
+BEGIN:VEVENT
+UID:nfl-conference-championships-2027@pinnacle
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:🟡 RADAR: NFL Conference Championships (2026 season)
+DESCRIPTION:🟢 AFC and NFC title games — the gateway to Super Bowl LXI\
+ , played late Jan 2027 at top seeds' stadiums.\nFree: CBS (AFC) and FOX (N
+ FC) — US OTA\nPremium: Paramount+ / NFL+\nhttps://www.nfl.com/schedules/
+ \nWindow: Jan 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:TEAM
+URL:https://www.nfl.com/schedules/
+END:VEVENT
+BEGIN:VEVENT
+UID:tata-steel-masters-2027-final-round@pinnacle
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:🟡 RADAR: Tata Steel Chess Masters 2027 — Final Round
+DESCRIPTION:🟢 Decisive final round (Jan 31) of the 'Wimbledon of Chess'\
+ , 89th edition\, Jan 15-31 in Wijk aan Zee.\nFree: Official Tata Steel Che
+ ss YouTube stream + Chess.com/ChessBase India coverage — free\nhttps://t
+ atasteelchess.com/en\nWindow: Jan 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MIND
+URL:https://tatasteelchess.com/en
+END:VEVENT
+BEGIN:VEVENT
+UID:super-bowl-lxi@pinnacle
+DTSTAMP:20270201T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:🟡 RADAR: Super Bowl LXI
+DESCRIPTION:🟢 The NFL's championship game\, confirmed for Feb 14\, 2027 
+ — first ABC/ESPN Super Bowl. SoFi Stadium\, Inglewood\, CA.\nFree: ABC (
+ US OTA)\nPremium: ESPN / ESPN Deportes simulcast\nhttps://www.espn.com/nfl
+ /story/_/id/47819308/super-bowl-2027-espn-how-watch-schedule-facts-stats\n
+ Window: Feb 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:TEAM
+URL:https://www.espn.com/nfl/story/_/id/47819308/super-bowl-2027-espn-how-w
+ atch-schedule-facts-stats
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-marathon-2027@pinnacle
+DTSTAMP:20270401T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:🟡 RADAR: Boston Marathon 2027
+DESCRIPTION:🔴 The oldest annual marathon and the only qualifier-only Maj
+ or — 131st edition\, Monday Apr 19\, 2027 (Patriots' Day)\, Hopkinton to
+  Boylston Street.\nFree: WBZ-TV CBS Boston (local\, free OTA)\nPremium: ES
+ PN (US national\, cable/streaming)\nhttps://www.baa.org/races/boston-marat
+ hon\nWindow: Apr 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ENDURANCE
+URL:https://www.baa.org/races/boston-marathon
+END:VEVENT
+BEGIN:VEVENT
+UID:ucl-2026-27-semifinals@pinnacle
+DTSTAMP:20270401T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:🟡 RADAR: UEFA Champions League 2026-27 Semifinals
+DESCRIPTION:🟡 The last four of Europe's premier club competition\; two-l
+ egged ties Apr 27/28 and May 4/5\, 2027.\nFree: Highlights free on officia
+ l YouTube in many regions\nPremium: Paramount+ (US)\, TNT Sports (UK)\nhtt
+ ps://www.uefa.com/uefachampionsleague/\nWindow: Apr-May 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:TEAM
+URL:https://www.uefa.com/uefachampionsleague/
+END:VEVENT
+BEGIN:VEVENT
+UID:isle-of-man-tt-2027@pinnacle
+DTSTAMP:20270501T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:🟡 RADAR: Isle of Man TT 2027
+DESCRIPTION:🟡 The event IS the pinnacle of road racing — the 37.73-mil
+ e Snaefell Mountain Course\, Isle of Man\; qualifying 31 May-4 Jun\, racin
+ g 5-12 Jun\, capped by the Senior TT on Sat 12 Jun 2027. Key race days to 
+ be locked individually once the finalised schedule is issued after TT 2026
+ .\nFree: Daily qualifying/race highlights and round-ups free on official Y
+ ouTube\; free tier of TT+\nPremium: TT+ Live Pass — official live stream
+  of every qualifying session and race\nhttps://www.iomttraces.com\nWindow:
+  May-Jun 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MOTOR
+URL:https://www.iomttraces.com
+END:VEVENT
+BEGIN:VEVENT
+UID:worlds-strongest-man-2027@pinnacle
+DTSTAMP:20270501T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:🟡 RADAR: World's Strongest Man 2027
+DESCRIPTION:🟡 The annual crowning of the World's Strongest Man — the e
+ vent IS the pinnacle of strength sport. 2027 host/dates unannounced\; 2026
+  edition ran Apr 23-26 in Myrtle Beach SC (Mitchell Hooper won)\, 2025 was
+  mid-May in Sacramento.\nFree: Highlights + athlete content on YouTube\; f
+ ull episodes later on CBS (US TV)\nPremium: CBS Sports Network (US) for br
+ oadcast coverage\nhttps://www.theworldsstrongestman.com/\nWindow: May 2027
+ \nAnnual\; finals have landed anywhere from late April to June — re-chec
+ k when 2027 host is announced
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:STRENGTH
+URL:https://www.theworldsstrongestman.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:f1-2027-monaco@pinnacle
+DTSTAMP:20270601T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:🟡 RADAR: F1 Monaco Grand Prix 2027
+DESCRIPTION:🔴 The crown jewel of F1 — the one race every driver must w
+ in\, on the streets of Monte Carlo (Circuit de Monaco). Race Sunday 6 Jun 
+ 2027\; note Monaco now runs in June\, not May.\nFree: Race highlights free
+  on YouTube post-race\; live free-to-air only in select markets\nPremium: 
+ F1 TV Pro/Premium\; Sky Sports F1 (UK)\; ESPN (US)\nhttps://acm.mc/en/epre
+ uves/formula-1-grand-prix-de-monaco/\nWindow: Jun 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MOTOR
+URL:https://acm.mc/en/epreuves/formula-1-grand-prix-de-monaco/
+END:VEVENT
+BEGIN:VEVENT
+UID:le-mans-2027@pinnacle
+DTSTAMP:20270601T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:🟡 RADAR: 24 Hours of Le Mans 2027
+DESCRIPTION:🟡 The event IS the pinnacle of endurance racing — 95th edi
+ tion at Circuit de la Sarthe\; race starts Sat 12 Jun 2027. Split into loc
+ ked entries (race start + final 2 hours) once session times publish.\nFree
+ : Extended highlights and full-race replay free on official YouTube after 
+ the event\; live is usually paid\nPremium: FIA WEC TV streaming\; Eurospor
+ t/Max (Europe)\nhttps://www.24h-lemans.com/en\nWindow: Jun 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MOTOR
+URL:https://www.24h-lemans.com/en
+END:VEVENT
+BEGIN:VEVENT
+UID:nba-finals-2027@pinnacle
+DTSTAMP:20270601T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:🟡 RADAR: NBA Finals 2027
+DESCRIPTION:🟢 Basketball's championship series\, Jun 3-22\, 2027 window\
+ ; clinching games and any Game 7 get locked when scheduled.\nFree: ABC (US
+  OTA)\nPremium: ESPN / league streaming packages\nhttps://www.nba.com/play
+ offs\nWindow: Jun 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:TEAM
+URL:https://www.nba.com/playoffs
+END:VEVENT
+BEGIN:VEVENT
+UID:norway-chess-2027@pinnacle
+DTSTAMP:20270601T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:🟡 RADAR: Norway Chess 2027 — Final Round
+DESCRIPTION:🟢 Final round + armageddon deciders of the elite six-player 
+ super-tournament\; 2027 dates TBA (2026 edition concluded Jun 5\; traditio
+ nally late May-early June).\nFree: Official Norway Chess broadcast on YouT
+ ube + Chess.com/ChessBase India coverage — free\nhttps://norwaychess.no/
+ en/\nWindow: Jun 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MIND
+URL:https://norwaychess.no/en/
+END:VEVENT
+BEGIN:VEVENT
+UID:stanley-cup-final-2027@pinnacle
+DTSTAMP:20270601T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:🟡 RADAR: Stanley Cup Final 2027
+DESCRIPTION:🟢 The NHL's championship series for the oldest trophy in Nor
+ th American pro sports\; clinching games get locked when scheduled.\nFree:
+  CBC (Canada OTA)\nPremium: US national rightsholder (TNT/ESPN rotation)\,
+  Sportsnet+ (Canada)\nhttps://www.nhl.com/stanley-cup-playoffs\nWindow: Ju
+ n 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:TEAM
+URL:https://www.nhl.com/stanley-cup-playoffs
+END:VEVENT
+BEGIN:VEVENT
+UID:ucl-2027-final@pinnacle
+DTSTAMP:20270601T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:🟡 RADAR: UEFA Champions League 2027 Final
+DESCRIPTION:🟢 Club football's biggest single match\, confirmed for Jun 5
+ \, 2027. Estadio Metropolitano\, Madrid.\nFree: Final has aired free-to-ai
+ r in several markets (e.g. ZDF Germany\; discovery+ UK in recent years)\nP
+ remium: Paramount+ (US)\, TNT Sports (UK)\nhttps://www.uefa.com/uefachampi
+ onsleague/\nWindow: Jun 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:TEAM
+URL:https://www.uefa.com/uefachampionsleague/
+END:VEVENT
+BEGIN:VEVENT
+UID:x-alps-2027@pinnacle
+DTSTAMP:20270601T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:🟡 RADAR: Red Bull X-Alps 2027
+DESCRIPTION:🟢 The world's toughest adventure race — hike-and-fly ~1\,2
+ 00 km across the Alps by paraglider and on foot\; 2027 edition confirmed v
+ ia the 2026 Mayrhofen Challenger.\nFree: Live tracking at redbullxalps.com
+  + Red Bull TV\nhttps://www.redbullxalps.com/\nWindow: June 2027 (expected
+ \, biennial — dates TBA)\nBiennial
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ADVENTURE
+URL:https://www.redbullxalps.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:world-athletics-champs-2027@pinnacle
+DTSTAMP:20270901T000000Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:🟡 RADAR: World Athletics Championships Beijing 2027
+DESCRIPTION:🔴 The pinnacle of track & field — nine days (Sep 11-19\, 2
+ 027) of world titles at Beijing's National Stadium (Bird's Nest)\, first t
+ ime back since 2015.\nFree: BBC (UK)\; CCTV (China)\nPremium: Peacock/NBC 
+ (US)\nhttps://worldathletics.org/competitions/world-athletics-championship
+ s/beijing27\nWindow: Sep 2027\nBiennial
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ENDURANCE
+URL:https://worldathletics.org/competitions/world-athletics-championships/b
+ eijing27
+END:VEVENT
+BEGIN:VEVENT
+UID:cricket-world-cup-2027-final@pinnacle
+DTSTAMP:20271101T000000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271102
+SUMMARY:🟡 RADAR: ICC Men's Cricket World Cup 2027 Final
+DESCRIPTION:🟡 The next men's Cricket World Cup final (50-over)\, slated 
+ Nov 21\, 2027 in South Africa — first African CWC since 2003.\nFree: ICC
+  events have streamed free on JioHotstar mobile (India)\; highlights on of
+ ficial YouTube\nPremium: Willow (US)\, Sky Sports (UK)\nhttps://www.icc-cr
+ icket.com/tournaments/cricketworldcup\nWindow: Nov 2027\nEvery 4 years
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:TEAM
+URL:https://www.icc-cricket.com/tournaments/cricketworldcup
+END:VEVENT
+BEGIN:VEVENT
+UID:rugby-world-cup-2027-final@pinnacle
+DTSTAMP:20271101T000000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271102
+SUMMARY:🟡 RADAR: Rugby World Cup 2027 Final
+DESCRIPTION:🟢 Rugby's ultimate prize — final confirmed for Nov 13\, 20
+ 27 at Stadium Australia\, Sydney (tournament Oct 1-Nov 13).\nFree: Histori
+ cally free-to-air in UK (ITV) and host nation Australia (Nine)\nPremium: S
+ tan Sport (Australia)\, streaming rightsholders elsewhere\nhttps://www.rug
+ byworldcup.com/2027/en/matches\nWindow: Nov 2027\nEvery 4 years
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:TEAM
+URL:https://www.rugbyworldcup.com/2027/en/matches
+END:VEVENT
+BEGIN:VEVENT
+UID:la28-olympics-medal-finals@pinnacle
+DTSTAMP:20280701T000000Z
+DTSTART;VALUE=DATE:20280701
+DTEND;VALUE=DATE:20280702
+SUMMARY:🟡 RADAR: LA28 Olympic Games — Medal Finals (Los Angeles)
+DESCRIPTION:🟢 Olympic Games in LA\, Jul 14-30\, 2028 — medal finals on
+ ly\, in sports Brad tracks. Day-by-day competition schedule already publis
+ hed by LA28\; break out per-final locked entries once tracked sports + ses
+ sion times firm up.\nFree: NBC broadcast (US\, OTA)\; CBC (Canada)\nPremiu
+ m: Peacock (US — every event live)\nhttps://la28.org/en/newsroom/LA28_An
+ nounces_Games_Dates.html\nWindow: Jul 2028\nQuadrennial
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:STRENGTH
+URL:https://la28.org/en/newsroom/LA28_Announces_Games_Dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:vendee-globe-2028@pinnacle
+DTSTAMP:20281101T000000Z
+DTSTART;VALUE=DATE:20281101
+DTEND;VALUE=DATE:20281102
+SUMMARY:🟡 RADAR: Vendée Globe 2028
+DESCRIPTION:🟢 Solo\, nonstop\, unassisted around the world — offshore 
+ sailing's Everest\; 11th edition starts off Les Sables-d'Olonne on Nov 12\
+ , 2028 at 13:02 local.\nFree: vendeeglobe.org live tracker + official chan
+ nels\nhttps://www.vendeeglobe.org/\nWindow: November 2028\nEvery 4 years
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ADVENTURE
+URL:https://www.vendeeglobe.org/
+END:VEVENT
+END:VCALENDAR

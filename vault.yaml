@@ -1,0 +1,123 @@
+# THE VAULT — curated greatest recorded performances.
+# Every link verified via YouTube oEmbed (HTTP 200 + title match) on the date in `verified`.
+# Refresh runs append the best moment from each finished tracked event.
+
+# oembed title: "INEOS 1:59 Challenge Live" | channel: INEOS 1:59 Challenge
+- id: kipchoge-159
+  title: "INEOS 1:59 Challenge"
+  subject: "Eliud Kipchoge"
+  date: "2019-10-12"
+  category: endurance
+  video_url: "https://www.youtube.com/watch?v=k-XgKRJUEgQ"
+  one_liner: "First human under two hours for the marathon."
+  verified: "2026-07-10"
+
+# oembed title: "Free Solo 360 | National Geographic" | channel: National Geographic
+- id: honnold-freesolo
+  title: "Free Solo — El Capitan"
+  subject: "Alex Honnold"
+  date: "2017-06-03"
+  category: adventure
+  video_url: "https://www.youtube.com/watch?v=FRGF77fBAeM"
+  one_liner: "3,000 feet of granite, no rope, no second chances."
+  verified: "2026-07-10"
+
+# oembed title: "Silence | World's Hardest Route 9c | Adam Ondra" | channel: Adam Ondra
+- id: ondra-silence
+  title: "Silence, 9c First Ascent"
+  subject: "Adam Ondra"
+  date: "2017-09-03"
+  category: strength
+  video_url: "https://www.youtube.com/watch?v=ZRTNHDd0gL8"
+  one_liner: "The first 9c in history, sent in a roof cave in Flatanger."
+  verified: "2026-07-10"
+
+# oembed title: "THIRD CROWN for Garnbret — Glory for Dohyun in Seoul" | channel: World Climbing (official IFSC)
+- id: garnbret-seoul-lead
+  title: "World Championships Seoul 2025 Lead Final"
+  subject: "Janja Garnbret"
+  date: "2025-09-26"
+  category: adventure
+  video_url: "https://www.youtube.com/watch?v=VJeIaYXdSMk"
+  one_liner: "The only top of the final for a ninth world title."
+  verified: "2026-07-10"
+
+# oembed title: "Simone Biles pulls off yet another vault that's never been done before at Gymnastics Worlds" | channel: NBC Sports
+- id: biles-yurchenko-double-pike
+  title: "Yurchenko Double Pike — The Biles II"
+  subject: "Simone Biles"
+  date: "2023-10-01"
+  category: strength
+  video_url: "https://www.youtube.com/watch?v=vmFMXk3WQow"
+  one_liner: "First woman to land the Yurchenko double pike on the world stage."
+  verified: "2026-07-10"
+
+# oembed title: "Armand Duplantis Sets New World Record at Mondo Classic | beIN SPORTS USA" | channel: beIN SPORTS USA
+- id: duplantis-631-wr
+  title: "6.31m World Record — Mondo Classic Uppsala"
+  subject: "Mondo Duplantis"
+  date: "2026-03-12"
+  category: endurance
+  video_url: "https://www.youtube.com/watch?v=w9xtbZNj6zc"
+  one_liner: "A 15th world record, one centimeter higher again."
+  verified: "2026-07-10"
+
+# oembed title: "Starship's Fifth Flight Test" | channel: SpaceX
+- id: spacex-chopsticks-catch
+  title: "Starship Flight 5 — First Booster Catch"
+  subject: "SpaceX"
+  date: "2024-10-13"
+  category: space
+  video_url: "https://www.youtube.com/watch?v=hI9HQfCAw64"
+  one_liner: "A 232-foot booster caught out of the sky by the launch tower."
+  verified: "2026-07-10"
+
+# oembed title: "Brandon Semenuk Makes Red Bull Rampage History Once Again | Winning Run 2021" | channel: Red Bull Bike
+- id: semenuk-rampage-2021
+  title: "Red Bull Rampage Winning Run 2021"
+  subject: "Brandon Semenuk"
+  date: "2021-10-15"
+  category: adventure
+  video_url: "https://www.youtube.com/watch?v=fVYbmBS8ws4"
+  one_liner: "A record fourth Rampage crown on an impossible desert line."
+  verified: "2026-07-10"
+
+# oembed title: "Banter Blitz with World Chess Champion Magnus Carlsen" | channel: chess24
+- id: carlsen-banter-blitz
+  title: "Banter Blitz with Magnus Carlsen"
+  subject: "Magnus Carlsen"
+  date: "2020-11"
+  category: mind
+  video_url: "https://www.youtube.com/watch?v=sIq6oUCDlao"
+  one_liner: "The world champion narrates his own mind at blitz speed."
+  verified: "2026-07-10"
+
+# oembed title: "On-board the Fastest EVER Lap of the Isle of Man TT | Peter Hickman - 136.358mph" | channel: Isle of Man TT Races
+- id: hickman-tt-record
+  title: "Isle of Man TT Outright Lap Record"
+  subject: "Peter Hickman"
+  date: "2023-06-09"
+  category: motor
+  video_url: "https://www.youtube.com/watch?v=31RZ5wU-Fg0"
+  one_liner: "37.73 miles of public road at 136.358mph average."
+  verified: "2026-07-10"
+
+# oembed title: "6 minutes of Marc Marquez saves | Celebrating 6 Million YouTube Subscribers!" | channel: MotoGP (date = compilation publication)
+- id: marquez-saves
+  title: "Six Minutes of Marc Marquez Saves"
+  subject: "Marc Marquez"
+  date: "2023-12"
+  category: motor
+  video_url: "https://www.youtube.com/watch?v=y955YN5yufw"
+  one_liner: "A decade of crashes that never happened."
+  verified: "2026-07-10"
+
+# oembed title: "Incredibly exciting women's 1500m final! | Tokyo 2020" | channel: Olympics Aquatics
+- id: ledecky-1500-tokyo
+  title: "Women's 1500m Freestyle Final — Tokyo 2020"
+  subject: "Katie Ledecky"
+  date: "2021-07-28"
+  category: endurance
+  video_url: "https://www.youtube.com/watch?v=_M6pWZGMW1I"
+  one_liner: "The first Olympic women's 1500m, won by the greatest to ever swim it."
+  verified: "2026-07-10"

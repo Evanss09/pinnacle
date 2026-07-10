@@ -1,0 +1,1262 @@
+# PINNACLE — single source of truth. Edit this file, then run build.py.
+# Schema + elimination-only filter rules: PINNACLE.md §4–5.
+# '# source:' comments record the verification source + timezone math for each entry.
+
+# ============================== team ==============================
+# source: si.com WC 2026 QF/SF schedule | tz: 15:00 EDT (UTC-4) Jul 10 → 19:00Z
+- id: fifa-wc-2026-qf-spain-belgium
+  name: "FIFA World Cup 2026 Quarterfinal: Spain vs Belgium"
+  category: team
+  tier: locked
+  start_utc: "2026-07-10T19:00:00Z"
+  end_utc: "2026-07-10T21:30:00Z"
+  window: null
+  why: "World Cup quarterfinal — last eight of the sport's ultimate prize. SoFi Stadium, Inglewood, CA."
+  watch:
+    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC/ITV (UK)"
+    premium: "Fubo (US streaming)"
+    youtube_channel: "@FIFA"
+    link: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+  watchability: green
+  recurrence_note: "Every 4 years"
+
+# source: si.com WC 2026 QF/SF schedule | tz: 17:00 EDT (UTC-4) Jul 11 → 21:00Z
+- id: fifa-wc-2026-qf-norway-england
+  name: "FIFA World Cup 2026 Quarterfinal: Norway vs England"
+  category: team
+  tier: locked
+  start_utc: "2026-07-11T21:00:00Z"
+  end_utc: "2026-07-11T23:30:00Z"
+  window: null
+  why: "World Cup quarterfinal — last eight of the sport's ultimate prize. Hard Rock Stadium, Miami Gardens, FL."
+  watch:
+    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC/ITV (UK)"
+    premium: "Fubo (US streaming)"
+    youtube_channel: "@FIFA"
+    link: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+  watchability: green
+  recurrence_note: "Every 4 years"
+
+# source: espn.com WC 2026 schedule | tz: 21:00 EDT (UTC-4) Jul 11 → crosses midnight UTC → 2026-07-12T01:00:00Z
+- id: fifa-wc-2026-qf-argentina-switzerland
+  name: "FIFA World Cup 2026 Quarterfinal: Argentina vs Switzerland"
+  category: team
+  tier: locked
+  start_utc: "2026-07-12T01:00:00Z"
+  end_utc: "2026-07-12T03:30:00Z"
+  window: null
+  why: "World Cup quarterfinal — defending champions Argentina in the last eight. Arrowhead Stadium, Kansas City, MO."
+  watch:
+    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC/ITV (UK)"
+    premium: "Fubo (US streaming)"
+    youtube_channel: "@FIFA"
+    link: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+  watchability: green
+  recurrence_note: "Every 4 years"
+
+# source: espn.com WC 2026 schedule | tz: 15:00 EDT (UTC-4) Jul 14 → 19:00Z
+- id: fifa-wc-2026-sf1
+  name: "FIFA World Cup 2026 Semifinal 1: France vs Spain/Belgium winner"
+  category: team
+  tier: locked
+  start_utc: "2026-07-14T19:00:00Z"
+  end_utc: "2026-07-14T21:30:00Z"
+  window: null
+  why: "World Cup semifinal — France (beat Morocco 2-0) one win from the final. AT&T Stadium, Arlington, TX."
+  watch:
+    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC/ITV (UK)"
+    premium: "Fubo (US streaming)"
+    youtube_channel: "@FIFA"
+    link: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+  watchability: green
+  recurrence_note: "Every 4 years"
+
+# source: espn.com WC 2026 schedule | tz: 15:00 EDT (UTC-4) Jul 15 → 19:00Z
+- id: fifa-wc-2026-sf2
+  name: "FIFA World Cup 2026 Semifinal 2: Norway/England winner vs Argentina/Switzerland winner"
+  category: team
+  tier: locked
+  start_utc: "2026-07-15T19:00:00Z"
+  end_utc: "2026-07-15T21:30:00Z"
+  window: null
+  why: "World Cup semifinal — winner reaches the final at MetLife. Mercedes-Benz Stadium, Atlanta, GA."
+  watch:
+    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC/ITV (UK)"
+    premium: "Fubo (US streaming)"
+    youtube_channel: "@FIFA"
+    link: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+  watchability: green
+  recurrence_note: "Every 4 years"
+
+# source: espn.com + cbssports.com (both confirm 15:00 EDT, NOT the ~20:00 ET the brief estimated) | tz: 15:00 EDT (UTC-4) Jul 19 → 19:00Z
+- id: fifa-wc-2026-final
+  name: "FIFA World Cup 2026 Final"
+  category: team
+  tier: locked
+  start_utc: "2026-07-19T19:00:00Z"
+  end_utc: "2026-07-19T21:30:00Z"
+  window: null
+  why: "The single biggest event in world sport — the World Cup final. MetLife Stadium, East Rutherford, NJ."
+  watch:
+    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC & ITV (UK)"
+    premium: "Fubo (US streaming)"
+    youtube_channel: "@FIFA"
+    link: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+  watchability: green
+  recurrence_note: "Every 4 years"
+
+# source: bleacherreport + williamhill (16:00 BST both) | tz: 16:00 BST (UTC+1) Jul 11 → 15:00Z
+- id: wimbledon-2026-womens-final
+  name: "Wimbledon 2026 Ladies' Singles Final"
+  category: team
+  tier: locked
+  start_utc: "2026-07-11T15:00:00Z"
+  end_utc: "2026-07-11T18:30:00Z"
+  window: null
+  why: "Grand Slam final on grass's greatest stage — all-Czech clash, Muchová vs Nosková. Centre Court, All England Club, London."
+  watch:
+    free: "BBC One / BBC iPlayer (UK)"
+    premium: "ESPN (US)"
+    youtube_channel: "@Wimbledon"
+    link: "https://www.wimbledon.com/en_GB/the_championships/schedule"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: williamhill + paddypower ("not before 4:00pm") | tz: 16:00 BST (UTC+1) Jul 12 → 15:00Z
+- id: wimbledon-2026-mens-final
+  name: "Wimbledon 2026 Gentlemen's Singles Final"
+  category: team
+  tier: locked
+  start_utc: "2026-07-12T15:00:00Z"
+  end_utc: "2026-07-12T18:30:00Z"
+  window: null
+  why: "Grand Slam final at tennis's cathedral — Sinner/Djokovic semi winner vs Zverev/Fery winner. Centre Court, All England Club, London."
+  watch:
+    free: "BBC One / BBC iPlayer (UK)"
+    premium: "ESPN (US)"
+    youtube_channel: "@Wimbledon"
+    link: "https://www.wimbledon.com/en_GB/the_championships/schedule"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: tennistourcalendar + grandslamtennistours | tz: 16:00 EDT (UTC-4) Sep 12 → 20:00Z
+- id: us-open-2026-womens-final
+  name: "US Open 2026 Women's Singles Final"
+  category: team
+  tier: locked
+  start_utc: "2026-09-12T20:00:00Z"
+  end_utc: "2026-09-12T23:30:00Z"
+  window: null
+  why: "Grand Slam final under the New York lights. Arthur Ashe Stadium, USTA Billie Jean King NTC, Flushing, NY."
+  watch:
+    free: "ABC windows per published broadcast plan (US OTA); 9Now (Australia)"
+    premium: "ESPN / ESPN+ (US), Sky Sports (UK)"
+    youtube_channel: "@usopen"
+    link: "https://www.usopen.org/en_US/about/eventschedule.html"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: tennistourcalendar + grandslamtennistours | tz: 14:00 EDT (UTC-4) Sep 13 → 18:00Z
+- id: us-open-2026-mens-final
+  name: "US Open 2026 Men's Singles Final"
+  category: team
+  tier: locked
+  start_utc: "2026-09-13T18:00:00Z"
+  end_utc: "2026-09-13T21:30:00Z"
+  window: null
+  why: "The last Grand Slam final of the season. Arthur Ashe Stadium, USTA Billie Jean King NTC, Flushing, NY."
+  watch:
+    free: "ABC windows per published broadcast plan (US OTA); 9Now (Australia)"
+    premium: "ESPN / ESPN+ (US), Sky Sports (UK)"
+    youtube_channel: "@usopen"
+    link: "https://www.usopen.org/en_US/about/eventschedule.html"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: ausopen.com 2027 dates announced | Sat Jan 30 2027, time TBD, beyond horizon → radar
+- id: aus-open-2027-womens-final
+  name: "Australian Open 2027 Women's Singles Final"
+  category: team
+  tier: radar
+  window: "Jan 2027"
+  why: "First Grand Slam final of 2027, confirmed for Sat Jan 30. Rod Laver Arena, Melbourne Park."
+  watch:
+    free: "Nine / 9Now (Australia)"
+    premium: "ESPN (US), Eurosport (EU)"
+    youtube_channel: "@AustralianOpen"
+    link: "https://ausopen.com/schedule"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: ausopen.com 2027 dates announced | Sun Jan 31 2027, time TBD → radar
+- id: aus-open-2027-mens-final
+  name: "Australian Open 2027 Men's Singles Final"
+  category: team
+  tier: radar
+  window: "Jan 2027"
+  why: "First Grand Slam men's final of 2027, confirmed for Sun Jan 31. Rod Laver Arena, Melbourne Park."
+  watch:
+    free: "Nine / 9Now (Australia)"
+    premium: "ESPN (US), Eurosport (EU)"
+    youtube_channel: "@AustralianOpen"
+    link: "https://ausopen.com/schedule"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: uefa.com 2026-27 dates | semifinal legs Apr 27/28 & May 4/5 2027 → radar
+- id: ucl-2026-27-semifinals
+  name: "UEFA Champions League 2026-27 Semifinals"
+  category: team
+  tier: radar
+  window: "Apr-May 2027"
+  why: "The last four of Europe's premier club competition; two-legged ties Apr 27/28 and May 4/5, 2027."
+  watch:
+    free: "Highlights free on official YouTube in many regions"
+    premium: "Paramount+ (US), TNT Sports (UK)"
+    youtube_channel: "@ChampionsLeague"
+    link: "https://www.uefa.com/uefachampionsleague/"
+  watchability: yellow
+  recurrence_note: "Annual"
+
+# source: uefa.com final venue announcement | Sat Jun 5 2027, Estadio Metropolitano → radar
+- id: ucl-2027-final
+  name: "UEFA Champions League 2027 Final"
+  category: team
+  tier: radar
+  window: "Jun 2027"
+  why: "Club football's biggest single match, confirmed for Jun 5, 2027. Estadio Metropolitano, Madrid."
+  watch:
+    free: "Final has aired free-to-air in several markets (e.g. ZDF Germany; discovery+ UK in recent years)"
+    premium: "Paramount+ (US), TNT Sports (UK)"
+    youtube_channel: "@ChampionsLeague"
+    link: "https://www.uefa.com/uefachampionsleague/"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: sportsbrackets.net 2026 MLB playoff schedule | series window Oct 23-31 2026 → radar note per NHL/NBA/MLB rule
+- id: world-series-2026
+  name: "World Series 2026"
+  category: team
+  tier: radar
+  window: "Oct 2026"
+  why: "MLB's championship series — Game 1 Fri Oct 23, potential Game 7 on Halloween Oct 31, 2026; ballparks TBD by pennant winners. Clinching games + any Game 7 get locked by refresh runs."
+  watch:
+    free: "FOX (US OTA)"
+    premium: "Fubo / MLB.tv market restrictions apply"
+    youtube_channel: "@MLB"
+    link: "https://www.mlb.com/postseason"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: nfl.com SoFi approved for SB LXI | Sun Feb 14 2027 → radar
+- id: super-bowl-lxi
+  name: "Super Bowl LXI"
+  category: team
+  tier: radar
+  window: "Feb 2027"
+  why: "The NFL's championship game, confirmed for Feb 14, 2027 — first ABC/ESPN Super Bowl. SoFi Stadium, Inglewood, CA."
+  watch:
+    free: "ABC (US OTA)"
+    premium: "ESPN / ESPN Deportes simulcast"
+    youtube_channel: "@NFL"
+    link: "https://www.espn.com/nfl/story/_/id/47819308/super-bowl-2027-espn-how-watch-schedule-facts-stats"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: foxsports.com SB locations/dates | late Jan 2027, set by bracket → radar per Super Bowl rule
+- id: nfl-conference-championships-2027
+  name: "NFL Conference Championships (2026 season)"
+  category: team
+  tier: radar
+  window: "Jan 2027"
+  why: "AFC and NFC title games — the gateway to Super Bowl LXI, played late Jan 2027 at top seeds' stadiums."
+  watch:
+    free: "CBS (AFC) and FOX (NFC) — US OTA"
+    premium: "Paramount+ / NFL+"
+    youtube_channel: "@NFL"
+    link: "https://www.nfl.com/schedules/"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: sportsbrackets.net 2027 NHL playoff schedule | Final early Jun 2027 → radar
+- id: stanley-cup-final-2027
+  name: "Stanley Cup Final 2027"
+  category: team
+  tier: radar
+  window: "Jun 2027"
+  why: "The NHL's championship series for the oldest trophy in North American pro sports; clinching games get locked when scheduled."
+  watch:
+    free: "CBC (Canada OTA)"
+    premium: "US national rightsholder (TNT/ESPN rotation), Sportsnet+ (Canada)"
+    youtube_channel: "@NHL"
+    link: "https://www.nhl.com/stanley-cup-playoffs"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: sportbusy.com NBA Finals 2027 | window Jun 3-22 2027 → radar
+- id: nba-finals-2027
+  name: "NBA Finals 2027"
+  category: team
+  tier: radar
+  window: "Jun 2027"
+  why: "Basketball's championship series, Jun 3-22, 2027 window; clinching games and any Game 7 get locked when scheduled."
+  watch:
+    free: "ABC (US OTA)"
+    premium: "ESPN / league streaming packages"
+    youtube_channel: "@NBA"
+    link: "https://www.nba.com/playoffs"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: rugbyworldcup.com 2027 matches | final Nov 13 2027, Stadium Australia → radar
+- id: rugby-world-cup-2027-final
+  name: "Rugby World Cup 2027 Final"
+  category: team
+  tier: radar
+  window: "Nov 2027"
+  why: "Rugby's ultimate prize — final confirmed for Nov 13, 2027 at Stadium Australia, Sydney (tournament Oct 1-Nov 13)."
+  watch:
+    free: "Historically free-to-air in UK (ITV) and host nation Australia (Nine)"
+    premium: "Stan Sport (Australia), streaming rightsholders elsewhere"
+    youtube_channel: "@WorldRugby"
+    link: "https://www.rugbyworldcup.com/2027/en/matches"
+  watchability: green
+  recurrence_note: "Every 4 years"
+
+# source: espncricinfo | final slated Nov 21 2027, South Africa → radar
+- id: cricket-world-cup-2027-final
+  name: "ICC Men's Cricket World Cup 2027 Final"
+  category: team
+  tier: radar
+  window: "Nov 2027"
+  why: "The next men's Cricket World Cup final (50-over), slated Nov 21, 2027 in South Africa — first African CWC since 2003."
+  watch:
+    free: "ICC events have streamed free on JioHotstar mobile (India); highlights on official YouTube"
+    premium: "Willow (US), Sky Sports (UK)"
+    youtube_channel: "@icc"
+    link: "https://www.icc-cricket.com/tournaments/cricketworldcup"
+  watchability: yellow
+  recurrence_note: "Every 4 years"
+
+# ============================== mind ==============================
+
+# source: espnpressroom.com WSOP 2026 schedule + pokernews | tz: Aug 3 18:00 PDT (UTC-7) → 2026-08-04T01:00:00Z
+- id: wsop-2026-final-table-day-1
+  name: "WSOP Main Event 2026 — Final Table Day 1"
+  category: mind
+  tier: locked
+  start_utc: "2026-08-04T01:00:00Z"
+  end_utc: "2026-08-04T09:00:00Z"
+  window: null
+  why: "Poker's world championship: 9 players from a July 13 freeze return for the crown. Horseshoe Las Vegas."
+  watch:
+    free: null
+    premium: "ESPN2 live 9pm-12am ET (US cable/ESPN App); Eurosport / TNT Sports / HBO Max internationally"
+    youtube_channel: null
+    link: "https://espnpressroom.com/us/press-releases/2026/06/espn-and-world-series-of-poker-announce-programming-schedule-for-2026-main-event/"
+  watchability: red
+  recurrence_note: "Annual"
+
+# source: espnpressroom + pokerfuse | tz: Aug 4 18:00 PDT → 2026-08-05T01:00:00Z
+- id: wsop-2026-final-table-day-2
+  name: "WSOP Main Event 2026 — Final Table Day 2"
+  category: mind
+  tier: locked
+  start_utc: "2026-08-05T01:00:00Z"
+  end_utc: "2026-08-05T09:00:00Z"
+  window: null
+  why: "Day 2 of poker's ultimate final table — play down toward heads-up. Horseshoe Las Vegas."
+  watch:
+    free: null
+    premium: "ESPN live 9pm-12am ET (US cable/ESPN App); Eurosport / TNT Sports / HBO Max internationally"
+    youtube_channel: null
+    link: "https://espnpressroom.com/us/press-releases/2026/06/espn-and-world-series-of-poker-announce-programming-schedule-for-2026-main-event/"
+  watchability: red
+  recurrence_note: "Annual"
+
+# source: pokernews + pokerfuse | tz: Aug 5 18:00 PDT → 2026-08-06T01:00:00Z (ESPN TV window from 22:30 EDT)
+- id: wsop-2026-final-table-day-3
+  name: "WSOP Main Event 2026 — Final Table Day 3 (Champion Crowned)"
+  category: mind
+  tier: locked
+  start_utc: "2026-08-06T01:00:00Z"
+  end_utc: "2026-08-06T09:00:00Z"
+  window: null
+  why: "The world champion of poker is crowned tonight. Horseshoe Las Vegas."
+  watch:
+    free: null
+    premium: "ESPN live from 10:30pm ET (US cable/ESPN App); Eurosport / TNT Sports / HBO Max internationally"
+    youtube_channel: null
+    link: "https://espnpressroom.com/us/press-releases/2026/06/espn-and-world-series-of-poker-announce-programming-schedule-for-2026-main-event/"
+  watchability: red
+  recurrence_note: "Annual"
+
+# source: liquipedia TI 2026 + gosugamers | grand final Sun Aug 23 Shanghai, time TBA → radar
+- id: ti-2026-grand-final
+  name: "The International 2026 — Grand Final"
+  category: mind
+  tier: radar
+  window: "Aug 2026"
+  why: "Dota 2's world championship Bo5 decider, Aug 23 at Oriental Sports Center, Shanghai (main event Aug 20-23); time TBA."
+  watch:
+    free: "Twitch (twitch.tv/dota2ti) and YouTube — free worldwide"
+    premium: null
+    youtube_channel: "@dota2"
+    link: "https://liquipedia.net/dota2/The_International/2026"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: wikipedia 2026 LoL Worlds final + escharts | final Sat Nov 14, Barclays Center, time TBA → radar
+- id: lol-worlds-2026-final
+  name: "LoL Worlds 2026 — Grand Final"
+  category: mind
+  tier: radar
+  window: "Nov 2026"
+  why: "Bo5 for the Summoner's Cup, Nov 14 at Barclays Center, Brooklyn — first Worlds final on the US East Coast; time TBA."
+  watch:
+    free: "lolesports.com, Twitch, YouTube — free worldwide"
+    premium: null
+    youtube_channel: "@lolesports"
+    link: "https://lolesports.com"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: wikipedia WCC 2026 + fide.com call-for-bids | provisionally Nov 23-Dec 17 2026, host TBD → radar
+- id: wcc-2026-gukesh-sindarov
+  name: "FIDE World Chess Championship 2026: Gukesh vs Sindarov"
+  category: mind
+  tier: radar
+  window: "Nov 2026"
+  why: "Chess's ultimate title match — every game is the final. Gukesh (IND) defends vs Candidates winner Sindarov (UZB); provisionally Nov 23-Dec 17, host city TBD."
+  watch:
+    free: "FIDE YouTube/Twitch official broadcast + Chess.com and ChessBase India coverage — free"
+    premium: null
+    youtube_channel: "@FIDE_chess"
+    link: "https://liquipedia.net/chess/FIDE_World_Chess_Championship/2026"
+  watchability: green
+  recurrence_note: "Biennial (every 2 years)"
+
+# source: liquipedia PGL Singapore 2026 + hltv | grand final Sun Dec 13, Singapore Indoor Stadium, time TBA → radar
+- id: cs2-pgl-major-singapore-2026-grand-final
+  name: "PGL Major Singapore 2026 (CS2) — Grand Final"
+  category: mind
+  tier: radar
+  window: "Dec 2026"
+  why: "Counter-Strike's Valve Major decider, Dec 13 at Singapore Indoor Stadium — first Major in Southeast Asia; time TBA."
+  watch:
+    free: "Twitch (twitch.tv/pgl) and PGL YouTube — free worldwide"
+    premium: null
+    youtube_channel: null
+    link: "https://liquipedia.net/counterstrike/PGL/2026/Singapore"
+  watchability: green
+  recurrence_note: "Two Valve Majors per year"
+
+# source: fide.com Tata Steel 2026 report (89th edition 15-31 Jan 2027) | final round Jan 31 2027, time TBA → radar
+- id: tata-steel-masters-2027-final-round
+  name: "Tata Steel Chess Masters 2027 — Final Round"
+  category: mind
+  tier: radar
+  window: "Jan 2027"
+  why: "Decisive final round (Jan 31) of the 'Wimbledon of Chess', 89th edition, Jan 15-31 in Wijk aan Zee."
+  watch:
+    free: "Official Tata Steel Chess YouTube stream + Chess.com/ChessBase India coverage — free"
+    premium: null
+    youtube_channel: null
+    link: "https://tatasteelchess.com/en"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: norwaychess.no (2027 dates TBA) → radar
+- id: norway-chess-2027
+  name: "Norway Chess 2027 — Final Round"
+  category: mind
+  tier: radar
+  window: "Jun 2027"
+  why: "Final round + armageddon deciders of the elite six-player super-tournament; 2027 dates TBA (2026 edition concluded Jun 5; traditionally late May-early June)."
+  watch:
+    free: "Official Norway Chess broadcast on YouTube + Chess.com/ChessBase India coverage — free"
+    premium: null
+    youtube_channel: null
+    link: "https://norwaychess.no/en/"
+  watchability: green
+  recurrence_note: "Annual"
+
+# ============================== adventure ==============================
+
+# source: https://www.worldclimbing.com/events/world-climbing-series-chamonix-2026 | tz: 20:30 CEST (UTC+2) Sun Jul 12 → 18:30Z
+- id: ifsc-chamonix-lead-finals-2026
+  name: "World Climbing Series (IFSC World Cup) Chamonix — Lead Finals"
+  category: adventure
+  tier: locked
+  start_utc: "2026-07-12T18:30:00Z"
+  end_utc: "2026-07-12T21:00:00Z"
+  window: null
+  why: "Night lead finals under the lights at Place du Mont-Blanc, Chamonix — the most storied stop on the World Cup lead circuit (speed finals ran Sat Jul 11, 21:00 CEST)."
+  watch:
+    free: "YouTube live stream (most regions; geo-blocked in Europe)"
+    premium: "Eurosport / HBO Max (Europe)"
+    youtube_channel: "@worldclimbing"
+    link: "https://www.worldclimbing.com/events/world-climbing-series-chamonix-2026"
+  watchability: green
+  recurrence_note: "Annual World Cup stop"
+
+# source: https://montblanc.utmb.world/races/UTMB | tz: start Fri 17:45 CEST → 15:45Z, +21h covers winner finish
+- id: utmb-2026
+  name: "UTMB Mont-Blanc 2026"
+  category: adventure
+  tier: locked
+  start_utc: "2026-08-28T15:45:00Z"
+  end_utc: "2026-08-29T12:45:00Z"
+  window: null
+  why: "The 174 km / 9,900 m+ Ultra-Trail du Mont-Blanc from Chamonix — trail running's undisputed pinnacle; entry covers the start through the winner's finish."
+  watch:
+    free: "live.utmb.world + YouTube live stream"
+    premium: null
+    youtube_channel: "@UTMBMontBlanc"
+    link: "https://montblanc.utmb.world/races/UTMB"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: https://www.worldclimbing.com/events/world-climbing-series-koper-2026 | Sep 4-5 confirmed, finals times TBA → radar
+- id: ifsc-koper-2026
+  name: "World Climbing Series (IFSC World Cup) Koper — Lead Finals"
+  category: adventure
+  tier: radar
+  window: "September 2026"
+  why: "Lead finals evening of the Koper World Cup, Slovenia (event Sep 4-5; finals Sat Sep 5, session time TBA)."
+  watch:
+    free: "YouTube live stream (most regions; geo-blocked in Europe)"
+    premium: "Eurosport / HBO Max (Europe)"
+    youtube_channel: "@worldclimbing"
+    link: "https://www.worldclimbing.com/events/world-climbing-series-koper-2026"
+  watchability: green
+  recurrence_note: "Annual World Cup stop"
+
+# source: https://www.worldclimbing.com/calendar/index | Oct 16-18 confirmed, times TBA → radar
+- id: ifsc-salt-lake-city-2026
+  name: "World Climbing Series (IFSC World Cup) Salt Lake City — Boulder Finals"
+  category: adventure
+  tier: radar
+  window: "October 2026"
+  why: "Boulder finals of the only 2026 US World Cup, Salt Lake City (event Oct 16-18; finals evenings, times TBA)."
+  watch:
+    free: "YouTube live stream (free in US/Canada and most regions)"
+    premium: "Eurosport / HBO Max (Europe)"
+    youtube_channel: "@worldclimbing"
+    link: "https://www.worldclimbing.com/calendar/index"
+  watchability: green
+  recurrence_note: "Annual World Cup stop"
+
+# source: https://www.worldclimbing.com/calendar/index | Oct 23-25 confirmed, times TBA → radar
+- id: ifsc-santiago-2026
+  name: "World Climbing Series (IFSC World Cup) Santiago — Lead Finals (Season Finale)"
+  category: adventure
+  tier: radar
+  window: "October 2026"
+  why: "Season-closing lead (+speed) finals in Santiago, Chile, Oct 23-25 — first World Cup ever held in South America; session times TBA."
+  watch:
+    free: "YouTube live stream (most regions)"
+    premium: "Eurosport / HBO Max (Europe)"
+    youtube_channel: "@worldclimbing"
+    link: "https://www.worldclimbing.com/calendar/index"
+  watchability: green
+  recurrence_note: "Annual World Cup season finale"
+
+# source: singletracks.com Rampage 25th-anniversary permit story | 2026 dates TBA → radar
+- id: rampage-2026
+  name: "Red Bull Rampage 2026"
+  category: adventure
+  tier: radar
+  window: "October 2026 (expected; dates TBA)"
+  why: "Freeride MTB's ultimate proving ground near Virgin, Utah — 25th anniversary edition, with a permit filed to return to the original 2001 Kolob Terrace venue."
+  watch:
+    free: "Red Bull TV live stream"
+    premium: null
+    youtube_channel: "@redbull"
+    link: "https://www.redbull.com/us-en/event-series/red-bull-rampage"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: muscatdaily.com | Nov 12-14 confirmed, dive times TBA → radar
+- id: redbull-cliff-diving-muscat-2026
+  name: "Red Bull Cliff Diving World Series 2026 — Season Finale, Muscat"
+  category: adventure
+  tier: radar
+  window: "November 2026"
+  why: "World Series title decided Nov 12-14 across Wadi Hawer's canyon and final dives off Mutrah harbour, Muscat, Oman — first women's competition in Oman; schedule TBA."
+  watch:
+    free: "Red Bull TV live stream"
+    premium: null
+    youtube_channel: "@redbull"
+    link: "https://www.redbull.com/int-en/event-series/red-bull-cliff-diving"
+  watchability: green
+  recurrence_note: "Annual series finale"
+
+# source: tri247.com | Sat Oct 10 confirmed, pro start times TBA → radar
+- id: ironman-worlds-kona-2026
+  name: "IRONMAN World Championship 2026 — Kona"
+  category: adventure
+  tier: radar
+  window: "October 2026"
+  why: "Sat Oct 10, Kailua-Kona, Hawaii — men's and women's pro races back on the same day on the sport's most iconic course for the first time since 2019; start times TBA."
+  watch:
+    free: "YouTube live stream (IRONMAN Triathlon channel) + Ironman Pro Series"
+    premium: null
+    youtube_channel: "@ironmantriathlon"
+    link: "https://www.ironman.com/races/im-world-championship"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: worldsurfleague.com 2026 CT schedule | Dec 8-20 holding window → radar
+- id: pipe-masters-2026
+  name: "WSL Pipe Masters 2026 — World Title Decider"
+  category: adventure
+  tier: radar
+  window: "December 2026 (holding window Dec 8-20, swell-dependent)"
+  why: "WSL scrapped the one-day Finals for 2026 — both world titles are now decided at a reimagined, 1.5x-points Pipe Masters at Banzai Pipeline, Oahu."
+  watch:
+    free: "worldsurfleague.com / WSL app / YouTube (region-dependent)"
+    premium: "ESPN+ (US, later rounds)"
+    youtube_channel: "@wsl"
+    link: "https://www.worldsurfleague.com/"
+  watchability: green
+  recurrence_note: "Annual season finale"
+
+# source: hawaiinewsnow.com | conditions-dependent Dec-Mar holding period → radar
+- id: eddie-aikau-2026-27
+  name: "The Eddie Aikau Big Wave Invitational 2026-27"
+  category: adventure
+  tier: radar
+  window: "December 2026 (holding period opens, conditions-dependent)"
+  why: "Big-wave surfing's most hallowed one-day event at Waimea Bay, Oahu — runs only on 40 ft+ faces; the 2025-26 window closed Mar 6 without running."
+  watch:
+    free: "YouTube live stream (Rip Curl / event channels) + theeddieaikau.com"
+    premium: null
+    youtube_channel: null
+    link: "https://www.theeddieaikau.com/"
+  watchability: green
+  recurrence_note: "Annual holding period (rarely runs)"
+
+# source: nazarewaves.com | season window Nov 1 2026 - Mar 31 2027, ~72h notice → radar
+- id: nazare-big-wave-2026-27
+  name: "TUDOR Nazaré Big Wave Challenge 2026-27"
+  category: adventure
+  tier: radar
+  window: "November 2026 (season window opens; swell-dependent)"
+  why: "The world's biggest ridden waves at Praia do Norte, Nazaré, Portugal — contest window Nov 1, 2026 to Mar 31, 2027, greenlit only when a monster swell lines up."
+  watch:
+    free: "worldsurfleague.com + YouTube live stream"
+    premium: null
+    youtube_channel: "@wsl"
+    link: "https://www.worldsurfleague.com/watch"
+  watchability: green
+  recurrence_note: "Annual season window"
+
+# source: xcmag.com | 2027 edition confirmed, dates TBA → radar
+- id: x-alps-2027
+  name: "Red Bull X-Alps 2027"
+  category: adventure
+  tier: radar
+  window: "June 2027 (expected, biennial — dates TBA)"
+  why: "The world's toughest adventure race — hike-and-fly ~1,200 km across the Alps by paraglider and on foot; 2027 edition confirmed via the 2026 Mayrhofen Challenger."
+  watch:
+    free: "Live tracking at redbullxalps.com + Red Bull TV"
+    premium: null
+    youtube_channel: "@redbull"
+    link: "https://www.redbullxalps.com/"
+  watchability: green
+  recurrence_note: "Biennial"
+
+# source: vendeeglobe.org | start 12 Nov 2028 → radar far
+- id: vendee-globe-2028
+  name: "Vendée Globe 2028"
+  category: adventure
+  tier: radar
+  window: "November 2028"
+  why: "Solo, nonstop, unassisted around the world — offshore sailing's Everest; 11th edition starts off Les Sables-d'Olonne on Nov 12, 2028 at 13:02 local."
+  watch:
+    free: "vendeeglobe.org live tracker + official channels"
+    premium: null
+    youtube_channel: null
+    link: "https://www.vendeeglobe.org/"
+  watchability: green
+  recurrence_note: "Every 4 years"
+
+# ============================== endurance ==============================
+
+# source: https://www.cyclingstage.com/tour-de-france-2026-route/stage-15-tdf-2026/ | tz: final ~3.5h 14:30-18:00 CEST → 12:30-16:00Z
+- id: tdf-2026-stage-15
+  name: "Tour de France 2026 — Stage 15: Champagnole → Plateau de Solaison"
+  category: endurance
+  tier: locked
+  start_utc: "2026-07-19T12:30:00Z"
+  end_utc: "2026-07-19T16:00:00Z"
+  window: null
+  why: "First Alpine GC showdown: ~4,700m of climbing incl. Col de la Croisette (7.6km @ 8.8%), brutal summit finish at Plateau de Solaison (11.3km @ 9.1%) — hardest remaining stage outside the Alpe d'Huez double."
+  watch:
+    free: "France.tv (France), SBS On Demand (Australia); Channel 5 highlights (UK)"
+    premium: "Peacock (US), FloBikes (Canada), TNT Sports (UK)"
+    youtube_channel: "@LeTourDeFrance"
+    link: "https://www.letour.fr/en"
+  watchability: red
+  recurrence_note: "Annual (route changes yearly)"
+
+# source: https://www.cyclingstage.com/tour-de-france-2026-route/stage-19-tdf-2026/ | tz: 14:00-17:45 CEST → 12:00-15:45Z
+- id: tdf-2026-stage-19
+  name: "Tour de France 2026 — Stage 19: Gap → Alpe d'Huez"
+  category: endurance
+  tier: locked
+  start_utc: "2026-07-24T12:00:00Z"
+  end_utc: "2026-07-24T15:45:00Z"
+  window: null
+  why: "Queen stage I: compact 128km raid over Col du Noyer (7.2km @ 8.5%) into the iconic Alpe d'Huez summit finish (13.8km @ 8.1%, 21 hairpins) — first leg of the first back-to-back Alpe double since 1979."
+  watch:
+    free: "France.tv (France), SBS On Demand (Australia); Channel 5 highlights (UK)"
+    premium: "Peacock (US), FloBikes (Canada), TNT Sports (UK)"
+    youtube_channel: "@LeTourDeFrance"
+    link: "https://www.letour.fr/en"
+  watchability: red
+  recurrence_note: "Annual (route changes yearly)"
+
+# source: https://www.cyclingstage.com/tour-de-france-2026-route/stage-20-tdf-2026/ | tz: final ~3.5h 13:00-16:45 CEST → 11:00-14:45Z
+- id: tdf-2026-stage-20
+  name: "Tour de France 2026 — Stage 20: Bourg-d'Oisans → Alpe d'Huez (Col de Sarenne)"
+  category: endurance
+  tier: locked
+  start_utc: "2026-07-25T11:00:00Z"
+  end_utc: "2026-07-25T14:45:00Z"
+  window: null
+  why: "THE queen stage and final GC-decisive day: ~5,600m over Croix de Fer, Télégraphe, Galibier (2,642m) and Col de Sarenne into a second straight Alpe d'Huez summit finish — the yellow jersey is settled here."
+  watch:
+    free: "France.tv (France), SBS On Demand (Australia); Channel 5 highlights (UK)"
+    premium: "Peacock (US), FloBikes (Canada), TNT Sports (UK)"
+    youtube_channel: "@LeTourDeFrance"
+    link: "https://www.letour.fr/en"
+  watchability: red
+  recurrence_note: "Annual (route changes yearly)"
+
+# source: https://www.cyclingstage.com/tour-de-france-2026-route/stage-21-tdf-2026/ + NBC cross-check | tz: 16:15-19:55 CEST → 14:15-17:55Z
+- id: tdf-2026-stage-21
+  name: "Tour de France 2026 — Stage 21: Thoiry → Paris Champs-Élysées"
+  category: endurance
+  tier: locked
+  start_utc: "2026-07-26T14:15:00Z"
+  end_utc: "2026-07-26T17:55:00Z"
+  window: null
+  why: "Paris finale: three ascents of cobbled Montmartre (1.1km @ 5.9%, last crest 10.3km out) then the Champs-Élysées finish — coronation of the champion with real late-race attacks since 2025."
+  watch:
+    free: "France.tv (France), SBS On Demand (Australia); Channel 5 highlights (UK)"
+    premium: "Peacock (US), FloBikes (Canada), TNT Sports (UK)"
+    youtube_channel: "@LeTourDeFrance"
+    link: "https://www.letour.fr/en"
+  watchability: red
+  recurrence_note: "Annual (route changes yearly)"
+
+# source: https://brussels.diamondleague.com/en/programme-results/ | tz: 20:00-22:05 CEST → 18:00-20:05Z
+- id: diamond-league-final-2026-day1
+  name: "Wanda Diamond League Final 2026 — Day 1 (Memorial Van Damme, Brussels)"
+  category: endurance
+  tier: locked
+  start_utc: "2026-09-04T18:00:00Z"
+  end_utc: "2026-09-04T20:05:00Z"
+  window: null
+  why: "Season-ending final of top-tier track & field: 16 Diamond Trophies decided on night one, incl. men's & women's 100m and Duplantis in the pole vault at King Baudouin Stadium."
+  watch:
+    free: "Wanda Diamond League YouTube in select territories; FloTrack 'Athlete's Lounge' free simulcasts for some 2026 meets"
+    premium: "FloTrack / FloSports app (US & Canada)"
+    youtube_channel: "@DiamondLeague"
+    link: "https://brussels.diamondleague.com/en/"
+  watchability: red
+  recurrence_note: "Annual (final host rotates)"
+
+# source: https://brussels.diamondleague.com/en/programme-results/ | tz: 20:00-22:05 CEST → 18:00-20:05Z
+- id: diamond-league-final-2026-day2
+  name: "Wanda Diamond League Final 2026 — Day 2 (Memorial Van Damme, Brussels)"
+  category: endurance
+  tier: locked
+  start_utc: "2026-09-05T18:00:00Z"
+  end_utc: "2026-09-05T20:05:00Z"
+  window: null
+  why: "Closing night of the Diamond League Final: the remaining 16 Diamond Trophies incl. men's & women's 200m — all 32 season champions crowned by night's end."
+  watch:
+    free: "Wanda Diamond League YouTube in select territories; FloTrack 'Athlete's Lounge' free simulcasts for some 2026 meets"
+    premium: "FloTrack / FloSports app (US & Canada)"
+    youtube_channel: "@DiamondLeague"
+    link: "https://brussels.diamondleague.com/en/"
+  watchability: red
+  recurrence_note: "Annual (final host rotates)"
+
+# source: wikipedia 2026 UCI Road Worlds + montreal2026.org | tz: 09:00-14:10 EDT (UTC-4) → 13:00-18:10Z
+- id: uci-road-worlds-2026-women-rr
+  name: "UCI Road World Championships 2026 — Elite Women's Road Race (Montréal)"
+  category: endurance
+  tier: locked
+  start_utc: "2026-09-26T13:00:00Z"
+  end_utc: "2026-09-26T18:10:00Z"
+  window: null
+  why: "The rainbow jersey — women's world title over 180.4km / 2,570m: Brossard start, 8 laps of the Mount Royal circuit with the Camillien-Houde climb."
+  watch:
+    free: "UCI YouTube (@ucichannel) in select non-rights territories"
+    premium: "FloBikes (US & Canada)"
+    youtube_channel: "@ucichannel"
+    link: "https://www.montreal2026.org/en/"
+  watchability: red
+  recurrence_note: "Annual (host rotates)"
+
+# source: wikipedia + montreal2026.org | tz: 09:00-15:40 EDT (UTC-4) → 13:00-19:40Z
+- id: uci-road-worlds-2026-men-rr
+  name: "UCI Road World Championships 2026 — Elite Men's Road Race (Montréal)"
+  category: endurance
+  tier: locked
+  start_utc: "2026-09-27T13:00:00Z"
+  end_utc: "2026-09-27T19:40:00Z"
+  window: null
+  why: "Cycling's biggest one-day prize — the men's rainbow jersey over 273.7km / 3,803m: 12 laps of Mount Royal with 11%+ ramps, first Worlds in Canada since 1974."
+  watch:
+    free: "UCI YouTube (@ucichannel) in select non-rights territories"
+    premium: "FloBikes (US & Canada)"
+    youtube_channel: "@ucichannel"
+    link: "https://www.montreal2026.org/en/"
+  watchability: red
+  recurrence_note: "Annual (host rotates)"
+
+# source: https://www.bmw-berlin-marathon.com/en/ | tz: elite start 09:15 CEST → 07:15Z
+- id: berlin-marathon-2026
+  name: "BMW Berlin Marathon 2026"
+  category: endurance
+  tier: locked
+  start_utc: "2026-09-27T07:15:00Z"
+  end_utc: "2026-09-27T09:45:00Z"
+  window: null
+  why: "The fastest marathon course on earth — venue of nearly every men's world record of the modern era; the annual WR-attempt race through the Brandenburg Gate."
+  watch:
+    free: "Free worldwide live stream on YouTube/Facebook (per race guide); ARD/rbb (Germany)"
+    premium: "FloTrack (US)"
+    youtube_channel: null
+    link: "https://www.bmw-berlin-marathon.com/en/"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: baa.org / meetboston | radar beyond horizon; elites ~09:00 EDT
+- id: boston-marathon-2027
+  name: "Boston Marathon 2027"
+  category: endurance
+  tier: radar
+  window: "Apr 2027"
+  why: "The oldest annual marathon and the only qualifier-only Major — 131st edition, Monday Apr 19, 2027 (Patriots' Day), Hopkinton to Boylston Street."
+  watch:
+    free: "WBZ-TV CBS Boston (local, free OTA)"
+    premium: "ESPN (US national, cable/streaming)"
+    youtube_channel: null
+    link: "https://www.baa.org/races/boston-marathon"
+  watchability: red
+  recurrence_note: "Annual"
+
+# source: worldathletics.org beijing27 | Sep 11-19 2027 → radar
+- id: world-athletics-champs-2027
+  name: "World Athletics Championships Beijing 2027"
+  category: endurance
+  tier: radar
+  window: "Sep 2027"
+  why: "The pinnacle of track & field — nine days (Sep 11-19, 2027) of world titles at Beijing's National Stadium (Bird's Nest), first time back since 2015."
+  watch:
+    free: "BBC (UK); CCTV (China)"
+    premium: "Peacock/NBC (US)"
+    youtube_channel: "@WorldAthletics"
+    link: "https://worldathletics.org/competitions/world-athletics-championships/beijing27"
+  watchability: red
+  recurrence_note: "Biennial"
+
+# ============================== motor ==============================
+# source: https://www.formula1.com/en/racing/2026/united-arab-emirates | tz math: 17:00 GST (UTC+4) → 13:00Z (race, Sun 6 Dec 2026)
+- id: f1-2026-abu-dhabi-finale
+  name: "F1 Abu Dhabi Grand Prix 2026 (Season Finale)"
+  category: motor
+  tier: locked
+  start_utc: "2026-12-06T13:00:00Z"
+  end_utc: "2026-12-06T15:00:00Z"
+  window: null
+  why: "Round 24 of 24 — the finale of F1's first new-regulations season; championship decided under the lights at Yas Marina Circuit, Abu Dhabi."
+  watch:
+    free: "Race highlights free on YouTube post-race; live free-to-air only in select markets — check local broadcaster"
+    premium: "F1 TV Pro/Premium; Sky Sports F1 (UK); ESPN (US)"
+    youtube_channel: "@Formula1"
+    link: "https://www.formula1.com/en/racing/2026/united-arab-emirates"
+  watchability: red
+  recurrence_note: "Annual"
+
+# source: https://www.formula1.com/en/racing/2026 | radar note — no fixed date/time yet
+- id: f1-2026-title-clinch-watch
+  name: "F1 2026 Title-Clinch Race (TBD)"
+  category: motor
+  tier: radar
+  window: "Oct 2026"
+  why: "Any race where the drivers' title can be clinched is pinnacle. Unknowable at round 10 of 24; earliest plausible clinch is ~Austin (Oct 23-25) / Mexico City (Oct 30-Nov 1). Refresh runs will lock the specific clinch-possible races as standings develop."
+  watch:
+    free: "Race highlights free on YouTube post-race"
+    premium: "F1 TV Pro/Premium; Sky Sports F1 (UK); ESPN (US)"
+    youtube_channel: "@Formula1"
+    link: "https://www.formula1.com/en/racing/2026"
+  watchability: red
+  recurrence_note: null
+
+# source: https://acm.mc/en/epreuves/formula-1-grand-prix-de-monaco/ | radar — ACM confirms 3-6 Jun 2027, race Sun 6 Jun, times TBD
+- id: f1-2027-monaco
+  name: "F1 Monaco Grand Prix 2027"
+  category: motor
+  tier: radar
+  window: "Jun 2027"
+  why: "The crown jewel of F1 — the one race every driver must win, on the streets of Monte Carlo (Circuit de Monaco). Race Sunday 6 Jun 2027; note Monaco now runs in June, not May."
+  watch:
+    free: "Race highlights free on YouTube post-race; live free-to-air only in select markets"
+    premium: "F1 TV Pro/Premium; Sky Sports F1 (UK); ESPN (US)"
+    youtube_channel: "@Formula1"
+    link: "https://acm.mc/en/epreuves/formula-1-grand-prix-de-monaco/"
+  watchability: red
+  recurrence_note: "Annual"
+
+# source: https://www.24h-lemans.com/en/news/95th-24-hours-of-le-mans-see-you-on-9-13-june-2027-60819 | radar — ACO confirms 9-13 Jun 2027, race starts Sat 12 Jun ~16:00 CEST TBD
+- id: le-mans-2027
+  name: "24 Hours of Le Mans 2027"
+  category: motor
+  tier: radar
+  window: "Jun 2027"
+  why: "The event IS the pinnacle of endurance racing — 95th edition at Circuit de la Sarthe; race starts Sat 12 Jun 2027. Split into locked entries (race start + final 2 hours) once session times publish."
+  watch:
+    free: "Extended highlights and full-race replay free on official YouTube after the event; live is usually paid"
+    premium: "FIA WEC TV streaming; Eurosport/Max (Europe)"
+    youtube_channel: "@24heuresdumans"
+    link: "https://www.24h-lemans.com/en"
+  watchability: yellow
+  recurrence_note: "Annual"
+
+# source: https://www.iomttraces.com/latest/news/tt-2027-dates-isle-of-man-tt-races/ | radar — 31 May-12 Jun 2027, Senior TT Sat 12 Jun, times TBD
+- id: isle-of-man-tt-2027
+  name: "Isle of Man TT 2027"
+  category: motor
+  tier: radar
+  window: "May-Jun 2027"
+  why: "The event IS the pinnacle of road racing — the 37.73-mile Snaefell Mountain Course, Isle of Man; qualifying 31 May-4 Jun, racing 5-12 Jun, capped by the Senior TT on Sat 12 Jun 2027. Key race days to be locked individually once the finalised schedule is issued after TT 2026."
+  watch:
+    free: "Daily qualifying/race highlights and round-ups free on official YouTube; free tier of TT+"
+    premium: "TT+ Live Pass — official live stream of every qualifying session and race"
+    youtube_channel: "@TTRacesOfficial"
+    link: "https://www.iomttraces.com"
+  watchability: yellow
+  recurrence_note: "Annual"
+
+# ============================== strength ==============================
+
+# source: sapcenter.com + games.crossfit.com | tz: 09:00 PDT Jul 24 → 16:00Z
+- id: crossfit-games-2026-finals-friday
+  name: "2026 CrossFit Games — Finals Day 1 (Individuals, SAP Center)"
+  category: strength
+  tier: locked
+  start_utc: "2026-07-24T16:00:00Z"
+  end_utc: "2026-07-24T20:00:00Z"
+  window: null
+  why: "First arena day of the 20th CrossFit Games finals — top 30 men/women on earth, SAP Center, San Jose CA. The event IS the pinnacle of fitness competition."
+  watch:
+    free: "Live stream on YouTube and games.crossfit.com (worldwide)"
+    premium: null
+    youtube_channel: "@CrossFit"
+    link: "https://games.crossfit.com/finals/schedule?type=individuals"
+  watchability: green
+  recurrence_note: "Annual, typically late July/August"
+
+# source: sapcenter.com | tz: 09:00 PDT Jul 25 → 16:00Z
+- id: crossfit-games-2026-finals-saturday
+  name: "2026 CrossFit Games — Finals Day 2 (Individuals, SAP Center)"
+  category: strength
+  tier: locked
+  start_utc: "2026-07-25T16:00:00Z"
+  end_utc: "2026-07-25T20:00:00Z"
+  window: null
+  why: "Penultimate day of the Games finals — leaderboard separation day before Sunday's crowning. SAP Center, San Jose CA."
+  watch:
+    free: "Live stream on YouTube and games.crossfit.com (worldwide)"
+    premium: null
+    youtube_channel: "@CrossFit"
+    link: "https://games.crossfit.com/finals/schedule?type=individuals"
+  watchability: green
+  recurrence_note: "Annual, typically late July/August"
+
+# source: sapcenter.com | tz: 09:00 PDT Jul 26 → 16:00Z
+- id: crossfit-games-2026-finals-sunday
+  name: "2026 CrossFit Games — Final Day: Fittest on Earth Crowned"
+  category: strength
+  tier: locked
+  start_utc: "2026-07-26T16:00:00Z"
+  end_utc: "2026-07-26T20:00:00Z"
+  window: null
+  why: "Final events + crowning of the Fittest Man and Woman on Earth at the 20th CrossFit Games. SAP Center, San Jose CA — THE session of the fitness year."
+  watch:
+    free: "Live stream on YouTube and games.crossfit.com (worldwide)"
+    premium: null
+    youtube_channel: "@CrossFit"
+    link: "https://games.crossfit.com/finals/schedule?type=individuals"
+  watchability: green
+  recurrence_note: "Annual, typically late July/August"
+
+# source: mostvaluablepromotions.com + ringmagazine.com | tz: 20:00 EDT Aug 8 → 2026-08-09T00:00:00Z (date shift)
+- id: mvpw05-johnson-thorslund-undisputed
+  name: "Cherneka Johnson vs Dina Thorslund — Undisputed Bantamweight Title"
+  category: strength
+  tier: locked
+  start_utc: "2026-08-09T00:00:00Z"
+  end_utc: "2026-08-09T03:00:00Z"
+  window: null
+  why: "All four bantamweight belts + Ring title on the line — undisputed champ Johnson vs undefeated ex-unified champ Thorslund (24-0). Caribe Royale Resort, Orlando; MVPW-05 card opens 8 PM ET, main event later in the broadcast."
+  watch:
+    free: null
+    premium: "ESPN / ESPN App (US); Sky Sports (UK)"
+    youtube_channel: null
+    link: "https://www.mostvaluablepromotions.com/johnson-vs-thorslund-headlines-mvpw-05-aug-8-on-espn/"
+  watchability: red
+  recurrence_note: null
+
+# source: ufc.com/event/ufc-330 + paramountplus.com | tz: main card 21:00 EDT Aug 15 → 2026-08-16T01:00:00Z (date shift)
+- id: ufc-330-makhachev-machado-garry
+  name: "UFC 330: Makhachev vs Machado Garry"
+  category: strength
+  tier: locked
+  start_utc: "2026-08-16T01:00:00Z"
+  end_utc: "2026-08-16T04:00:00Z"
+  window: null
+  why: "Unanimous P4P #1 Islam Makhachev defends the welterweight title vs #1 contender Ian Machado Garry; Xfinity Mobile Arena, Philadelphia. Main event ~2h into the main card (~03:00Z); co-main is Dern vs Robertson for the strawweight belt."
+  watch:
+    free: null
+    premium: "Paramount+ (US — no PPV surcharge under new UFC deal)"
+    youtube_channel: "@ufc"
+    link: "https://www.ufc.com/event/ufc-330"
+  watchability: red
+  recurrence_note: null
+
+# source: mostvaluablepromotions.com + espn.com | date Aug 29 confirmed, time TBD → radar
+- id: mvpw06-mayer-cameron-unification
+  name: "Mikaela Mayer vs Chantelle Cameron — Super Welterweight Unification"
+  category: strength
+  tier: radar
+  window: "August 2026"
+  why: "Confirmed for Sat Aug 29, 2026: WBA/WBC champ Mayer vs WBO champ Cameron, three-belt 154-lb unification headlining MVPW-06 at bp pulse LIVE, Birmingham. Time TBD (UK evening card; unofficial ringwalk estimates ~22:00 BST) — upgrade to locked when Sky/MVP publish times."
+  watch:
+    free: null
+    premium: "Sky Sports (UK); ESPN+ (US)"
+    youtube_channel: null
+    link: "https://www.mostvaluablepromotions.com/mikaela-mayer-vs-chantelle-cameron-set-for-mvpw-06-uk-vs-usa/"
+  watchability: red
+  recurrence_note: null
+
+# source: matchroomboxing.com | date Sep 5 confirmed, only EXPECTED ringwalk ~22:00 IST → radar
+- id: taylor-pili-croke-park-undisputed
+  name: "Katie Taylor vs Flora Pili — Undisputed Super Lightweight, Croke Park Farewell"
+  category: strength
+  tier: radar
+  window: "September 2026"
+  why: "Confirmed for Sat Sep 5, 2026: Taylor's farewell in front of 80,000 at Croke Park, Dublin — WBA/WBO/IBF/Ring belts + vacant WBC for undisputed at 140. First pro boxing at Croke Park since Ali in 1972. Upgrade to locked when DAZN confirms broadcast/ringwalk times (expected ~22:00 local)."
+  watch:
+    free: "Possible free-to-air in Ireland (RTE/Virgin Media rights talks ongoing, unconfirmed)"
+    premium: "DAZN (live worldwide)"
+    youtube_channel: "@DAZNBoxing"
+    link: "https://www.matchroomboxing.com/news/katie-taylor-lands-historic-croke-park-undisputed-world-title-farewell-in-ireland-against-flora-pili-on-saturday-september-5-live-worldwide-on-dazn/"
+  watchability: red
+  recurrence_note: null
+
+# source: theworldsstrongestman.com + wikipedia | 2027 host/dates unannounced → radar
+- id: worlds-strongest-man-2027
+  name: "World's Strongest Man 2027"
+  category: strength
+  tier: radar
+  window: "May 2027"
+  why: "The annual crowning of the World's Strongest Man — the event IS the pinnacle of strength sport. 2027 host/dates unannounced; 2026 edition ran Apr 23-26 in Myrtle Beach SC (Mitchell Hooper won), 2025 was mid-May in Sacramento."
+  watch:
+    free: "Highlights + athlete content on YouTube; full episodes later on CBS (US TV)"
+    premium: "CBS Sports Network (US) for broadcast coverage"
+    youtube_channel: "@theworldsstrongestman"
+    link: "https://www.theworldsstrongestman.com/"
+  watchability: yellow
+  recurrence_note: "Annual; finals have landed anywhere from late April to June — re-check when 2027 host is announced"
+
+# source: la28.org | Games Jul 14-30 2028 → radar
+- id: la28-olympics-medal-finals
+  name: "LA28 Olympic Games — Medal Finals (Los Angeles)"
+  category: strength
+  tier: radar
+  window: "Jul 2028"
+  why: "Olympic Games in LA, Jul 14-30, 2028 — medal finals only, in sports Brad tracks. Day-by-day competition schedule already published by LA28; break out per-final locked entries once tracked sports + session times firm up."
+  watch:
+    free: "NBC broadcast (US, OTA); CBC (Canada)"
+    premium: "Peacock (US — every event live)"
+    youtube_channel: "@Olympics"
+    link: "https://la28.org/en/newsroom/LA28_Announces_Games_Dates.html"
+  watchability: green
+  recurrence_note: "Quadrennial"
+
+# ============================== space ==============================
+# NOTE from agent: Artemis II already flew (Apr 1-11 2026, success). Artemis III revised to late-2027 LEO demo. Starship F12 (May 22 2026) = successful Block 3 debut. BORDERLINE routine rotations flagged: soyuz-ms-29, crew-13, shenzhou-24, axiom-5.
+
+# source: https://www.nasa.gov/news-release/nasa-sets-coverage-for-astronaut-anil-menon-launch-to-space-station/ | tz math: 10:47 EDT (UTC-4) Jul 14 → 14:47Z. BORDERLINE routine ISS rotation.
+- id: soyuz-ms-29
+  name: "Soyuz MS-29 Crew Launch to ISS"
+  category: space
+  tier: locked
+  start_utc: "2026-07-14T14:47:00Z"
+  end_utc: "2026-07-14T16:47:00Z"
+  why: "Crewed launch — NASA's Anil Menon (first flight) with cosmonauts Dubrov and Kikina; 3-hour fast rendezvous to ISS. Baikonur Cosmodrome, Kazakhstan."
+  watch:
+    free: "NASA+ (plus.nasa.gov), Amazon Prime Video, NASA YouTube; coverage from 9:45 a.m. EDT"
+    premium: null
+    youtube_channel: "@NASA"
+    link: "https://plus.nasa.gov/"
+  watchability: green
+  recurrence_note: "ISS Soyuz rotations recur roughly every 6-8 months"
+
+# source: https://nextspaceflight.com/launches/details/8279/ | no confirmed window → radar
+- id: starship-flight-13
+  name: "SpaceX Starship Flight 13 (Block 3)"
+  category: space
+  tier: radar
+  window: "Jul 2026 (NET mid-late Jul, no official date; slips likely)"
+  why: "Next integrated test of the world's largest rocket after the successful Block 3 debut (Flight 12, May 22); Booster 20 / Ship 40, stepping toward first ship catch on a later flight. Starbase Pad 2, Boca Chica TX."
+  watch:
+    free: "SpaceX webcast on X (x.com/spacex); NASASpaceflight & Everyday Astronaut restream on YouTube"
+    premium: null
+    youtube_channel: null
+    link: "https://www.spacex.com/launches/"
+  watchability: green
+  recurrence_note: "Integrated flight tests recur every ~6-10 weeks"
+
+# source: https://www.nasa.gov/news-release/nasa-shares-spacex-crew-13-assignments-for-space-station-mission/ | NET mid-Sep → radar. BORDERLINE routine ISS rotation.
+- id: crew-13
+  name: "NASA/SpaceX Crew-13 Launch to ISS"
+  category: space
+  tier: radar
+  window: "Sep 2026 (NET mid-Sep)"
+  why: "Crewed Dragon rotation — Watkins (commander), Delaney, Kutryk (CSA), Teteryatnikov (Roscosmos) to Expedition 75. Cape Canaveral SLC-40, Florida."
+  watch:
+    free: "NASA+ and NASA YouTube; SpaceX webcast on X"
+    premium: null
+    youtube_channel: "@NASA"
+    link: "https://plus.nasa.gov/"
+  watchability: green
+  recurrence_note: "ISS Dragon crew rotations recur ~every 6 months"
+
+# source: https://www.nasa.gov/missions/artemis/blue-origin-moon-lander-completes-testing-at-nasa-vacuum-chamber/ | NET fall 2026 → radar
+- id: blue-moon-mk1-pathfinder
+  name: "Blue Origin Blue Moon MK1 'Endurance' — First Lunar Landing Attempt"
+  category: space
+  tier: radar
+  window: "Sep-Dec 2026 (NET fall 2026, no date announced)"
+  why: "Blue Origin's first Moon landing attempt — largest lander since Apollo, BE-7 cryogenic propulsion, precision landing near lunar South Pole with NASA SCALPSS. New Glenn from Cape Canaveral LC-36."
+  watch:
+    free: "Blue Origin webcast (blueorigin.com) and YouTube"
+    premium: null
+    youtube_channel: "@blueorigin"
+    link: "https://www.blueorigin.com/blue-moon"
+  watchability: green
+  recurrence_note: null
+
+# source: https://en.wikipedia.org/wiki/Shenzhou_23 | Oct 2026 NET → radar. BORDERLINE routine Tiangong rotation (hook: first Pakistani astronaut).
+- id: shenzhou-24
+  name: "Shenzhou-24 Crew Launch to Tiangong"
+  category: space
+  tier: radar
+  window: "Oct 2026 (NET, per CMSA planning)"
+  why: "Crewed Tiangong rotation carrying the first Pakistani astronaut (short-duration visit). Jiuquan Satellite Launch Center, China."
+  watch:
+    free: "CGTN live stream (YouTube/cgtn.com)"
+    premium: null
+    youtube_channel: null
+    link: "https://www.cgtn.com/"
+  watchability: green
+  recurrence_note: "Shenzhou crew rotations recur ~every 6 months"
+
+# source: https://www.nasaspaceflight.com/2026/07/rocket-lab-update-072026/ | Q4 2026 → radar
+- id: neutron-first-flight
+  name: "Rocket Lab Neutron — First Flight"
+  category: space
+  tier: radar
+  window: "Oct-Dec 2026 (NET Q4 2026, slips likely after Jan tank-test failure)"
+  why: "Debut of Rocket Lab's reusable medium-lift Neutron — first new US medium-class reusable rocket to challenge Falcon 9. Launch Complex 3, Wallops Island, Virginia."
+  watch:
+    free: "Rocket Lab webcast (rocketlabusa.com) and YouTube"
+    premium: null
+    youtube_channel: null
+    link: "https://www.rocketlabusa.com/live-stream/"
+  watchability: green
+  recurrence_note: null
+
+# source: https://phys.org/news/2025-10-sierra-space-chaser-nasa-upended.html | NET Q4 2026 → radar
+- id: dream-chaser-demo-1
+  name: "Sierra Space Dream Chaser 'Tenacity' — First Orbital Flight"
+  category: space
+  tier: radar
+  window: "Oct-Dec 2026 (NET Q4 2026, long slip history)"
+  why: "First orbital flight of a commercial winged spaceplane — first runway-landing orbital vehicle since the Shuttle. ULA Vulcan Centaur from Cape Canaveral; free-flyer demo mission."
+  watch:
+    free: "ULA webcast (ulalaunch.com) and YouTube"
+    premium: null
+    youtube_channel: null
+    link: "https://www.ulalaunch.com/"
+  watchability: green
+  recurrence_note: null
+
+# source: https://fireflyspace.com/missions/blue-ghost-mission-2/ | NET late 2026 → radar
+- id: blue-ghost-mission-2
+  name: "Firefly Blue Ghost Mission 2 — First Commercial Far-Side Moon Landing"
+  category: space
+  tier: radar
+  window: "Nov-Dec 2026 (NET late 2026)"
+  why: "First American/commercial landing attempt on the Moon's far side ('Riders 2 the Dark') with Elytra relay orbiter, ESA Lunar Pathfinder and UAE Rashid 2 rover. Falcon 9 from Cape Canaveral."
+  watch:
+    free: "NASA+ / SpaceX launch webcast; Firefly mission updates"
+    premium: null
+    youtube_channel: "@NASA"
+    link: "https://fireflyspace.com/missions/blue-ghost-mission-2/"
+  watchability: green
+  recurrence_note: null
+
+# source: https://www.nasa.gov/news-release/nasa-selects-axiom-space-for-fifth-private-mission-to-space-station/ | NET Jan 2027 → radar. BORDERLINE private ISS visit (5th, not first).
+- id: axiom-5
+  name: "Axiom Mission 5 (Ax-5) — Private Astronaut Mission to ISS"
+  category: space
+  tier: radar
+  window: "Jan 2027 (NET, depends on ISS traffic)"
+  why: "Fifth private astronaut mission to the ISS on Crew Dragon; up to 14 days docked. Kennedy Space Center, Florida."
+  watch:
+    free: "Axiom Space webcast; SpaceX webcast on X; NASA+"
+    premium: null
+    youtube_channel: null
+    link: "https://www.axiomspace.com/missions"
+  watchability: green
+  recurrence_note: "Axiom private missions recur roughly annually"
+
+# source: https://en.wikipedia.org/wiki/Haven-1 | NET Q1 2027 → radar
+- id: haven-1-launch
+  name: "Vast Haven-1 — First Commercial Space Station Launch"
+  category: space
+  tier: radar
+  window: "Jan-Mar 2027 (NET Q1 2027, slipped from 2026)"
+  why: "First-ever commercial space station reaches orbit — heaviest spacecraft ever lofted by Falcon 9; Vast-1 crew visit to follow. Falcon 9 from Florida."
+  watch:
+    free: "SpaceX webcast on X; Vast updates at vastspace.com"
+    premium: null
+    youtube_channel: null
+    link: "https://www.vastspace.com/haven-1"
+  watchability: green
+  recurrence_note: null
+
+# source: https://www.space.com/space-exploration/human-spaceflight/india-delays-1st-gaganyaan-astronaut-launch-to-2027 | NET Q1 2027 → radar
+- id: gaganyaan-h1
+  name: "ISRO Gaganyaan H1 — India's First Crewed Spaceflight"
+  category: space
+  tier: radar
+  window: "Jan-Mar 2027 (NET Q1 2027, slips likely; uncrewed G-tests must fly first)"
+  why: "India becomes the fourth nation to launch humans to orbit on its own vehicle — HLVM3 from Satish Dhawan Space Centre, Sriharikota."
+  watch:
+    free: "ISRO official webcast (isro.gov.in) and ISRO YouTube"
+    premium: null
+    youtube_channel: null
+    link: "https://www.isro.gov.in/"
+  watchability: green
+  recurrence_note: null

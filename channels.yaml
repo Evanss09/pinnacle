@@ -1,0 +1,37 @@
+# YouTube @handle → raw UC... channel id (needed for live_stream embeds).
+# Maintained by resolve_channels.py — run it after adding a new handle.
+'@24heuresdumans': UCcidF1lygZPegIz7kgX8COw
+'@AustralianOpen': UCeTKJSW1NTAkf27nNmjWt5A
+'@ChampionsLeague': UCLcSuj4B8YyUVJdVDeozFQg
+'@CrossFit': UCtcQ6TPwXAYgZ1Mcl3M1vng
+'@DAZNBoxing': UCurvRE5fGcdUgCYWgh-BDsg
+'@DiamondLeague': UC6PZm2HZT3uOL1Z9F203K4g
+'@FIDE_chess': UC9B47GnzCRFHTT1BIBWvStQ
+'@FIFA': UCpcTrCXblq78GZrTUTLWeBw
+'@Formula1': UCB_qr75-ydFVKSF9Dmo6izg
+'@LeTourDeFrance': UCSpycUnuU0IVF7gGIhGojhg
+'@MLB': UCoLrcjPV5PbUrUyXq5mjc_A
+'@NASA': UCLA_DiR1FfKNvjuUpBHmylQ
+'@NBA': UCWJ2lWNubArHWmf3FIHbfcQ
+'@NFL': UCDVYQ4Zhbm3S2dlz7P1GBDg
+'@NHL': UCqFMzb-4AUf6WAIbl132QKA
+'@Olympics': UCTl3QQTvqHFjurroKxexy2Q
+'@SpaceX': UCtI0Hodo5o5dUb67FeUjDeA
+'@TTRacesOfficial': UCMuZWi5NewtOTyJp4F2xl9Q
+'@UTMBMontBlanc': UCqpMa9xCkOZyWzscupX8Zcw
+'@Wimbledon': UCNa8NxMgSm7m4Ii9d4QGk1Q
+'@WorldAthletics': UCQk7fWv15ChjMJLCRVmtApw
+'@WorldRugby': UCE28rwYoaV7jvU6GVzdu_GQ
+'@blueorigin': UCVxTHEKKLxNjGcvVaZindlg
+'@chess': UC5kS0l76kC0xOzMPtOmSFGw
+'@dota2': UCTQKT5QqO3h7y32G8VzuySQ
+'@icc': UCt2JXOLNxqry7B_4rRZME3Q
+'@ironmantriathlon': UCUlPrWg9Ef-IGsKRfDCPPew
+'@lolesports': UCvqRdlKsE5Q8mf8YXbdIJLw
+'@redbull': UCblfuW_4rakIf2h6aqANefA
+'@theworldsstrongestman': UCqGFhknj_Sv0yIW60Qn0FlQ
+'@ucichannel': UCloqTh1nPpW13LCntQglS-Q  # handle page 404s; id verified via youtube.com/user/ucichannel
+'@ufc': UCvgfXK4nTYKudb0rFR6noLA
+'@usopen': UCXbboag48Qlr78zzz6SkzkQ
+'@worldclimbing': UC2MGuhIaOP6YLpUx106kTQw
+'@wsl': UChuLeaTGRcfzo0UjL-2qSbQ
