@@ -123,12 +123,12 @@ UID:fifa-wc-2026-sf1@pinnacle
 DTSTAMP:20260714T190000Z
 DTSTART:20260714T190000Z
 DTEND:20260714T213000Z
-SUMMARY:FIFA World Cup 2026 Semifinal 1: France vs Spain/Belgium winner
-DESCRIPTION:🟢 World Cup semifinal — France (beat Morocco 2-0) one win 
- from the final. AT&T Stadium\, Arlington\, TX.\nFree: FOX (US OTA\, Englis
- h) + Telemundo (US OTA\, Spanish)\; BBC/ITV (UK)\nPremium: Fubo (US stream
- ing)\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa202
- 6\nEvery 4 years
+SUMMARY:FIFA World Cup 2026 Semifinal: France vs Spain
+DESCRIPTION:🟢 World Cup semifinal — France (2-0 over Morocco) vs Spain
+  (2-1 over Belgium). AT&T Stadium\, Arlington\, TX.\nFree: FOX (US OTA\, E
+ nglish) + Telemundo (US OTA\, Spanish)\; ITV1/ITVX (UK)\nPremium: Fubo (US
+  streaming)\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexic
+ ousa2026\nEvery 4 years
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:TEAM
@@ -139,23 +139,56 @@ UID:fifa-wc-2026-sf2@pinnacle
 DTSTAMP:20260715T190000Z
 DTSTART:20260715T190000Z
 DTEND:20260715T213000Z
-SUMMARY:FIFA World Cup 2026 Semifinal 2: Norway/England winner vs Argentina
- /Switzerland winner
-DESCRIPTION:🟢 World Cup semifinal — winner reaches the final at MetLif
- e. Mercedes-Benz Stadium\, Atlanta\, GA.\nFree: FOX (US OTA\, English) + T
- elemundo (US OTA\, Spanish)\; BBC/ITV (UK)\nPremium: Fubo (US streaming)\n
- https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026\nEve
- ry 4 years
+SUMMARY:FIFA World Cup 2026 Semifinal: England vs Argentina
+DESCRIPTION:🟢 World Cup semifinal — England (2-1 AET over Norway) vs h
+ olders Argentina (3-1 AET over Switzerland). Mercedes-Benz Stadium\, Atlan
+ ta\, GA.\nFree: FOX (US OTA\, English) + Telemundo (US OTA\, Spanish)\; BB
+ C One/iPlayer (UK)\nPremium: Fubo (US streaming)\nhttps://www.fifa.com/en/
+ tournaments/mens/worldcup/canadamexicousa2026\nEvery 4 years
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:TEAM
 URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
 END:VEVENT
 BEGIN:VEVENT
+UID:starship-flight-13@pinnacle
+DTSTAMP:20260716T224500Z
+DTSTART:20260716T224500Z
+DTEND:20260717T001500Z
+SUMMARY:SpaceX Starship Flight 13 (Block 3)
+DESCRIPTION:🟢 First-of-kind: the first time Starship deploys FUNCTIONING
+  satellites (20 Starlink V3s that will unfold arrays and attempt laser lin
+ ks) — every prior flight carried only mass simulators. Second V3 vehicle
+  flight. Starbase Pad 2\, Boca Chica TX.\nFree: SpaceX webcast on X (x.com
+ /spacex)\; NASASpaceflight & Everyday Astronaut restream on YouTube\nhttps
+ ://www.spacex.com/launches/\nIntegrated flight tests recur every ~6-10 wee
+ ks
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:SPACE
+URL:https://www.spacex.com/launches/
+END:VEVENT
+BEGIN:VEVENT
+UID:josh-kerr-mile-wr-attempt@pinnacle
+DTSTAMP:20260718T143600Z
+DTSTART:20260718T143600Z
+DTEND:20260718T145000Z
+SUMMARY:Josh Kerr — Mile World Record Attempt
+DESCRIPTION:🟡 A pre-declared assault on the oldest record in middle dist
+ ance: El Guerrouj's 3:43.13\, untouched since 1999. Kerr is targeting ~3:4
+ 2. London Diamond League\, London Stadium.\nFree: BBC (UK)\nPremium: FloTr
+ ack (US)\; Wanda Diamond League stream in select territories\nhttps://www.
+ diamondleague.com/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:ENDURANCE
+URL:https://www.diamondleague.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:tdf-2026-stage-15@pinnacle
-DTSTAMP:20260719T123000Z
-DTSTART:20260719T123000Z
-DTEND:20260719T160000Z
+DTSTAMP:20260719T111000Z
+DTSTART:20260719T111000Z
+DTEND:20260719T155500Z
 SUMMARY:Tour de France 2026 — Stage 15: Champagnole → Plateau de Solais
  on
 DESCRIPTION:🔴 First Alpine GC showdown: ~4\,700m of climbing incl. Col d
@@ -189,7 +222,7 @@ BEGIN:VEVENT
 UID:tdf-2026-stage-19@pinnacle
 DTSTAMP:20260724T120000Z
 DTSTART:20260724T120000Z
-DTEND:20260724T154500Z
+DTEND:20260724T153500Z
 SUMMARY:Tour de France 2026 — Stage 19: Gap → Alpe d'Huez
 DESCRIPTION:🔴 Queen stage I: compact 128km raid over Col du Noyer (7.2km
   @ 8.5%) into the iconic Alpe d'Huez summit finish (13.8km @ 8.1%\, 21 hai
@@ -209,10 +242,11 @@ DTSTART:20260724T160000Z
 DTEND:20260724T200000Z
 SUMMARY:2026 CrossFit Games — Finals Day 1 (Individuals\, SAP Center)
 DESCRIPTION:🟢 First arena day of the 20th CrossFit Games finals — top 
- 30 men/women on earth\, SAP Center\, San Jose CA. The event IS the pinnacl
- e of fitness competition.\nFree: Live stream on YouTube and games.crossfit
- .com (worldwide)\nhttps://games.crossfit.com/finals/schedule?type=individu
- als\nAnnual\, typically late July/August
+ 30 men/women on earth\, SAP Center\, San Jose CA. (Games open Jul 22 at of
+ f-site venues\; the arena finals are the pinnacle.) Session start time pro
+ visional — check the schedule on the day.\nFree: Live stream on YouTube 
+ and games.crossfit.com (worldwide)\nhttps://games.crossfit.com/finals/sche
+ dule?type=individuals\nAnnual\, typically late July/August
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:STRENGTH
@@ -220,9 +254,9 @@ URL:https://games.crossfit.com/finals/schedule?type=individuals
 END:VEVENT
 BEGIN:VEVENT
 UID:tdf-2026-stage-20@pinnacle
-DTSTAMP:20260725T110000Z
-DTSTART:20260725T110000Z
-DTEND:20260725T144500Z
+DTSTAMP:20260725T092000Z
+DTSTART:20260725T092000Z
+DTEND:20260725T143000Z
 SUMMARY:Tour de France 2026 — Stage 20: Bourg-d'Oisans → Alpe d'Huez (C
  ol de Sarenne)
 DESCRIPTION:🔴 THE queen stage and final GC-decisive day: ~5\,600m over C
@@ -243,10 +277,10 @@ DTSTART:20260725T160000Z
 DTEND:20260725T200000Z
 SUMMARY:2026 CrossFit Games — Finals Day 2 (Individuals\, SAP Center)
 DESCRIPTION:🟢 Penultimate day of the Games finals — leaderboard separa
- tion day before Sunday's crowning. SAP Center\, San Jose CA.\nFree: Live s
- tream on YouTube and games.crossfit.com (worldwide)\nhttps://games.crossfi
- t.com/finals/schedule?type=individuals\nAnnual\, typically late July/Augus
- t
+ tion day before Sunday's crowning. SAP Center\, San Jose CA. Session start
+  time provisional.\nFree: Live stream on YouTube and games.crossfit.com (w
+ orldwide)\nhttps://games.crossfit.com/finals/schedule?type=individuals\nAn
+ nual\, typically late July/August
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:STRENGTH
@@ -256,7 +290,7 @@ BEGIN:VEVENT
 UID:tdf-2026-stage-21@pinnacle
 DTSTAMP:20260726T141500Z
 DTSTART:20260726T141500Z
-DTEND:20260726T175500Z
+DTEND:20260726T174000Z
 SUMMARY:Tour de France 2026 — Stage 21: Thoiry → Paris Champs-Élysées
 DESCRIPTION:🔴 Paris finale: three ascents of cobbled Montmartre (1.1km @
   5.9%\, last crest 10.3km out) then the Champs-Élysées finish — corona
@@ -277,9 +311,9 @@ DTEND:20260726T200000Z
 SUMMARY:2026 CrossFit Games — Final Day: Fittest on Earth Crowned
 DESCRIPTION:🟢 Final events + crowning of the Fittest Man and Woman on Ea
  rth at the 20th CrossFit Games. SAP Center\, San Jose CA — THE session o
- f the fitness year.\nFree: Live stream on YouTube and games.crossfit.com (
- worldwide)\nhttps://games.crossfit.com/finals/schedule?type=individuals\nA
- nnual\, typically late July/August
+ f the fitness year. Session start time provisional.\nFree: Live stream on 
+ YouTube and games.crossfit.com (worldwide)\nhttps://games.crossfit.com/fin
+ als/schedule?type=individuals\nAnnual\, typically late July/August
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:STRENGTH
@@ -423,6 +457,22 @@ CATEGORIES:ENDURANCE
 URL:https://brussels.diamondleague.com/en/
 END:VEVENT
 BEGIN:VEVENT
+UID:ifsc-koper-2026@pinnacle
+DTSTAMP:20260905T180000Z
+DTSTART:20260905T180000Z
+DTEND:20260905T200000Z
+SUMMARY:World Climbing Series (IFSC World Cup) Koper — Lead Finals
+DESCRIPTION:🟢 Lead finals under the lights in Koper\, Slovenia — the p
+ innacle session of the stop\, awards immediately after.\nFree: YouTube liv
+ e stream (most regions\; geo-blocked in Europe)\nPremium: Eurosport / HBO 
+ Max (Europe)\nhttps://www.worldclimbing.com/events/world-climbing-series-k
+ oper-2026\nAnnual World Cup stop
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:ADVENTURE
+URL:https://www.worldclimbing.com/events/world-climbing-series-koper-2026
+END:VEVENT
+BEGIN:VEVENT
 UID:us-open-2026-womens-final@pinnacle
 DTSTAMP:20260912T200000Z
 DTSTART:20260912T200000Z
@@ -503,6 +553,22 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:ENDURANCE
 URL:https://www.montreal2026.org/en/
+END:VEVENT
+BEGIN:VEVENT
+UID:ironman-worlds-kona-2026@pinnacle
+DTSTAMP:20261010T162500Z
+DTSTART:20261010T162500Z
+DTEND:20261011T003000Z
+SUMMARY:IRONMAN World Championship 2026 — Kona
+DESCRIPTION:🟢 Kailua-Kona\, Hawaii — pro men and women race the sport'
+ s most iconic course on the same day for the first time since 2019. Entry 
+ runs from the pro cannon to the winners' finish.\nFree: YouTube live strea
+ m (IRONMAN Triathlon channel) + Ironman Pro Series\nhttps://www.ironman.co
+ m/races/im-world-championship\nAnnual
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:ADVENTURE
+URL:https://www.ironman.com/races/im-world-championship
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-abu-dhabi-finale@pinnacle

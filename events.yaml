@@ -54,17 +54,17 @@
   watchability: green
   recurrence_note: "Every 4 years"
 
-# source: espn.com WC 2026 schedule | tz: 15:00 EDT (UTC-4) Jul 14 → 19:00Z
+# source: espn.com match 760514 (machine-readable 2026-07-14T19:00Z) | tz: 14:00 CDT (UTC-5) — Arlington is CENTRAL, not Eastern → 19:00Z
 - id: fifa-wc-2026-sf1
-  name: "FIFA World Cup 2026 Semifinal 1: France vs Spain/Belgium winner"
+  name: "FIFA World Cup 2026 Semifinal: France vs Spain"
   category: team
   tier: locked
   start_utc: "2026-07-14T19:00:00Z"
   end_utc: "2026-07-14T21:30:00Z"
   window: null
-  why: "World Cup semifinal — France (beat Morocco 2-0) one win from the final. AT&T Stadium, Arlington, TX."
+  why: "World Cup semifinal — France (2-0 over Morocco) vs Spain (2-1 over Belgium). AT&T Stadium, Arlington, TX."
   watch:
-    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC/ITV (UK)"
+    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); ITV1/ITVX (UK)"
     premium: "Fubo (US streaming)"
     youtube_channel: "@FIFA"
     link: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
@@ -73,15 +73,15 @@
 
 # source: espn.com WC 2026 schedule | tz: 15:00 EDT (UTC-4) Jul 15 → 19:00Z
 - id: fifa-wc-2026-sf2
-  name: "FIFA World Cup 2026 Semifinal 2: Norway/England winner vs Argentina/Switzerland winner"
+  name: "FIFA World Cup 2026 Semifinal: England vs Argentina"
   category: team
   tier: locked
   start_utc: "2026-07-15T19:00:00Z"
   end_utc: "2026-07-15T21:30:00Z"
   window: null
-  why: "World Cup semifinal — winner reaches the final at MetLife. Mercedes-Benz Stadium, Atlanta, GA."
+  why: "World Cup semifinal — England (2-1 AET over Norway) vs holders Argentina (3-1 AET over Switzerland). Mercedes-Benz Stadium, Atlanta, GA."
   watch:
-    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC/ITV (UK)"
+    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC One/iPlayer (UK)"
     premium: "Fubo (US streaming)"
     youtube_channel: "@FIFA"
     link: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
@@ -517,13 +517,15 @@
   watchability: green
   recurrence_note: "Annual"
 
-# source: https://www.worldclimbing.com/events/world-climbing-series-koper-2026 | Sep 4-5 confirmed, finals times TBA → radar
+# source: https://worldcupslo.com/index_en.php (organizer timetable) | tz: finals 20:00-22:00 CEST (UTC+2) Sat Sep 5 → 18:00-20:00Z. [2026-07-14 refresh: PROMOTED radar→locked, organizer published timetable]
 - id: ifsc-koper-2026
   name: "World Climbing Series (IFSC World Cup) Koper — Lead Finals"
   category: adventure
-  tier: radar
-  window: "September 2026"
-  why: "Lead finals evening of the Koper World Cup, Slovenia (event Sep 4-5; finals Sat Sep 5, session time TBA)."
+  tier: locked
+  start_utc: "2026-09-05T18:00:00Z"
+  end_utc: "2026-09-05T20:00:00Z"
+  window: null
+  why: "Lead finals under the lights in Koper, Slovenia — the pinnacle session of the stop, awards immediately after."
   watch:
     free: "YouTube live stream (most regions; geo-blocked in Europe)"
     premium: "Eurosport / HBO Max (Europe)"
@@ -592,13 +594,15 @@
   watchability: green
   recurrence_note: "Annual series finale"
 
-# source: tri247.com | Sat Oct 10 confirmed, pro start times TBA → radar
+# source: bigislandguide.com 2026 IMWC (event guide; ironman.com athlete guide not yet out) | tz: pro start 06:25 HST (UTC-10, no DST) → 16:25Z Oct 10; winners ~8h later → ~00:30Z Oct 11. [2026-07-14 refresh: PROMOTED radar→locked; re-confirm the minute when the athlete guide drops]
 - id: ironman-worlds-kona-2026
   name: "IRONMAN World Championship 2026 — Kona"
   category: adventure
-  tier: radar
-  window: "October 2026"
-  why: "Sat Oct 10, Kailua-Kona, Hawaii — men's and women's pro races back on the same day on the sport's most iconic course for the first time since 2019; start times TBA."
+  tier: locked
+  start_utc: "2026-10-10T16:25:00Z"
+  end_utc: "2026-10-11T00:30:00Z"
+  window: null
+  why: "Kailua-Kona, Hawaii — pro men and women race the sport's most iconic course on the same day for the first time since 2019. Entry runs from the pro cannon to the winners' finish."
   watch:
     free: "YouTube live stream (IRONMAN Triathlon channel) + Ironman Pro Series"
     premium: null
@@ -684,13 +688,13 @@
 
 # ============================== endurance ==============================
 
-# source: https://www.cyclingstage.com/tour-de-france-2026-route/stage-15-tdf-2026/ | tz: final ~3.5h 14:30-18:00 CEST → 12:30-16:00Z
+# source: https://www.cyclingstage.com/tour-de-france-2026-route/stage-15-tdf-2026/ | tz: official roadbook start 13:10 CEST (UTC+2) → 11:10Z, est. finish 17:55 CEST → 15:55Z. [2026-07-14 refresh: corrected, was 80 min late]
 - id: tdf-2026-stage-15
   name: "Tour de France 2026 — Stage 15: Champagnole → Plateau de Solaison"
   category: endurance
   tier: locked
-  start_utc: "2026-07-19T12:30:00Z"
-  end_utc: "2026-07-19T16:00:00Z"
+  start_utc: "2026-07-19T11:10:00Z"
+  end_utc: "2026-07-19T15:55:00Z"
   window: null
   why: "First Alpine GC showdown: ~4,700m of climbing incl. Col de la Croisette (7.6km @ 8.8%), brutal summit finish at Plateau de Solaison (11.3km @ 9.1%) — hardest remaining stage outside the Alpe d'Huez double."
   watch:
@@ -707,7 +711,7 @@
   category: endurance
   tier: locked
   start_utc: "2026-07-24T12:00:00Z"
-  end_utc: "2026-07-24T15:45:00Z"
+  end_utc: "2026-07-24T15:35:00Z"
   window: null
   why: "Queen stage I: compact 128km raid over Col du Noyer (7.2km @ 8.5%) into the iconic Alpe d'Huez summit finish (13.8km @ 8.1%, 21 hairpins) — first leg of the first back-to-back Alpe double since 1979."
   watch:
@@ -718,13 +722,13 @@
   watchability: red
   recurrence_note: "Annual (route changes yearly)"
 
-# source: https://www.cyclingstage.com/tour-de-france-2026-route/stage-20-tdf-2026/ | tz: final ~3.5h 13:00-16:45 CEST → 11:00-14:45Z
+# source: https://www.cyclingstage.com/tour-de-france-2026-route/stage-20-tdf-2026/ | tz: official roadbook start 11:20 CEST (UTC+2) → 09:20Z, est. finish 16:30 CEST → 14:30Z. [2026-07-14 refresh: corrected, was 100 min late]
 - id: tdf-2026-stage-20
   name: "Tour de France 2026 — Stage 20: Bourg-d'Oisans → Alpe d'Huez (Col de Sarenne)"
   category: endurance
   tier: locked
-  start_utc: "2026-07-25T11:00:00Z"
-  end_utc: "2026-07-25T14:45:00Z"
+  start_utc: "2026-07-25T09:20:00Z"
+  end_utc: "2026-07-25T14:30:00Z"
   window: null
   why: "THE queen stage and final GC-decisive day: ~5,600m over Croix de Fer, Télégraphe, Galibier (2,642m) and Col de Sarenne into a second straight Alpe d'Huez summit finish — the yellow jersey is settled here."
   watch:
@@ -741,7 +745,7 @@
   category: endurance
   tier: locked
   start_utc: "2026-07-26T14:15:00Z"
-  end_utc: "2026-07-26T17:55:00Z"
+  end_utc: "2026-07-26T17:40:00Z"
   window: null
   why: "Paris finale: three ascents of cobbled Montmartre (1.1km @ 5.9%, last crest 10.3km out) then the Champs-Élysées finish — coronation of the champion with real late-race attacks since 2025."
   watch:
@@ -867,6 +871,23 @@
   watchability: red
   recurrence_note: "Biennial"
 
+# source: flotrack.org (announced 2026-07-13) | tz: 15:36 BST (UTC+1) Sat Jul 18 → 14:36Z. [2026-07-14 refresh: NEW — declared one-off record attempt]
+- id: josh-kerr-mile-wr-attempt
+  name: "Josh Kerr — Mile World Record Attempt"
+  category: endurance
+  tier: locked
+  start_utc: "2026-07-18T14:36:00Z"
+  end_utc: "2026-07-18T14:50:00Z"
+  window: null
+  why: "A pre-declared assault on the oldest record in middle distance: El Guerrouj's 3:43.13, untouched since 1999. Kerr is targeting ~3:42. London Diamond League, London Stadium."
+  watch:
+    free: "BBC (UK)"
+    premium: "FloTrack (US); Wanda Diamond League stream in select territories"
+    youtube_channel: "@DiamondLeague"
+    link: "https://www.diamondleague.com/"
+  watchability: yellow
+  recurrence_note: null
+
 # ============================== motor ==============================
 # source: https://www.formula1.com/en/racing/2026/united-arab-emirates | tz math: 17:00 GST (UTC+4) → 13:00Z (race, Sun 6 Dec 2026)
 - id: f1-2026-abu-dhabi-finale
@@ -947,7 +968,7 @@
 
 # ============================== strength ==============================
 
-# source: sapcenter.com + games.crossfit.com | tz: 09:00 PDT Jul 24 → 16:00Z
+# source: sapcenter.com + games.crossfit.com | tz: ~09:00 PDT Jul 24 → 16:00Z. [2026-07-14 refresh: DATE confirmed; session start time PROVISIONAL — CrossFit publishes the schedule in-app during Games week; ticket listings conflict 09:00/09:15/10:00 PT. Re-verify Games week.]
 - id: crossfit-games-2026-finals-friday
   name: "2026 CrossFit Games — Finals Day 1 (Individuals, SAP Center)"
   category: strength
@@ -955,7 +976,7 @@
   start_utc: "2026-07-24T16:00:00Z"
   end_utc: "2026-07-24T20:00:00Z"
   window: null
-  why: "First arena day of the 20th CrossFit Games finals — top 30 men/women on earth, SAP Center, San Jose CA. The event IS the pinnacle of fitness competition."
+  why: "First arena day of the 20th CrossFit Games finals — top 30 men/women on earth, SAP Center, San Jose CA. (Games open Jul 22 at off-site venues; the arena finals are the pinnacle.) Session start time provisional — check the schedule on the day."
   watch:
     free: "Live stream on YouTube and games.crossfit.com (worldwide)"
     premium: null
@@ -964,7 +985,7 @@
   watchability: green
   recurrence_note: "Annual, typically late July/August"
 
-# source: sapcenter.com | tz: 09:00 PDT Jul 25 → 16:00Z
+# source: sapcenter.com | tz: ~09:00 PDT Jul 25 → 16:00Z. [2026-07-14 refresh: DATE confirmed; session start time PROVISIONAL — re-verify Games week.]
 - id: crossfit-games-2026-finals-saturday
   name: "2026 CrossFit Games — Finals Day 2 (Individuals, SAP Center)"
   category: strength
@@ -972,7 +993,7 @@
   start_utc: "2026-07-25T16:00:00Z"
   end_utc: "2026-07-25T20:00:00Z"
   window: null
-  why: "Penultimate day of the Games finals — leaderboard separation day before Sunday's crowning. SAP Center, San Jose CA."
+  why: "Penultimate day of the Games finals — leaderboard separation day before Sunday's crowning. SAP Center, San Jose CA. Session start time provisional."
   watch:
     free: "Live stream on YouTube and games.crossfit.com (worldwide)"
     premium: null
@@ -981,7 +1002,7 @@
   watchability: green
   recurrence_note: "Annual, typically late July/August"
 
-# source: sapcenter.com | tz: 09:00 PDT Jul 26 → 16:00Z
+# source: sapcenter.com | tz: ~09:00 PDT Jul 26 → 16:00Z. [2026-07-14 refresh: DATE confirmed; session start time PROVISIONAL — re-verify Games week.]
 - id: crossfit-games-2026-finals-sunday
   name: "2026 CrossFit Games — Final Day: Fittest on Earth Crowned"
   category: strength
@@ -989,7 +1010,7 @@
   start_utc: "2026-07-26T16:00:00Z"
   end_utc: "2026-07-26T20:00:00Z"
   window: null
-  why: "Final events + crowning of the Fittest Man and Woman on Earth at the 20th CrossFit Games. SAP Center, San Jose CA — THE session of the fitness year."
+  why: "Final events + crowning of the Fittest Man and Woman on Earth at the 20th CrossFit Games. SAP Center, San Jose CA — THE session of the fitness year. Session start time provisional."
   watch:
     free: "Live stream on YouTube and games.crossfit.com (worldwide)"
     premium: null
@@ -1111,13 +1132,15 @@
   watchability: green
   recurrence_note: "ISS Soyuz rotations recur roughly every 6-8 months"
 
-# source: https://nextspaceflight.com/launches/details/8279/ | no confirmed window → radar
+# source: spacenews.com/spacex-gears-up-for-starship-flight-13 + space.com | tz: 90-min window opens 17:45 CDT (UTC-5) Starbase → 22:45Z Jul 16, closes 00:15Z Jul 17. [2026-07-14 refresh: PROMOTED radar→locked, SpaceX announced date Jul 11. Launch dates slip — re-verify day-of.]
 - id: starship-flight-13
   name: "SpaceX Starship Flight 13 (Block 3)"
   category: space
-  tier: radar
-  window: "Jul 2026 (NET mid-late Jul, no official date; slips likely)"
-  why: "Next integrated test of the world's largest rocket after the successful Block 3 debut (Flight 12, May 22); Booster 20 / Ship 40, stepping toward first ship catch on a later flight. Starbase Pad 2, Boca Chica TX."
+  tier: locked
+  start_utc: "2026-07-16T22:45:00Z"
+  end_utc: "2026-07-17T00:15:00Z"
+  window: null
+  why: "First-of-kind: the first time Starship deploys FUNCTIONING satellites (20 Starlink V3s that will unfold arrays and attempt laser links) — every prior flight carried only mass simulators. Second V3 vehicle flight. Starbase Pad 2, Boca Chica TX."
   watch:
     free: "SpaceX webcast on X (x.com/spacex); NASASpaceflight & Everyday Astronaut restream on YouTube"
     premium: null

@@ -7,24 +7,6 @@ X-WR-CALNAME:Pinnacle — Radar
 X-WR-TIMEZONE:UTC
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:starship-flight-13@pinnacle
-DTSTAMP:20260701T000000Z
-DTSTART;VALUE=DATE:20260701
-DTEND;VALUE=DATE:20260702
-SUMMARY:🟡 RADAR: SpaceX Starship Flight 13 (Block 3)
-DESCRIPTION:🟢 Next integrated test of the world's largest rocket after t
- he successful Block 3 debut (Flight 12\, May 22)\; Booster 20 / Ship 40\, 
- stepping toward first ship catch on a later flight. Starbase Pad 2\, Boca 
- Chica TX.\nFree: SpaceX webcast on X (x.com/spacex)\; NASASpaceflight & Ev
- eryday Astronaut restream on YouTube\nhttps://www.spacex.com/launches/\nWi
- ndow: Jul 2026 (NET mid-late Jul\, no official date\; slips likely)\nInteg
- rated flight tests recur every ~6-10 weeks
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-CATEGORIES:SPACE
-URL:https://www.spacex.com/launches/
-END:VEVENT
-BEGIN:VEVENT
 UID:mvpw06-mayer-cameron-unification@pinnacle
 DTSTAMP:20260801T000000Z
 DTSTART;VALUE=DATE:20260801
@@ -91,23 +73,6 @@ STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:SPACE
 URL:https://plus.nasa.gov/
-END:VEVENT
-BEGIN:VEVENT
-UID:ifsc-koper-2026@pinnacle
-DTSTAMP:20260901T000000Z
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-SUMMARY:🟡 RADAR: World Climbing Series (IFSC World Cup) Koper — Lead F
- inals
-DESCRIPTION:🟢 Lead finals evening of the Koper World Cup\, Slovenia (eve
- nt Sep 4-5\; finals Sat Sep 5\, session time TBA).\nFree: YouTube live str
- eam (most regions\; geo-blocked in Europe)\nPremium: Eurosport / HBO Max (
- Europe)\nhttps://www.worldclimbing.com/events/world-climbing-series-koper-
- 2026\nWindow: September 2026\nAnnual World Cup stop
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-CATEGORIES:ADVENTURE
-URL:https://www.worldclimbing.com/events/world-climbing-series-koper-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:taylor-pili-croke-park-undisputed@pinnacle
@@ -199,22 +164,6 @@ STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:ADVENTURE
 URL:https://www.worldclimbing.com/calendar/index
-END:VEVENT
-BEGIN:VEVENT
-UID:ironman-worlds-kona-2026@pinnacle
-DTSTAMP:20261001T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:🟡 RADAR: IRONMAN World Championship 2026 — Kona
-DESCRIPTION:🟢 Sat Oct 10\, Kailua-Kona\, Hawaii — men's and women's pr
- o races back on the same day on the sport's most iconic course for the fir
- st time since 2019\; start times TBA.\nFree: YouTube live stream (IRONMAN 
- Triathlon channel) + Ironman Pro Series\nhttps://www.ironman.com/races/im-
- world-championship\nWindow: October 2026\nAnnual
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-CATEGORIES:ADVENTURE
-URL:https://www.ironman.com/races/im-world-championship
 END:VEVENT
 BEGIN:VEVENT
 UID:neutron-first-flight@pinnacle

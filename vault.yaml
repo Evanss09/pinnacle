@@ -121,3 +121,55 @@
   video_url: "https://www.youtube.com/watch?v=_M6pWZGMW1I"
   one_liner: "The first Olympic women's 1500m, won by the greatest to ever swim it."
   verified: "2026-07-10"
+
+# ---- appended by 2026-07-14 weekly refresh ----
+
+# oembed title: "EPIC Championship battle! | Karolina Muchova vs Linda Noskova | Extended Highlights | Wimbledon 2026" | channel: Wimbledon
+- id: noskova-wimbledon-final
+  title: "Wimbledon 2026 Ladies' Singles Final"
+  subject: "Linda Nosková"
+  date: "2026-07-11"
+  category: team
+  video_url: "https://www.youtube.com/watch?v=L4lde2qREYU"
+  one_liner: "An all-Czech final: Nosková needed six championship points to take her first major at 21."
+  verified: "2026-07-14"
+
+# oembed title: "An UNFORGETTABLE Final! | Jannik Sinner v Alexander Zverev | Extended Highlights | Wimbledon 2026" | channel: Wimbledon
+- id: sinner-wimbledon-final
+  title: "Wimbledon 2026 Gentlemen's Singles Final"
+  subject: "Jannik Sinner"
+  date: "2026-07-12"
+  category: team
+  video_url: "https://www.youtube.com/watch?v=t88oAZbdtX8"
+  one_liner: "A set down after losing the opening tiebreak, Sinner won three straight to retain the title."
+  verified: "2026-07-14"
+
+# oembed title: "Julián Alvarez Goal | Argentina 3-1 Switzerland | FIFA World Cup 2026™" | channel: FIFA
+- id: alvarez-wc-quarterfinal-goal
+  title: "Álvarez's Extra-Time Screamer"
+  subject: "Julián Álvarez"
+  date: "2026-07-11"
+  category: team
+  video_url: "https://www.youtube.com/watch?v=qY5SdQa7-jA"
+  one_liner: "A 25-yard rocket into the top corner in the 112th minute, breaking Switzerland's resistance and sending the champions through."
+  verified: "2026-07-14"
+
+# oembed title: "More Lead finals PAIN or Chamonix ECSTASY for Olympic Champion?" | channel: World Climbing
+- id: gines-lopez-chamonix-lead
+  title: "Chamonix Lead Final — A First World Cup Gold"
+  subject: "Alberto Ginés López"
+  date: "2026-07-12"
+  category: adventure
+  video_url: "https://www.youtube.com/watch?v=BWG_TzvFwxc"
+  one_liner: "Seven years of World Cup podiums without a win, and the Olympic champion finally topped one in Chamonix."
+  verified: "2026-07-14"
+
+# oembed title: "Summer McIntosh sets world record in women's 200m butterfly at 2026 Canadian Swimming Trials" | channel: CBC Sports (rights-holder; World Aquatics has no national-trials footage)
+- id: mcintosh-200-fly-wr
+  title: "200m Butterfly World Record"
+  subject: "Summer McIntosh"
+  date: "2026-07-05"
+  category: endurance
+  video_url: "https://www.youtube.com/watch?v=RSo6DcD01k0"
+  one_liner: "2:01.65 — the oldest record in women's swimming, a 2009 super-suit mark, finally erased."
+  verified: "2026-07-14"
