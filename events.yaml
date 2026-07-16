@@ -88,7 +88,7 @@
   watchability: green
   recurrence_note: "Every 4 years"
 
-# source: espn.com + cbssports.com (both confirm 15:00 EDT, NOT the ~20:00 ET the brief estimated) | tz: 15:00 EDT (UTC-4) Jul 19 → 19:00Z
+# source: espn.com + cbssports.com (both confirm 15:00 EDT, NOT the ~20:00 ET the brief estimated) | tz: 15:00 EDT (UTC-4) Jul 19 → 19:00Z. [2026-07-16 refresh: finalists confirmed — Spain (2-0 v France, Jul 14) vs Argentina (2-1 v England, Jul 15); kickoff 15:00 ET reconfirmed.]
 - id: fifa-wc-2026-final
   name: "FIFA World Cup 2026 Final"
   category: team
@@ -96,7 +96,7 @@
   start_utc: "2026-07-19T19:00:00Z"
   end_utc: "2026-07-19T21:30:00Z"
   window: null
-  why: "The single biggest event in world sport — the World Cup final. MetLife Stadium, East Rutherford, NJ."
+  why: "The single biggest event in world sport — Spain vs Argentina for the World Cup. Spain edged France 2-0, holders Argentina beat England 2-1 to set up the final. MetLife Stadium, East Rutherford, NJ."
   watch:
     free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC & ITV (UK)"
     premium: "Fubo (US streaming)"
@@ -968,13 +968,13 @@
 
 # ============================== strength ==============================
 
-# source: sapcenter.com + games.crossfit.com | tz: ~09:00 PDT Jul 24 → 16:00Z. [2026-07-14 refresh: DATE confirmed; session start time PROVISIONAL — CrossFit publishes the schedule in-app during Games week; ticket listings conflict 09:00/09:15/10:00 PT. Re-verify Games week.]
+# source: SAP Center official listing (first event Fri 09:15 PDT) + games.crossfit.com dates article | tz: 09:15 PDT (UTC-7) Jul 24 → 16:15Z. [2026-07-16 refresh: daily competition-start time confirmed 09:15 Fri; per-heat individual schedule still released in-app during Games week — window anchors the day's start. Earlier "4:00 PM" listing was a ticketed/secondary session, not the competition floor.]
 - id: crossfit-games-2026-finals-friday
   name: "2026 CrossFit Games — Finals Day 1 (Individuals, SAP Center)"
   category: strength
   tier: locked
-  start_utc: "2026-07-24T16:00:00Z"
-  end_utc: "2026-07-24T20:00:00Z"
+  start_utc: "2026-07-24T16:15:00Z"
+  end_utc: "2026-07-24T20:15:00Z"
   window: null
   why: "First arena day of the 20th CrossFit Games finals — top 30 men/women on earth, SAP Center, San Jose CA. (Games open Jul 22 at off-site venues; the arena finals are the pinnacle.) Session start time provisional — check the schedule on the day."
   watch:
@@ -985,7 +985,7 @@
   watchability: green
   recurrence_note: "Annual, typically late July/August"
 
-# source: sapcenter.com | tz: ~09:00 PDT Jul 25 → 16:00Z. [2026-07-14 refresh: DATE confirmed; session start time PROVISIONAL — re-verify Games week.]
+# source: games.crossfit.com dates article | tz: 09:00 PDT (UTC-7) Jul 25 → 16:00Z. [2026-07-16 refresh: daily competition-start time confirmed 09:00 Sat; per-heat individual schedule released in-app during Games week.]
 - id: crossfit-games-2026-finals-saturday
   name: "2026 CrossFit Games — Finals Day 2 (Individuals, SAP Center)"
   category: strength
@@ -1002,13 +1002,13 @@
   watchability: green
   recurrence_note: "Annual, typically late July/August"
 
-# source: sapcenter.com | tz: ~09:00 PDT Jul 26 → 16:00Z. [2026-07-14 refresh: DATE confirmed; session start time PROVISIONAL — re-verify Games week.]
+# source: games.crossfit.com dates article | tz: 10:00 PDT (UTC-7) Jul 26 → 17:00Z. [2026-07-16 refresh: CORRECTED — Sunday's competition-start time is 10:00 PDT (not 09:00), was 1h early at 16:00Z. Per-heat individual schedule released in-app during Games week.]
 - id: crossfit-games-2026-finals-sunday
   name: "2026 CrossFit Games — Final Day: Fittest on Earth Crowned"
   category: strength
   tier: locked
-  start_utc: "2026-07-26T16:00:00Z"
-  end_utc: "2026-07-26T20:00:00Z"
+  start_utc: "2026-07-26T17:00:00Z"
+  end_utc: "2026-07-26T21:00:00Z"
   window: null
   why: "Final events + crowning of the Fittest Man and Woman on Earth at the 20th CrossFit Games. SAP Center, San Jose CA — THE session of the fitness year. Session start time provisional."
   watch:

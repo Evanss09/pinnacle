@@ -208,11 +208,12 @@ DTSTAMP:20260719T190000Z
 DTSTART:20260719T190000Z
 DTEND:20260719T213000Z
 SUMMARY:FIFA World Cup 2026 Final
-DESCRIPTION:🟢 The single biggest event in world sport — the World Cup 
- final. MetLife Stadium\, East Rutherford\, NJ.\nFree: FOX (US OTA\, Englis
- h) + Telemundo (US OTA\, Spanish)\; BBC & ITV (UK)\nPremium: Fubo (US stre
- aming)\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2
- 026\nEvery 4 years
+DESCRIPTION:🟢 The single biggest event in world sport — Spain vs Argen
+ tina for the World Cup. Spain edged France 2-0\, holders Argentina beat En
+ gland 2-1 to set up the final. MetLife Stadium\, East Rutherford\, NJ.\nFr
+ ee: FOX (US OTA\, English) + Telemundo (US OTA\, Spanish)\; BBC & ITV (UK)
+ \nPremium: Fubo (US streaming)\nhttps://www.fifa.com/en/tournaments/mens/w
+ orldcup/canadamexicousa2026\nEvery 4 years
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:TEAM
@@ -237,9 +238,9 @@ URL:https://www.letour.fr/en
 END:VEVENT
 BEGIN:VEVENT
 UID:crossfit-games-2026-finals-friday@pinnacle
-DTSTAMP:20260724T160000Z
-DTSTART:20260724T160000Z
-DTEND:20260724T200000Z
+DTSTAMP:20260724T161500Z
+DTSTART:20260724T161500Z
+DTEND:20260724T201500Z
 SUMMARY:2026 CrossFit Games — Finals Day 1 (Individuals\, SAP Center)
 DESCRIPTION:🟢 First arena day of the 20th CrossFit Games finals — top 
  30 men/women on earth\, SAP Center\, San Jose CA. (Games open Jul 22 at of
@@ -305,9 +306,9 @@ URL:https://www.letour.fr/en
 END:VEVENT
 BEGIN:VEVENT
 UID:crossfit-games-2026-finals-sunday@pinnacle
-DTSTAMP:20260726T160000Z
-DTSTART:20260726T160000Z
-DTEND:20260726T200000Z
+DTSTAMP:20260726T170000Z
+DTSTART:20260726T170000Z
+DTEND:20260726T210000Z
 SUMMARY:2026 CrossFit Games — Final Day: Fittest on Earth Crowned
 DESCRIPTION:🟢 Final events + crowning of the Fittest Man and Woman on Ea
  rth at the 20th CrossFit Games. SAP Center\, San Jose CA — THE session o
