@@ -889,15 +889,15 @@
   watchability: green
   recurrence_note: "Annual, typically late July/August"
 
-# source: mostvaluablepromotions.com + ringmagazine.com | tz: 20:00 EDT Aug 8 → 2026-08-09T00:00:00Z (date shift)
+# source: mostvaluablepromotions.com + ringmagazine.com + skysports.com | tz: card opens 20:00 EDT Aug 8 → 2026-08-09T00:00:00Z (date shift); main-event ringwalk EST. ~23:00 EDT → ~03:00Z. [2026-07-23 refresh: end extended to 04:00Z so the block spans the ~11 PM ET title fight; card-open start (officially confirmed) unchanged.]
 - id: mvpw05-johnson-thorslund-undisputed
   name: "Cherneka Johnson vs Dina Thorslund — Undisputed Bantamweight Title"
   category: strength
   tier: locked
   start_utc: "2026-08-09T00:00:00Z"
-  end_utc: "2026-08-09T03:00:00Z"
+  end_utc: "2026-08-09T04:00:00Z"
   window: null
-  why: "All four bantamweight belts + Ring title on the line — undisputed champ Johnson vs undefeated ex-unified champ Thorslund (24-0). Caribe Royale Resort, Orlando; MVPW-05 card opens 8 PM ET, main event later in the broadcast."
+  why: "All four bantamweight belts + Ring title on the line — undisputed champ Johnson vs undefeated ex-unified champ Thorslund (24-0). Caribe Royale Resort, Orlando; MVPW-05 card opens 8 PM ET, main-event ringwalk expected ~11 PM ET."
   watch:
     free: null
     premium: "ESPN / ESPN App (US); Sky Sports (UK)"
@@ -986,17 +986,15 @@
 # ============================== space ==============================
 # NOTE from agent: Artemis II already flew (Apr 1-11 2026, success). Artemis III revised to late-2027 LEO demo. Starship F12 (May 22 2026) = successful Block 3 debut. BORDERLINE routine rotations flagged: soyuz-ms-29, crew-13, shenzhou-24, axiom-5.
 
-# source: spacenews.com/spacex-gears-up-for-starship-flight-13 + space.com | tz: 90-min window opens 17:45 CDT (UTC-5) Starbase → 22:45Z Jul 16, closes 00:15Z Jul 17. [2026-07-14 refresh: PROMOTED radar→locked, SpaceX announced date Jul 11. Launch dates slip — re-verify day-of.]
+# source: space.com "SpaceX targets July 23 for Starship Flight 13" + mynews13.com (both Jul 22, status GO) | tz: 90-min window opens 17:45 CDT (UTC-5) Starbase / 18:45 EDT → 22:45Z Jul 23, closes 00:15Z Jul 24. [2026-07-23 weekly refresh: Jul 16 first attempt ABORTED at ignition (4 Raptor 3 engines failed to light); recycled and re-pointed to today's GO launch — window clock-time unchanged. Launch dates slip — re-verify day-of.]
 - id: starship-flight-13
   name: "SpaceX Starship Flight 13 (Block 3)"
   category: space
   tier: locked
-  start_utc: "2026-07-16T22:45:00Z"
-  end_utc: "2026-07-17T00:15:00Z"
+  start_utc: "2026-07-23T22:45:00Z"
+  end_utc: "2026-07-24T00:15:00Z"
   window: null
-  why: "First-of-kind: the first time Starship deploys FUNCTIONING satellites (20 Starlink V3s that will unfold arrays and attempt laser links) — every prior flight carried only mass simulators. Second V3 vehicle flight. Starbase Pad 2, Boca Chica TX."
-  # result source: spaceflightnow.com + space.com — last-second abort at ignition, 4 engines failed to light; recycled to NET Jul 23
-  result: "Aborted at ignition (4 engines out); recycled to NET Jul 23"
+  why: "First-of-kind: the first time Starship deploys FUNCTIONING satellites (20 Starlink V3s that will unfold arrays and attempt laser links) — every prior flight carried only mass simulators. Second V3 vehicle flight; re-flies today after a Jul 16 abort at ignition. Starbase Pad 2, Boca Chica TX."
   watch:
     free: "SpaceX webcast on X (x.com/spacex); NASASpaceflight & Everyday Astronaut restream on YouTube"
     premium: null

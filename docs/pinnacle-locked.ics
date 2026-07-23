@@ -7,24 +7,6 @@ X-WR-CALNAME:Pinnacle — Locked
 X-WR-TIMEZONE:UTC
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:starship-flight-13@pinnacle
-DTSTAMP:20260716T224500Z
-DTSTART:20260716T224500Z
-DTEND:20260717T001500Z
-SUMMARY:SpaceX Starship Flight 13 (Block 3)
-DESCRIPTION:🟢 First-of-kind: the first time Starship deploys FUNCTIONING
-  satellites (20 Starlink V3s that will unfold arrays and attempt laser lin
- ks) — every prior flight carried only mass simulators. Second V3 vehicle
-  flight. Starbase Pad 2\, Boca Chica TX.\nResult: Aborted at ignition (4 e
- ngines out)\; recycled to NET Jul 23\nFree: SpaceX webcast on X (x.com/spa
- cex)\; NASASpaceflight & Everyday Astronaut restream on YouTube\nhttps://w
- ww.spacex.com/launches/\nIntegrated flight tests recur every ~6-10 weeks
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:SPACE
-URL:https://www.spacex.com/launches/
-END:VEVENT
-BEGIN:VEVENT
 UID:josh-kerr-mile-wr-attempt@pinnacle
 DTSTAMP:20260718T143600Z
 DTSTART:20260718T143600Z
@@ -76,6 +58,24 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:TEAM
 URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
+END:VEVENT
+BEGIN:VEVENT
+UID:starship-flight-13@pinnacle
+DTSTAMP:20260723T224500Z
+DTSTART:20260723T224500Z
+DTEND:20260724T001500Z
+SUMMARY:SpaceX Starship Flight 13 (Block 3)
+DESCRIPTION:🟢 First-of-kind: the first time Starship deploys FUNCTIONING
+  satellites (20 Starlink V3s that will unfold arrays and attempt laser lin
+ ks) — every prior flight carried only mass simulators. Second V3 vehicle
+  flight\; re-flies today after a Jul 16 abort at ignition. Starbase Pad 2\
+ , Boca Chica TX.\nFree: SpaceX webcast on X (x.com/spacex)\; NASASpaceflig
+ ht & Everyday Astronaut restream on YouTube\nhttps://www.spacex.com/launch
+ es/\nIntegrated flight tests recur every ~6-10 weeks
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:SPACE
+URL:https://www.spacex.com/launches/
 END:VEVENT
 BEGIN:VEVENT
 UID:tdf-2026-stage-19@pinnacle
@@ -233,15 +233,15 @@ BEGIN:VEVENT
 UID:mvpw05-johnson-thorslund-undisputed@pinnacle
 DTSTAMP:20260809T000000Z
 DTSTART:20260809T000000Z
-DTEND:20260809T030000Z
+DTEND:20260809T040000Z
 SUMMARY:Cherneka Johnson vs Dina Thorslund — Undisputed Bantamweight Titl
  e
 DESCRIPTION:🔴 All four bantamweight belts + Ring title on the line — u
  ndisputed champ Johnson vs undefeated ex-unified champ Thorslund (24-0). C
- aribe Royale Resort\, Orlando\; MVPW-05 card opens 8 PM ET\, main event la
- ter in the broadcast.\nPremium: ESPN / ESPN App (US)\; Sky Sports (UK)\nht
- tps://www.mostvaluablepromotions.com/johnson-vs-thorslund-headlines-mvpw-0
- 5-aug-8-on-espn/
+ aribe Royale Resort\, Orlando\; MVPW-05 card opens 8 PM ET\, main-event ri
+ ngwalk expected ~11 PM ET.\nPremium: ESPN / ESPN App (US)\; Sky Sports (UK
+ )\nhttps://www.mostvaluablepromotions.com/johnson-vs-thorslund-headlines-m
+ vpw-05-aug-8-on-espn/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:STRENGTH
