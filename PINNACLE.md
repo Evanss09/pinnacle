@@ -61,6 +61,24 @@ Host on GitHub Pages (free). Keep build.py dependency-light: `pyyaml` + stdlib. 
     link: "https://www.fifa.com/..."  # direct watch/schedule link
   watchability: green     # green = free live | yellow = highlights only | red = premium sub
   recurrence_note: "Every 4 years"
+  result: "Spain 1-0 Argentina (AET)"   # optional; filled by the daily intake after the event ends
+```
+
+**Event lifecycle:** a locked event stays in `events.yaml` for **7 days after `end_utc`** — it feeds the dashboard's *Just Ended* section. The daily intake fills `result:` ~24 h after the end, appends the highlight to `vault.yaml`, and deletes the event once it's more than 7 days past. Don't hand-prune ended events early.
+
+**vault.yaml schema:**
+
+```yaml
+# oembed title: "<title returned by oEmbed>" | channel: <channel name>   ← verification comment, required
+- id: wc-2026-final-spain-argentina    # kebab-case slug
+  title: "World Cup 2026 Final — Spain 1-0 Argentina"
+  subject: "Spain"                     # person/team the moment belongs to
+  date: "2026-07-19"                   # date of the performance (drives newest-first sort, NEW badges, fresh rotation)
+  category: team                       # same taxonomy as events
+  video_url: "https://www.youtube.com/watch?v=..."
+  one_liner: "Why this moment matters, one sentence."
+  event_id: fifa-wc-2026-final         # optional; links back to the events.yaml entry it came from (dedupe key for the daily intake)
+  verified: "2026-07-22"               # date the link was oEmbed-verified (a link-check stamp, NOT an added-date)
 ```
 
 **ICS generation rules (both feeds):**
@@ -106,7 +124,9 @@ Strength/combat: World's Strongest Man, CrossFit Games, UFC/boxing per rule, Oly
 - Single self-contained HTML file (inline CSS/JS). Dark theme, fast, mobile-first (Brad is often on phone/hotel wifi).
 - **ON NOW:** For events flagged live-now (computed from events.yaml times at page load) with a `youtube_channel`, embed `https://www.youtube.com/embed/live_stream?channel=<CHANNEL_ID>` — this auto-resolves to the channel's active live stream, no API key needed. Resolve handles → UC... channel IDs during first build session and store in channels.yaml (the embed requires the raw ID, not the handle). If nothing is live: show next event countdown + a Vault pick instead.
 - **UP NEXT:** next 7 days from events.yaml, each row: date (viewer-local, JS-converted), name, watchability icon (🟢🟡🔴), watch link.
-- **THE VAULT:** grid of embedded/linked videos from vault.yaml, newest first, one-line context each.
+- **JUST ENDED:** locked events that finished within the last 7 days, newest first: end date + "Nd ago", name, `result` in accent, and — when a vault entry carries a matching `event_id` — a "Watch the highlight →" link that scrolls to, flashes, and plays the vault card.
+- **FROM THE VAULT (hero):** when nothing is live, the countdown card is followed by a full-width *featured* vault pick with category badge. The pick is a **pure function of the UTC day number** (deterministic — every viewer sees the same pick): a moment dated within the last 4 days always premieres; otherwise moments dated within 14 days own even days and the classic full cycle runs on odd days.
+- **THE VAULT:** grid of embedded/linked videos from vault.yaml, newest first, one-line context each. Entries whose performance `date` is within 14 days get a NEW badge (keyed off `date`, not `verified` — re-verifying a link must not re-flag it).
 - PWA manifest so it can be added to home screen. No service worker complexity needed.
 - No analytics, no cookies, no build framework. Boring and durable.
 
@@ -128,8 +148,11 @@ Refresh runs append each finished tracked event's best moment.
 
 ## 8. Refresh workflow (verbatim prompts)
 
-**Weekly (~10 min, run in Claude Code from repo root):**
-> Run the Pinnacle weekly refresh: (1) Verify every locked event in events.yaml in the next 21 days — confirm date/time/UTC and watch links via web search; fix drift. (2) Check active playoff/knockout series in tracked leagues; add newly-confirmed elimination games per the rules in PINNACLE.md §5; remove events that can no longer occur. (3) Promote any radar items that now have confirmed dates. (4) Add the best moment from any tracked event that finished this week to vault.yaml. (5) Run build.py, commit, push. Summarize changes in 5 bullets.
+**Daily vault intake (~2 min most days, scheduled cloud routine at 09:00 UTC):**
+> Run the Pinnacle daily vault intake. (1) Scan events.yaml for three lists: (a) locked events whose end_utc is between 36 and 12 hours ago and that have no vault.yaml entry with a matching event_id; (b) locked events that ended within the last 7 days and still lack a result field; (c) events whose end_utc is more than 7 days ago. If all three lists are empty, reply "Nothing ended — no changes" and stop. (2) For each (a) event: web-search the final result and set result: on the event (short form, e.g. "Spain 1-0 Argentina"), keeping the # source: comment convention; then find the single best highlight video (official channel preferred), verify it via YouTube oEmbed (HTTP 200 with matching title), and append a vault.yaml entry with id, title, subject, date (the event date), category copied from the event, video_url, one_liner, event_id set to the event's id, and verified stamped with today's date. If no verifiable highlight exists yet, skip that event without a vault entry — the next run or the weekly audit will catch it. (3) Fill result: for each (b) event via web search. (4) Delete each (c) event. (5) Run build.py; fix any validation errors; commit ("daily vault intake: ...") and push. Summarize in up to 5 bullets.
+
+**Weekly (~10 min, scheduled cloud routine Thursdays 11:00 UTC):**
+> Run the Pinnacle weekly refresh: (1) Verify every locked event in events.yaml in the next 21 days — confirm date/time/UTC and watch links via web search; fix drift. (2) Check active playoff/knockout series in tracked leagues; add newly-confirmed elimination games per the rules in PINNACLE.md §5; remove events that were cancelled or can no longer occur — but keep events that already finished in the last 7 days (the daily intake prunes those on schedule). (3) Promote any radar items that now have confirmed dates. (4) Audit the past week: every locked event that ended should carry a result and have a vault.yaml entry with a matching event_id — backfill anything the daily intake missed. (5) Run build.py, commit, push. Summarize changes in 5 bullets.
 
 **Monthly deep scan (~20 min):**
 > Run the Pinnacle monthly scan: everything in the weekly refresh, plus (1) search for newly announced one-off feats and specials — free solo projects, record attempts (marathon, altitude, depth, speed), first-of-kind rocket missions, big-wave green lights, exhibition matches between world #1s; add qualifying items to radar. (2) Verify next-quarter dates for all recurring events in PINNACLE.md §5's master list. (3) Sanity-check all YouTube channel IDs in channels.yaml still resolve. (4) Ask Brad (in the summary) about any borderline new event before adding it.

@@ -173,3 +173,16 @@
   video_url: "https://www.youtube.com/watch?v=RSo6DcD01k0"
   one_liner: "2:01.65 — the oldest record in women's swimming, a 2009 super-suit mark, finally erased."
   verified: "2026-07-14"
+
+# ---- appended by 2026-07-22 daily-vault-intake seeding ----
+
+# oembed title: "Highlights | Spain 1-0 Argentina | FIFA World Cup 2026™ FINAL" | channel: FIFA
+- id: wc-2026-final-spain-argentina
+  title: "World Cup 2026 Final — Spain 1-0 Argentina"
+  subject: "Spain"
+  date: "2026-07-19"
+  category: team
+  video_url: "https://www.youtube.com/watch?v=6HaHNYjnghE"
+  one_liner: "Ferran Torres in the 106th minute settles it — Spain complete an unbeaten tournament for their second title, past Emiliano Martínez's record 11 saves."
+  event_id: fifa-wc-2026-final
+  verified: "2026-07-22"

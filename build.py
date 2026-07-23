@@ -106,6 +106,14 @@ def validate(events, vault, channels):
         elif handle and not str(channels.get(handle) or "").startswith("UC"):
             problems.append(f"{ctx}: channels.yaml has no resolved UC... id for {handle!r}")
 
+        if "result" in ev:
+            if not isinstance(ev["result"], str) or not ev["result"].strip():
+                problems.append(f"{ctx}: result must be a non-empty string")
+            elif ev.get("tier") != "locked":
+                warnings.append(f"{ctx}: result on a non-locked event")
+            elif ev.get("end_utc") and parse_utc(ev["end_utc"], ctx) > today:
+                warnings.append(f"{ctx}: result set but end_utc is in the future")
+
         has_start, has_end = "start_utc" in ev, "end_utc" in ev
         if ev.get("tier") == "locked":
             if not (has_start and has_end):
@@ -138,8 +146,26 @@ def validate(events, vault, channels):
                 problems.append(f"{ctx}: missing {key}")
         if v.get("video_url") and not VIDEO_ID_RE.search(v["video_url"]):
             problems.append(f"{ctx}: cannot extract a YouTube video id from {v.get('video_url')!r}")
+        if not v.get("verified"):
+            warnings.append(f"{ctx}: missing verified date — NEW badge and freshness need it")
+        veid = v.get("event_id")
+        if veid:
+            if not re.fullmatch(r"[a-z0-9][a-z0-9-]*", str(veid)):
+                problems.append(f"{ctx}: event_id must be a kebab-case slug")
+            elif veid not in seen and _is_recent(v.get("verified"), today, days=7):
+                warnings.append(f"{ctx}: event_id {veid!r} matches no event "
+                                "(fresh entry — possible typo; pruned events are expected to age out)")
 
     return problems, warnings
+
+
+def _is_recent(verified, today, days):
+    """True if a vault 'verified' date (date or str) is within the last N days."""
+    try:
+        d = datetime.strptime(str(verified), "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    except (TypeError, ValueError):
+        return False
+    return (today - d).days <= days
 
 
 # ---------------------------------------------------------------- ICS engine
@@ -174,6 +200,8 @@ def dt_stamp(dt):
 def event_description(ev):
     watch = ev.get("watch") or {}
     parts = [f"{WATCH_ICON[ev['watchability']]} {ev['why']}"]
+    if ev.get("result"):
+        parts.append(f"Result: {ev['result']}")
     if watch.get("free"):
         parts.append(f"Free: {watch['free']}")
     if watch.get("premium"):
@@ -286,6 +314,7 @@ def render_html(events, vault, channels, template):
             "link": watch.get("link"),
             "channel_id": channels.get(handle) if handle else None,
             "watchability": ev["watchability"],
+            "result": ev.get("result"),
         })
     payload_vault = []
     for v in sorted(vault, key=lambda v: str(v.get("date")), reverse=True):
@@ -294,6 +323,8 @@ def render_html(events, vault, channels, template):
             "date": str(v["date"]), "category": v.get("category"),
             "video_id": VIDEO_ID_RE.search(v["video_url"]).group(1),
             "one_liner": v["one_liner"],
+            "event_id": v.get("event_id"),
+            "verified": str(v["verified"]) if v.get("verified") else None,
         })
     data = {"events": payload_events, "vault": payload_vault}
     blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")

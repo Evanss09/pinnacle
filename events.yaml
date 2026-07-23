@@ -97,6 +97,8 @@
   end_utc: "2026-07-19T21:30:00Z"
   window: null
   why: "The single biggest event in world sport — Spain vs Argentina for the World Cup. Spain edged France 2-0, holders Argentina beat England 2-1 to set up the final. MetLife Stadium, East Rutherford, NJ."
+  # result source: nbcnews.com + fifa.com match report — Ferran Torres 106', Spain's 2nd title, 11 Martínez saves
+  result: "Spain 1-0 Argentina (AET)"
   watch:
     free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC & ITV (UK)"
     premium: "Fubo (US streaming)"
