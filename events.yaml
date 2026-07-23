@@ -3,91 +3,6 @@
 # '# source:' comments record the verification source + timezone math for each entry.
 
 # ============================== team ==============================
-# source: si.com WC 2026 QF/SF schedule | tz: 15:00 EDT (UTC-4) Jul 10 → 19:00Z
-- id: fifa-wc-2026-qf-spain-belgium
-  name: "FIFA World Cup 2026 Quarterfinal: Spain vs Belgium"
-  category: team
-  tier: locked
-  start_utc: "2026-07-10T19:00:00Z"
-  end_utc: "2026-07-10T21:30:00Z"
-  window: null
-  why: "World Cup quarterfinal — last eight of the sport's ultimate prize. SoFi Stadium, Inglewood, CA."
-  watch:
-    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC/ITV (UK)"
-    premium: "Fubo (US streaming)"
-    youtube_channel: "@FIFA"
-    link: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
-  watchability: green
-  recurrence_note: "Every 4 years"
-
-# source: si.com WC 2026 QF/SF schedule | tz: 17:00 EDT (UTC-4) Jul 11 → 21:00Z
-- id: fifa-wc-2026-qf-norway-england
-  name: "FIFA World Cup 2026 Quarterfinal: Norway vs England"
-  category: team
-  tier: locked
-  start_utc: "2026-07-11T21:00:00Z"
-  end_utc: "2026-07-11T23:30:00Z"
-  window: null
-  why: "World Cup quarterfinal — last eight of the sport's ultimate prize. Hard Rock Stadium, Miami Gardens, FL."
-  watch:
-    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC/ITV (UK)"
-    premium: "Fubo (US streaming)"
-    youtube_channel: "@FIFA"
-    link: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
-  watchability: green
-  recurrence_note: "Every 4 years"
-
-# source: espn.com WC 2026 schedule | tz: 21:00 EDT (UTC-4) Jul 11 → crosses midnight UTC → 2026-07-12T01:00:00Z
-- id: fifa-wc-2026-qf-argentina-switzerland
-  name: "FIFA World Cup 2026 Quarterfinal: Argentina vs Switzerland"
-  category: team
-  tier: locked
-  start_utc: "2026-07-12T01:00:00Z"
-  end_utc: "2026-07-12T03:30:00Z"
-  window: null
-  why: "World Cup quarterfinal — defending champions Argentina in the last eight. Arrowhead Stadium, Kansas City, MO."
-  watch:
-    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC/ITV (UK)"
-    premium: "Fubo (US streaming)"
-    youtube_channel: "@FIFA"
-    link: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
-  watchability: green
-  recurrence_note: "Every 4 years"
-
-# source: espn.com match 760514 (machine-readable 2026-07-14T19:00Z) | tz: 14:00 CDT (UTC-5) — Arlington is CENTRAL, not Eastern → 19:00Z
-- id: fifa-wc-2026-sf1
-  name: "FIFA World Cup 2026 Semifinal: France vs Spain"
-  category: team
-  tier: locked
-  start_utc: "2026-07-14T19:00:00Z"
-  end_utc: "2026-07-14T21:30:00Z"
-  window: null
-  why: "World Cup semifinal — France (2-0 over Morocco) vs Spain (2-1 over Belgium). AT&T Stadium, Arlington, TX."
-  watch:
-    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); ITV1/ITVX (UK)"
-    premium: "Fubo (US streaming)"
-    youtube_channel: "@FIFA"
-    link: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
-  watchability: green
-  recurrence_note: "Every 4 years"
-
-# source: espn.com WC 2026 schedule | tz: 15:00 EDT (UTC-4) Jul 15 → 19:00Z
-- id: fifa-wc-2026-sf2
-  name: "FIFA World Cup 2026 Semifinal: England vs Argentina"
-  category: team
-  tier: locked
-  start_utc: "2026-07-15T19:00:00Z"
-  end_utc: "2026-07-15T21:30:00Z"
-  window: null
-  why: "World Cup semifinal — England (2-1 AET over Norway) vs holders Argentina (3-1 AET over Switzerland). Mercedes-Benz Stadium, Atlanta, GA."
-  watch:
-    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC One/iPlayer (UK)"
-    premium: "Fubo (US streaming)"
-    youtube_channel: "@FIFA"
-    link: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
-  watchability: green
-  recurrence_note: "Every 4 years"
-
 # source: espn.com + cbssports.com (both confirm 15:00 EDT, NOT the ~20:00 ET the brief estimated) | tz: 15:00 EDT (UTC-4) Jul 19 → 19:00Z. [2026-07-16 refresh: finalists confirmed — Spain (2-0 v France, Jul 14) vs Argentina (2-1 v England, Jul 15); kickoff 15:00 ET reconfirmed.]
 - id: fifa-wc-2026-final
   name: "FIFA World Cup 2026 Final"
@@ -106,40 +21,6 @@
     link: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
   watchability: green
   recurrence_note: "Every 4 years"
-
-# source: bleacherreport + williamhill (16:00 BST both) | tz: 16:00 BST (UTC+1) Jul 11 → 15:00Z
-- id: wimbledon-2026-womens-final
-  name: "Wimbledon 2026 Ladies' Singles Final"
-  category: team
-  tier: locked
-  start_utc: "2026-07-11T15:00:00Z"
-  end_utc: "2026-07-11T18:30:00Z"
-  window: null
-  why: "Grand Slam final on grass's greatest stage — all-Czech clash, Muchová vs Nosková. Centre Court, All England Club, London."
-  watch:
-    free: "BBC One / BBC iPlayer (UK)"
-    premium: "ESPN (US)"
-    youtube_channel: "@Wimbledon"
-    link: "https://www.wimbledon.com/en_GB/the_championships/schedule"
-  watchability: green
-  recurrence_note: "Annual"
-
-# source: williamhill + paddypower ("not before 4:00pm") | tz: 16:00 BST (UTC+1) Jul 12 → 15:00Z
-- id: wimbledon-2026-mens-final
-  name: "Wimbledon 2026 Gentlemen's Singles Final"
-  category: team
-  tier: locked
-  start_utc: "2026-07-12T15:00:00Z"
-  end_utc: "2026-07-12T18:30:00Z"
-  window: null
-  why: "Grand Slam final at tennis's cathedral — Sinner/Djokovic semi winner vs Zverev/Fery winner. Centre Court, All England Club, London."
-  watch:
-    free: "BBC One / BBC iPlayer (UK)"
-    premium: "ESPN (US)"
-    youtube_channel: "@Wimbledon"
-    link: "https://www.wimbledon.com/en_GB/the_championships/schedule"
-  watchability: green
-  recurrence_note: "Annual"
 
 # source: tennistourcalendar + grandslamtennistours | tz: 16:00 EDT (UTC-4) Sep 12 → 20:00Z
 - id: us-open-2026-womens-final
@@ -485,23 +366,6 @@
 
 # ============================== adventure ==============================
 
-# source: https://www.worldclimbing.com/events/world-climbing-series-chamonix-2026 | tz: 20:30 CEST (UTC+2) Sun Jul 12 → 18:30Z
-- id: ifsc-chamonix-lead-finals-2026
-  name: "World Climbing Series (IFSC World Cup) Chamonix — Lead Finals"
-  category: adventure
-  tier: locked
-  start_utc: "2026-07-12T18:30:00Z"
-  end_utc: "2026-07-12T21:00:00Z"
-  window: null
-  why: "Night lead finals under the lights at Place du Mont-Blanc, Chamonix — the most storied stop on the World Cup lead circuit (speed finals ran Sat Jul 11, 21:00 CEST)."
-  watch:
-    free: "YouTube live stream (most regions; geo-blocked in Europe)"
-    premium: "Eurosport / HBO Max (Europe)"
-    youtube_channel: "@worldclimbing"
-    link: "https://www.worldclimbing.com/events/world-climbing-series-chamonix-2026"
-  watchability: green
-  recurrence_note: "Annual World Cup stop"
-
 # source: https://montblanc.utmb.world/races/UTMB | tz: start Fri 17:45 CEST → 15:45Z, +21h covers winner finish
 - id: utmb-2026
   name: "UTMB Mont-Blanc 2026"
@@ -699,6 +563,8 @@
   end_utc: "2026-07-19T15:55:00Z"
   window: null
   why: "First Alpine GC showdown: ~4,700m of climbing incl. Col de la Croisette (7.6km @ 8.8%), brutal summit finish at Plateau de Solaison (11.3km @ 9.1%) — hardest remaining stage outside the Alpe d'Huez double."
+  # result source: procyclingstats.com + cyclingnews.com — Evenepoel solos to first Tour stage win; Pogačar keeps yellow; Vingegaard crashes out
+  result: "Evenepoel wins; Pogačar retains yellow (Vingegaard abandons)"
   watch:
     free: "France.tv (France), SBS On Demand (Australia); Channel 5 highlights (UK)"
     premium: "Peacock (US), FloBikes (Canada), TNT Sports (UK)"
@@ -882,6 +748,8 @@
   end_utc: "2026-07-18T14:50:00Z"
   window: null
   why: "A pre-declared assault on the oldest record in middle distance: El Guerrouj's 3:43.13, untouched since 1999. Kerr is targeting ~3:42. London Diamond League, London Stadium."
+  # result source: worldathletics.org + olympics.com — Kerr 3:42.66, first man under 3:43, breaks El Guerrouj's 1999 record
+  result: "Josh Kerr 3:42.66 — mile world record"
   watch:
     free: "BBC (UK)"
     premium: "FloTrack (US); Wanda Diamond League stream in select territories"
@@ -1118,22 +986,6 @@
 # ============================== space ==============================
 # NOTE from agent: Artemis II already flew (Apr 1-11 2026, success). Artemis III revised to late-2027 LEO demo. Starship F12 (May 22 2026) = successful Block 3 debut. BORDERLINE routine rotations flagged: soyuz-ms-29, crew-13, shenzhou-24, axiom-5.
 
-# source: https://www.nasa.gov/news-release/nasa-sets-coverage-for-astronaut-anil-menon-launch-to-space-station/ | tz math: 10:47 EDT (UTC-4) Jul 14 → 14:47Z. BORDERLINE routine ISS rotation.
-- id: soyuz-ms-29
-  name: "Soyuz MS-29 Crew Launch to ISS"
-  category: space
-  tier: locked
-  start_utc: "2026-07-14T14:47:00Z"
-  end_utc: "2026-07-14T16:47:00Z"
-  why: "Crewed launch — NASA's Anil Menon (first flight) with cosmonauts Dubrov and Kikina; 3-hour fast rendezvous to ISS. Baikonur Cosmodrome, Kazakhstan."
-  watch:
-    free: "NASA+ (plus.nasa.gov), Amazon Prime Video, NASA YouTube; coverage from 9:45 a.m. EDT"
-    premium: null
-    youtube_channel: "@NASA"
-    link: "https://plus.nasa.gov/"
-  watchability: green
-  recurrence_note: "ISS Soyuz rotations recur roughly every 6-8 months"
-
 # source: spacenews.com/spacex-gears-up-for-starship-flight-13 + space.com | tz: 90-min window opens 17:45 CDT (UTC-5) Starbase → 22:45Z Jul 16, closes 00:15Z Jul 17. [2026-07-14 refresh: PROMOTED radar→locked, SpaceX announced date Jul 11. Launch dates slip — re-verify day-of.]
 - id: starship-flight-13
   name: "SpaceX Starship Flight 13 (Block 3)"
@@ -1143,6 +995,8 @@
   end_utc: "2026-07-17T00:15:00Z"
   window: null
   why: "First-of-kind: the first time Starship deploys FUNCTIONING satellites (20 Starlink V3s that will unfold arrays and attempt laser links) — every prior flight carried only mass simulators. Second V3 vehicle flight. Starbase Pad 2, Boca Chica TX."
+  # result source: spaceflightnow.com + space.com — last-second abort at ignition, 4 engines failed to light; recycled to NET Jul 23
+  result: "Aborted at ignition (4 engines out); recycled to NET Jul 23"
   watch:
     free: "SpaceX webcast on X (x.com/spacex); NASASpaceflight & Everyday Astronaut restream on YouTube"
     premium: null

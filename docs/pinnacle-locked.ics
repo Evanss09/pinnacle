@@ -7,150 +7,6 @@ X-WR-CALNAME:Pinnacle — Locked
 X-WR-TIMEZONE:UTC
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:fifa-wc-2026-qf-spain-belgium@pinnacle
-DTSTAMP:20260710T190000Z
-DTSTART:20260710T190000Z
-DTEND:20260710T213000Z
-SUMMARY:FIFA World Cup 2026 Quarterfinal: Spain vs Belgium
-DESCRIPTION:🟢 World Cup quarterfinal — last eight of the sport's ultim
- ate prize. SoFi Stadium\, Inglewood\, CA.\nFree: FOX (US OTA\, English) + 
- Telemundo (US OTA\, Spanish)\; BBC/ITV (UK)\nPremium: Fubo (US streaming)\
- nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026\nEv
- ery 4 years
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:TEAM
-URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
-END:VEVENT
-BEGIN:VEVENT
-UID:wimbledon-2026-womens-final@pinnacle
-DTSTAMP:20260711T150000Z
-DTSTART:20260711T150000Z
-DTEND:20260711T183000Z
-SUMMARY:Wimbledon 2026 Ladies' Singles Final
-DESCRIPTION:🟢 Grand Slam final on grass's greatest stage — all-Czech c
- lash\, Muchová vs Nosková. Centre Court\, All England Club\, London.\nFr
- ee: BBC One / BBC iPlayer (UK)\nPremium: ESPN (US)\nhttps://www.wimbledon.
- com/en_GB/the_championships/schedule\nAnnual
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:TEAM
-URL:https://www.wimbledon.com/en_GB/the_championships/schedule
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc-2026-qf-norway-england@pinnacle
-DTSTAMP:20260711T210000Z
-DTSTART:20260711T210000Z
-DTEND:20260711T233000Z
-SUMMARY:FIFA World Cup 2026 Quarterfinal: Norway vs England
-DESCRIPTION:🟢 World Cup quarterfinal — last eight of the sport's ultim
- ate prize. Hard Rock Stadium\, Miami Gardens\, FL.\nFree: FOX (US OTA\, En
- glish) + Telemundo (US OTA\, Spanish)\; BBC/ITV (UK)\nPremium: Fubo (US st
- reaming)\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexicous
- a2026\nEvery 4 years
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:TEAM
-URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc-2026-qf-argentina-switzerland@pinnacle
-DTSTAMP:20260712T010000Z
-DTSTART:20260712T010000Z
-DTEND:20260712T033000Z
-SUMMARY:FIFA World Cup 2026 Quarterfinal: Argentina vs Switzerland
-DESCRIPTION:🟢 World Cup quarterfinal — defending champions Argentina i
- n the last eight. Arrowhead Stadium\, Kansas City\, MO.\nFree: FOX (US OTA
- \, English) + Telemundo (US OTA\, Spanish)\; BBC/ITV (UK)\nPremium: Fubo (
- US streaming)\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamex
- icousa2026\nEvery 4 years
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:TEAM
-URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
-END:VEVENT
-BEGIN:VEVENT
-UID:wimbledon-2026-mens-final@pinnacle
-DTSTAMP:20260712T150000Z
-DTSTART:20260712T150000Z
-DTEND:20260712T183000Z
-SUMMARY:Wimbledon 2026 Gentlemen's Singles Final
-DESCRIPTION:🟢 Grand Slam final at tennis's cathedral — Sinner/Djokovic
-  semi winner vs Zverev/Fery winner. Centre Court\, All England Club\, Lond
- on.\nFree: BBC One / BBC iPlayer (UK)\nPremium: ESPN (US)\nhttps://www.wim
- bledon.com/en_GB/the_championships/schedule\nAnnual
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:TEAM
-URL:https://www.wimbledon.com/en_GB/the_championships/schedule
-END:VEVENT
-BEGIN:VEVENT
-UID:ifsc-chamonix-lead-finals-2026@pinnacle
-DTSTAMP:20260712T183000Z
-DTSTART:20260712T183000Z
-DTEND:20260712T210000Z
-SUMMARY:World Climbing Series (IFSC World Cup) Chamonix — Lead Finals
-DESCRIPTION:🟢 Night lead finals under the lights at Place du Mont-Blanc\
- , Chamonix — the most storied stop on the World Cup lead circuit (speed 
- finals ran Sat Jul 11\, 21:00 CEST).\nFree: YouTube live stream (most regi
- ons\; geo-blocked in Europe)\nPremium: Eurosport / HBO Max (Europe)\nhttps
- ://www.worldclimbing.com/events/world-climbing-series-chamonix-2026\nAnnua
- l World Cup stop
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:ADVENTURE
-URL:https://www.worldclimbing.com/events/world-climbing-series-chamonix-202
- 6
-END:VEVENT
-BEGIN:VEVENT
-UID:soyuz-ms-29@pinnacle
-DTSTAMP:20260714T144700Z
-DTSTART:20260714T144700Z
-DTEND:20260714T164700Z
-SUMMARY:Soyuz MS-29 Crew Launch to ISS
-DESCRIPTION:🟢 Crewed launch — NASA's Anil Menon (first flight) with co
- smonauts Dubrov and Kikina\; 3-hour fast rendezvous to ISS. Baikonur Cosmo
- drome\, Kazakhstan.\nFree: NASA+ (plus.nasa.gov)\, Amazon Prime Video\, NA
- SA YouTube\; coverage from 9:45 a.m. EDT\nhttps://plus.nasa.gov/\nISS Soyu
- z rotations recur roughly every 6-8 months
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:SPACE
-URL:https://plus.nasa.gov/
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc-2026-sf1@pinnacle
-DTSTAMP:20260714T190000Z
-DTSTART:20260714T190000Z
-DTEND:20260714T213000Z
-SUMMARY:FIFA World Cup 2026 Semifinal: France vs Spain
-DESCRIPTION:🟢 World Cup semifinal — France (2-0 over Morocco) vs Spain
-  (2-1 over Belgium). AT&T Stadium\, Arlington\, TX.\nFree: FOX (US OTA\, E
- nglish) + Telemundo (US OTA\, Spanish)\; ITV1/ITVX (UK)\nPremium: Fubo (US
-  streaming)\nhttps://www.fifa.com/en/tournaments/mens/worldcup/canadamexic
- ousa2026\nEvery 4 years
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:TEAM
-URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
-END:VEVENT
-BEGIN:VEVENT
-UID:fifa-wc-2026-sf2@pinnacle
-DTSTAMP:20260715T190000Z
-DTSTART:20260715T190000Z
-DTEND:20260715T213000Z
-SUMMARY:FIFA World Cup 2026 Semifinal: England vs Argentina
-DESCRIPTION:🟢 World Cup semifinal — England (2-1 AET over Norway) vs h
- olders Argentina (3-1 AET over Switzerland). Mercedes-Benz Stadium\, Atlan
- ta\, GA.\nFree: FOX (US OTA\, English) + Telemundo (US OTA\, Spanish)\; BB
- C One/iPlayer (UK)\nPremium: Fubo (US streaming)\nhttps://www.fifa.com/en/
- tournaments/mens/worldcup/canadamexicousa2026\nEvery 4 years
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:TEAM
-URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
-END:VEVENT
-BEGIN:VEVENT
 UID:starship-flight-13@pinnacle
 DTSTAMP:20260716T224500Z
 DTSTART:20260716T224500Z
@@ -159,10 +15,10 @@ SUMMARY:SpaceX Starship Flight 13 (Block 3)
 DESCRIPTION:🟢 First-of-kind: the first time Starship deploys FUNCTIONING
   satellites (20 Starlink V3s that will unfold arrays and attempt laser lin
  ks) — every prior flight carried only mass simulators. Second V3 vehicle
-  flight. Starbase Pad 2\, Boca Chica TX.\nFree: SpaceX webcast on X (x.com
- /spacex)\; NASASpaceflight & Everyday Astronaut restream on YouTube\nhttps
- ://www.spacex.com/launches/\nIntegrated flight tests recur every ~6-10 wee
- ks
+  flight. Starbase Pad 2\, Boca Chica TX.\nResult: Aborted at ignition (4 e
+ ngines out)\; recycled to NET Jul 23\nFree: SpaceX webcast on X (x.com/spa
+ cex)\; NASASpaceflight & Everyday Astronaut restream on YouTube\nhttps://w
+ ww.spacex.com/launches/\nIntegrated flight tests recur every ~6-10 weeks
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:SPACE
@@ -176,9 +32,9 @@ DTEND:20260718T145000Z
 SUMMARY:Josh Kerr — Mile World Record Attempt
 DESCRIPTION:🟡 A pre-declared assault on the oldest record in middle dist
  ance: El Guerrouj's 3:43.13\, untouched since 1999. Kerr is targeting ~3:4
- 2. London Diamond League\, London Stadium.\nFree: BBC (UK)\nPremium: FloTr
- ack (US)\; Wanda Diamond League stream in select territories\nhttps://www.
- diamondleague.com/
+ 2. London Diamond League\, London Stadium.\nResult: Josh Kerr 3:42.66 — 
+ mile world record\nFree: BBC (UK)\nPremium: FloTrack (US)\; Wanda Diamond 
+ League stream in select territories\nhttps://www.diamondleague.com/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:ENDURANCE
@@ -194,9 +50,10 @@ SUMMARY:Tour de France 2026 — Stage 15: Champagnole → Plateau de Solais
 DESCRIPTION:🔴 First Alpine GC showdown: ~4\,700m of climbing incl. Col d
  e la Croisette (7.6km @ 8.8%)\, brutal summit finish at Plateau de Solaiso
  n (11.3km @ 9.1%) — hardest remaining stage outside the Alpe d'Huez doub
- le.\nFree: France.tv (France)\, SBS On Demand (Australia)\; Channel 5 high
- lights (UK)\nPremium: Peacock (US)\, FloBikes (Canada)\, TNT Sports (UK)\n
- https://www.letour.fr/en\nAnnual (route changes yearly)
+ le.\nResult: Evenepoel wins\; Pogačar retains yellow (Vingegaard abandons
+ )\nFree: France.tv (France)\, SBS On Demand (Australia)\; Channel 5 highli
+ ghts (UK)\nPremium: Peacock (US)\, FloBikes (Canada)\, TNT Sports (UK)\nht
+ tps://www.letour.fr/en\nAnnual (route changes yearly)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:ENDURANCE
