@@ -60,24 +60,6 @@ CATEGORIES:TEAM
 URL:https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026
 END:VEVENT
 BEGIN:VEVENT
-UID:starship-flight-13@pinnacle
-DTSTAMP:20260723T224500Z
-DTSTART:20260723T224500Z
-DTEND:20260724T001500Z
-SUMMARY:SpaceX Starship Flight 13 (Block 3)
-DESCRIPTION:🟢 First-of-kind: the first time Starship deploys FUNCTIONING
-  satellites (20 Starlink V3s that will unfold arrays and attempt laser lin
- ks) — every prior flight carried only mass simulators. Second V3 vehicle
-  flight\; re-flies today after a Jul 16 abort at ignition. Starbase Pad 2\
- , Boca Chica TX.\nFree: SpaceX webcast on X (x.com/spacex)\; NASASpaceflig
- ht & Everyday Astronaut restream on YouTube\nhttps://www.spacex.com/launch
- es/\nIntegrated flight tests recur every ~6-10 weeks
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:SPACE
-URL:https://www.spacex.com/launches/
-END:VEVENT
-BEGIN:VEVENT
 UID:tdf-2026-stage-19@pinnacle
 DTSTAMP:20260724T120000Z
 DTSTART:20260724T120000Z
@@ -110,6 +92,24 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:STRENGTH
 URL:https://games.crossfit.com/finals/schedule?type=individuals
+END:VEVENT
+BEGIN:VEVENT
+UID:starship-flight-13@pinnacle
+DTSTAMP:20260724T224500Z
+DTSTART:20260724T224500Z
+DTEND:20260725T001500Z
+SUMMARY:SpaceX Starship Flight 13 (Block 3)
+DESCRIPTION:🟢 First-of-kind: the first time Starship deploys FUNCTIONING
+  satellites (20 Starlink V3s that will unfold arrays and attempt laser lin
+ ks) — every prior flight carried only mass simulators. Second V3 vehicle
+  flight\; re-flies today after a Jul 16 abort at ignition. Starbase Pad 2\
+ , Boca Chica TX.\nFree: SpaceX webcast on X (x.com/spacex)\; NASASpaceflig
+ ht & Everyday Astronaut restream on YouTube\nhttps://www.spacex.com/launch
+ es/\nIntegrated flight tests recur every ~6-10 weeks
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:SPACE
+URL:https://www.spacex.com/launches/
 END:VEVENT
 BEGIN:VEVENT
 UID:tdf-2026-stage-20@pinnacle
