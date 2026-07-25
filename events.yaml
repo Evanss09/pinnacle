@@ -582,6 +582,8 @@
   end_utc: "2026-07-24T15:35:00Z"
   window: null
   why: "Queen stage I: compact 128km raid over Col du Noyer (7.2km @ 8.5%) into the iconic Alpe d'Huez summit finish (13.8km @ 8.1%, 21 hairpins) — first leg of the first back-to-back Alpe double since 1979."
+  # result source: france24.com + nbcsports.com — Pogačar solo win (caught Carapaz & Martínez inside final 2km); Martínez +6s, Carapaz +9s; broke Pantani's Alpe d'Huez record
+  result: "Pogačar wins solo on Alpe d'Huez, +0:06 (leads GC by 7:11)"
   watch:
     free: "France.tv (France), SBS On Demand (Australia); Channel 5 highlights (UK)"
     premium: "Peacock (US), FloBikes (Canada), TNT Sports (UK)"
@@ -995,6 +997,8 @@
   end_utc: "2026-07-25T00:15:00Z"
   window: null
   why: "First-of-kind: the first time Starship deploys FUNCTIONING satellites (20 Starlink V3s that will unfold arrays and attempt laser links) — every prior flight carried only mass simulators. Second V3 vehicle flight; re-flies today after a Jul 16 abort at ignition. Starbase Pad 2, Boca Chica TX."
+  # result source: universetoday.com + spacenews.com — deployed 20 Starlink V3s (first functioning payload), contact made with all 20; Raptor relight demonstrated; ship splashdown intact in Indian Ocean
+  result: "Success — first 20 Starlink V3s deployed; ship splashdown intact"
   watch:
     free: "SpaceX webcast on X (x.com/spacex); NASASpaceflight & Everyday Astronaut restream on YouTube"
     premium: null
