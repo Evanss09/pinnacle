@@ -7,22 +7,6 @@ X-WR-CALNAME:Pinnacle — Locked
 X-WR-TIMEZONE:UTC
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:josh-kerr-mile-wr-attempt@pinnacle
-DTSTAMP:20260718T143600Z
-DTSTART:20260718T143600Z
-DTEND:20260718T145000Z
-SUMMARY:Josh Kerr — Mile World Record Attempt
-DESCRIPTION:🟡 A pre-declared assault on the oldest record in middle dist
- ance: El Guerrouj's 3:43.13\, untouched since 1999. Kerr is targeting ~3:4
- 2. London Diamond League\, London Stadium.\nResult: Josh Kerr 3:42.66 — 
- mile world record\nFree: BBC (UK)\nPremium: FloTrack (US)\; Wanda Diamond 
- League stream in select territories\nhttps://www.diamondleague.com/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:ENDURANCE
-URL:https://www.diamondleague.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:tdf-2026-stage-15@pinnacle
 DTSTAMP:20260719T111000Z
 DTSTART:20260719T111000Z
@@ -86,9 +70,10 @@ SUMMARY:2026 CrossFit Games — Finals Day 1 (Individuals\, SAP Center)
 DESCRIPTION:🟢 First arena day of the 20th CrossFit Games finals — top 
  30 men/women on earth\, SAP Center\, San Jose CA. (Games open Jul 22 at of
  f-site venues\; the arena finals are the pinnacle.) Session start time pro
- visional — check the schedule on the day.\nFree: Live stream on YouTube 
- and games.crossfit.com (worldwide)\nhttps://games.crossfit.com/finals/sche
- dule?type=individuals\nAnnual\, typically late July/August
+ visional — check the schedule on the day.\nResult: Sprague (men) & Cring
+ le (women) lead after Day 1\nFree: Live stream on YouTube and games.crossf
+ it.com (worldwide)\nhttps://games.crossfit.com/finals/schedule?type=indivi
+ duals\nAnnual\, typically late July/August
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:STRENGTH
@@ -123,9 +108,10 @@ SUMMARY:Tour de France 2026 — Stage 20: Bourg-d'Oisans → Alpe d'Huez (C
 DESCRIPTION:🔴 THE queen stage and final GC-decisive day: ~5\,600m over C
  roix de Fer\, Télégraphe\, Galibier (2\,642m) and Col de Sarenne into a 
  second straight Alpe d'Huez summit finish — the yellow jersey is settled
-  here.\nFree: France.tv (France)\, SBS On Demand (Australia)\; Channel 5 h
- ighlights (UK)\nPremium: Peacock (US)\, FloBikes (Canada)\, TNT Sports (UK
- )\nhttps://www.letour.fr/en\nAnnual (route changes yearly)
+  here.\nResult: Carapaz wins on Alpe d'Huez\; Pogačar retains yellow\nFre
+ e: France.tv (France)\, SBS On Demand (Australia)\; Channel 5 highlights (
+ UK)\nPremium: Peacock (US)\, FloBikes (Canada)\, TNT Sports (UK)\nhttps://
+ www.letour.fr/en\nAnnual (route changes yearly)
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:ENDURANCE
@@ -139,9 +125,10 @@ DTEND:20260725T200000Z
 SUMMARY:2026 CrossFit Games — Finals Day 2 (Individuals\, SAP Center)
 DESCRIPTION:🟢 Penultimate day of the Games finals — leaderboard separa
  tion day before Sunday's crowning. SAP Center\, San Jose CA. Session start
-  time provisional.\nFree: Live stream on YouTube and games.crossfit.com (w
- orldwide)\nhttps://games.crossfit.com/finals/schedule?type=individuals\nAn
- nual\, typically late July/August
+  time provisional.\nResult: Sprague & Cringle lead into final day\nFree: L
+ ive stream on YouTube and games.crossfit.com (worldwide)\nhttps://games.cr
+ ossfit.com/finals/schedule?type=individuals\nAnnual\, typically late July/
+ August
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:STRENGTH
