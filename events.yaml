@@ -3,25 +3,6 @@
 # '# source:' comments record the verification source + timezone math for each entry.
 
 # ============================== team ==============================
-# source: espn.com + cbssports.com (both confirm 15:00 EDT, NOT the ~20:00 ET the brief estimated) | tz: 15:00 EDT (UTC-4) Jul 19 → 19:00Z. [2026-07-16 refresh: finalists confirmed — Spain (2-0 v France, Jul 14) vs Argentina (2-1 v England, Jul 15); kickoff 15:00 ET reconfirmed.]
-- id: fifa-wc-2026-final
-  name: "FIFA World Cup 2026 Final"
-  category: team
-  tier: locked
-  start_utc: "2026-07-19T19:00:00Z"
-  end_utc: "2026-07-19T21:30:00Z"
-  window: null
-  why: "The single biggest event in world sport — Spain vs Argentina for the World Cup. Spain edged France 2-0, holders Argentina beat England 2-1 to set up the final. MetLife Stadium, East Rutherford, NJ."
-  # result source: nbcnews.com + fifa.com match report — Ferran Torres 106', Spain's 2nd title, 11 Martínez saves
-  result: "Spain 1-0 Argentina (AET)"
-  watch:
-    free: "FOX (US OTA, English) + Telemundo (US OTA, Spanish); BBC & ITV (UK)"
-    premium: "Fubo (US streaming)"
-    youtube_channel: "@FIFA"
-    link: "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
-  watchability: green
-  recurrence_note: "Every 4 years"
-
 # source: tennistourcalendar + grandslamtennistours | tz: 16:00 EDT (UTC-4) Sep 12 → 20:00Z
 - id: us-open-2026-womens-final
   name: "US Open 2026 Women's Singles Final"
@@ -554,25 +535,6 @@
 
 # ============================== endurance ==============================
 
-# source: https://www.cyclingstage.com/tour-de-france-2026-route/stage-15-tdf-2026/ | tz: official roadbook start 13:10 CEST (UTC+2) → 11:10Z, est. finish 17:55 CEST → 15:55Z. [2026-07-14 refresh: corrected, was 80 min late]
-- id: tdf-2026-stage-15
-  name: "Tour de France 2026 — Stage 15: Champagnole → Plateau de Solaison"
-  category: endurance
-  tier: locked
-  start_utc: "2026-07-19T11:10:00Z"
-  end_utc: "2026-07-19T15:55:00Z"
-  window: null
-  why: "First Alpine GC showdown: ~4,700m of climbing incl. Col de la Croisette (7.6km @ 8.8%), brutal summit finish at Plateau de Solaison (11.3km @ 9.1%) — hardest remaining stage outside the Alpe d'Huez double."
-  # result source: procyclingstats.com + cyclingnews.com — Evenepoel solos to first Tour stage win; Pogačar keeps yellow; Vingegaard crashes out
-  result: "Evenepoel wins; Pogačar retains yellow (Vingegaard abandons)"
-  watch:
-    free: "France.tv (France), SBS On Demand (Australia); Channel 5 highlights (UK)"
-    premium: "Peacock (US), FloBikes (Canada), TNT Sports (UK)"
-    youtube_channel: "@LeTourDeFrance"
-    link: "https://www.letour.fr/en"
-  watchability: red
-  recurrence_note: "Annual (route changes yearly)"
-
 # source: https://www.cyclingstage.com/tour-de-france-2026-route/stage-19-tdf-2026/ | tz: 14:00-17:45 CEST → 12:00-15:45Z
 - id: tdf-2026-stage-19
   name: "Tour de France 2026 — Stage 19: Gap → Alpe d'Huez"
@@ -620,6 +582,8 @@
   end_utc: "2026-07-26T17:40:00Z"
   window: null
   why: "Paris finale: three ascents of cobbled Montmartre (1.1km @ 5.9%, last crest 10.3km out) then the Champs-Élysées finish — coronation of the champion with real late-race attacks since 2025."
+  # result source: cyclingnews.com + procyclinguk.com — Van der Poel attacks on the final Montmartre with Pogačar, holds off the chase to win the sprint over Philipsen; Pogačar rolls in safely to seal a record-equalling 5th Tour (Evenepoel 2nd, del Toro 3rd)
+  result: "Van der Poel wins in Paris; Pogačar seals 5th Tour title"
   watch:
     free: "France.tv (France), SBS On Demand (Australia); Channel 5 highlights (UK)"
     premium: "Peacock (US), FloBikes (Canada), TNT Sports (UK)"
@@ -870,6 +834,8 @@
   end_utc: "2026-07-26T21:00:00Z"
   window: null
   why: "Final events + crowning of the Fittest Man and Woman on Earth at the 20th CrossFit Games. SAP Center, San Jose CA — THE session of the fitness year. Session start time provisional."
+  # result source: boxrox.com + fitnessvolt.com — Sprague becomes the first man to win two non-consecutive titles; Cringle dominates (5 event wins) for the UK's first women's title since Sam Briggs in 2013
+  result: "Sprague & Cringle crowned Fittest on Earth"
   watch:
     free: "Live stream on YouTube and games.crossfit.com (worldwide)"
     premium: null
