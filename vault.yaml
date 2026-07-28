@@ -186,3 +186,50 @@
   one_liner: "Ferran Torres in the 106th minute settles it — Spain complete an unbeaten tournament for their second title, past Emiliano Martínez's record 11 saves."
   event_id: fifa-wc-2026-final
   verified: "2026-07-22"
+
+# ---- backfilled 2026-07-28: the daily intake skipped these Jul 23-27 because
+# ---- `curl` to youtube.com is blocked in the cloud sandbox (see CLAUDE.md quirks)
+
+# oembed title: "Alpe d'Huez record smashed 😮‍💨 | Tour de France 2026 Stage 19 highlights" | channel: Velon (ASO's own upload failed oEmbed — dead or geo-locked)
+- id: tdf-2026-stage-19-alpe-dhuez
+  title: "Alpe d'Huez Record Smashed — Tour de France 2026 Stage 19"
+  subject: "Tadej Pogačar"
+  date: "2026-07-24"
+  category: endurance
+  video_url: "https://www.youtube.com/watch?v=1qnU1yLjyIg"
+  one_liner: "Pogačar attacks at the foot of the Alpe, erases a three-minute deficit rider by rider, and takes the fastest ascent ever recorded."
+  event_id: tdf-2026-stage-19
+  verified: "2026-07-28"
+
+# oembed title: "The best race finish you will EVER see 🫨 | Tour de France 2026 Stage 21 Highlights" | channel: Velon
+- id: tdf-2026-stage-21-paris
+  title: "Montmartre Finale — Tour de France 2026 Stage 21"
+  subject: "Mathieu van der Poel"
+  date: "2026-07-26"
+  category: endurance
+  video_url: "https://www.youtube.com/watch?v=aycy4h7hqRc"
+  one_liner: "Van der Poel attacks over Montmartre with Pogačar and edges Philipsen in a photo finish on the Champs-Élysées, as Pogačar seals a fifth Tour."
+  event_id: tdf-2026-stage-21
+  verified: "2026-07-28"
+
+# oembed title: "The 2026 CrossFit Games: Day 4" | channel: CrossFit Games
+- id: crossfit-games-2026-fittest-on-earth
+  title: "Fittest on Earth 2026 — Final Day"
+  subject: "Jayson Sprague & Amie Cringle"
+  date: "2026-07-26"
+  category: strength
+  video_url: "https://www.youtube.com/live/rJt1bdqxSn0"
+  one_liner: "Twenty years of the Games decided in San Jose — Sprague and Cringle hold their leads through the final day to be crowned Fittest on Earth."
+  event_id: crossfit-games-2026-finals-sunday
+  verified: "2026-07-28"
+
+# oembed title: "SpaceX Starship deploys 20 Starlink V3 satellites for first time on flight 13" | channel: VideoFromSpace (Space.com; SpaceX posts to X, not YouTube)
+- id: starship-flight-13-starlink-v3
+  title: "Starship Flight 13 — First Starlink V3 Deployment"
+  subject: "SpaceX"
+  date: "2026-07-24"
+  category: space
+  video_url: "https://www.youtube.com/watch?v=-rEujNC_i7E"
+  one_liner: "Starship opens its payload door in space for the first operational time, releasing 20 Starlink V3 satellites before an intact ship splashdown."
+  event_id: starship-flight-13
+  verified: "2026-07-28"

@@ -11,12 +11,16 @@ None. No API keys, no paid services. YouTube channel IDs are scraped keylessly (
 ## Project-Specific Workflows
 
 - **Daily vault intake / weekly refresh / monthly scan** — verbatim prompts in README.md (§Refresh workflow). They edit `events.yaml`/`vault.yaml`, then `build.py`, commit, push. The daily intake (09:00 UTC cloud routine) fills `result:` on just-ended events, appends their highlights to `vault.yaml` with an `event_id:` back-link, and prunes events >7 days past `end_utc`.
-- **Any data change** → run `.venv/bin/python build.py` (validates + regenerates `docs/`). Never hand-edit files in `docs/` — they're all generated except `manifest.json` and `icon.svg`.
+- **Any data change** → run `.venv/bin/python build.py` locally, or plain `python3 build.py` in a cloud routine (the `.venv/` is gitignored, so it does not exist in a fresh checkout). Validates + regenerates `docs/`. Never hand-edit files in `docs/` — they're all generated except `manifest.json` and `icon.svg`.
 - **New YouTube handle in events.yaml** → run `.venv/bin/python resolve_channels.py` (build fails if a referenced handle has no resolved UC id).
-- **Vault additions** → verify the link first: `curl "https://www.youtube.com/oembed?url=<VIDEO_URL>&format=json"` must return 200 with a matching title; stamp `verified:` with today's date.
+- **Vault additions** → verify the link first, and pick the tool by where you're running:
+  - **Locally:** `curl "https://www.youtube.com/oembed?url=<VIDEO_URL>&format=json"` must return 200 with a matching title.
+  - **In a cloud routine:** `curl` to youtube.com is **blocked by the sandbox network** — use the `WebFetch` tool on the same oEmbed URL instead. Never treat that block as "no highlight exists" (see Notes & Quirks).
+  - Either way, stamp `verified:` with today's date.
 
 ## Notes & Quirks
 
+- **The cloud sandbox has no network egress to youtube.com.** From Jul 23–27 2026 the daily intake verified vault links with `curl` to the oEmbed endpoint, got a network error every morning, and — following its own "skip if unverifiable" rule — silently added **zero** vault entries for 5 days while still filling results and pruning. Seven moments (TdF stages 19–21, CrossFit Games finals, Starship F13) were nearly lost. Fixes: routines now verify via `WebFetch`; a `build.py` warning fires when a locked event with a `result:` is within 3 days of being pruned with no matching vault `event_id`. **Never let "the verifier broke" collapse into "nothing qualified"** — those are different outcomes and only one of them is silent.
 - Tier rule: `locked` only when the full start **time** is officially confirmed; date-known-but-time-TBD stays `radar` with the date in `why`. Radar `window` strings must contain a month + year ("Oct 2026") — the ICS all-day marker lands on the 1st of the first month found.
 - Timezone math is the #1 error class (US evening events cross midnight UTC). Every entry carries a `# source:` comment showing the conversion — keep that convention.
 - ICS output is deterministic (DTSTAMP mirrors DTSTART): rebuilding without data changes must produce a zero diff on the .ics files.

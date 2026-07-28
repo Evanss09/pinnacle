@@ -156,6 +156,22 @@ def validate(events, vault, channels):
                 warnings.append(f"{ctx}: event_id {veid!r} matches no event "
                                 "(fresh entry — possible typo; pruned events are expected to age out)")
 
+    # A finished event is deleted 7 days after end_utc. If it ages out with no vault
+    # entry, the highlight is gone for good — and the daily intake skips vault adds
+    # silently whenever link verification fails. Warn while there's still time to fix.
+    vault_event_ids = {v.get("event_id") for v in vault if v.get("event_id")}
+    for ev in events:
+        eid = ev.get("id")
+        if ev.get("tier") != "locked" or not eid or not ev.get("end_utc"):
+            continue
+        ended = parse_utc(ev["end_utc"], f"events.yaml [{eid}]")
+        if ended > today or eid in vault_event_ids:
+            continue
+        days_ago = (today - ended).days
+        if days_ago >= 4:
+            warnings.append(f"events.yaml [{eid}]: ended {days_ago}d ago with no vault entry — "
+                            f"pruned in {7 - days_ago}d and the highlight is lost for good")
+
     return problems, warnings
 
 
