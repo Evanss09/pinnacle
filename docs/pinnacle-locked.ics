@@ -7,61 +7,6 @@ X-WR-CALNAME:Pinnacle — Locked
 X-WR-TIMEZONE:UTC
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:tdf-2026-stage-19@pinnacle
-DTSTAMP:20260724T120000Z
-DTSTART:20260724T120000Z
-DTEND:20260724T153500Z
-SUMMARY:Tour de France 2026 — Stage 19: Gap → Alpe d'Huez
-DESCRIPTION:🔴 Queen stage I: compact 128km raid over Col du Noyer (7.2km
-  @ 8.5%) into the iconic Alpe d'Huez summit finish (13.8km @ 8.1%\, 21 hai
- rpins) — first leg of the first back-to-back Alpe double since 1979.\nRe
- sult: Pogačar wins solo on Alpe d'Huez\, +0:06 (leads GC by 7:11)\nFree: 
- France.tv (France)\, SBS On Demand (Australia)\; Channel 5 highlights (UK)
- \nPremium: Peacock (US)\, FloBikes (Canada)\, TNT Sports (UK)\nhttps://www
- .letour.fr/en\nAnnual (route changes yearly)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:ENDURANCE
-URL:https://www.letour.fr/en
-END:VEVENT
-BEGIN:VEVENT
-UID:crossfit-games-2026-finals-friday@pinnacle
-DTSTAMP:20260724T161500Z
-DTSTART:20260724T161500Z
-DTEND:20260724T201500Z
-SUMMARY:2026 CrossFit Games — Finals Day 1 (Individuals\, SAP Center)
-DESCRIPTION:🟢 First arena day of the 20th CrossFit Games finals — top 
- 30 men/women on earth\, SAP Center\, San Jose CA. (Games open Jul 22 at of
- f-site venues\; the arena finals are the pinnacle.) Session start time pro
- visional — check the schedule on the day.\nResult: Sprague (men) & Cring
- le (women) lead after Day 1\nFree: Live stream on YouTube and games.crossf
- it.com (worldwide)\nhttps://games.crossfit.com/finals/schedule?type=indivi
- duals\nAnnual\, typically late July/August
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:STRENGTH
-URL:https://games.crossfit.com/finals/schedule?type=individuals
-END:VEVENT
-BEGIN:VEVENT
-UID:starship-flight-13@pinnacle
-DTSTAMP:20260724T224500Z
-DTSTART:20260724T224500Z
-DTEND:20260725T001500Z
-SUMMARY:SpaceX Starship Flight 13 (Block 3)
-DESCRIPTION:🟢 First-of-kind: the first time Starship deploys FUNCTIONING
-  satellites (20 Starlink V3s that will unfold arrays and attempt laser lin
- ks) — every prior flight carried only mass simulators. Second V3 vehicle
-  flight\; re-flies today after a Jul 16 abort at ignition. Starbase Pad 2\
- , Boca Chica TX.\nResult: Success — first 20 Starlink V3s deployed\; shi
- p splashdown intact\nFree: SpaceX webcast on X (x.com/spacex)\; NASASpacef
- light & Everyday Astronaut restream on YouTube\nhttps://www.spacex.com/lau
- nches/\nIntegrated flight tests recur every ~6-10 weeks
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:SPACE
-URL:https://www.spacex.com/launches/
-END:VEVENT
-BEGIN:VEVENT
 UID:tdf-2026-stage-20@pinnacle
 DTSTAMP:20260725T092000Z
 DTSTART:20260725T092000Z

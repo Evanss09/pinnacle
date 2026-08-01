@@ -535,25 +535,6 @@
 
 # ============================== endurance ==============================
 
-# source: https://www.cyclingstage.com/tour-de-france-2026-route/stage-19-tdf-2026/ | tz: 14:00-17:45 CEST → 12:00-15:45Z
-- id: tdf-2026-stage-19
-  name: "Tour de France 2026 — Stage 19: Gap → Alpe d'Huez"
-  category: endurance
-  tier: locked
-  start_utc: "2026-07-24T12:00:00Z"
-  end_utc: "2026-07-24T15:35:00Z"
-  window: null
-  why: "Queen stage I: compact 128km raid over Col du Noyer (7.2km @ 8.5%) into the iconic Alpe d'Huez summit finish (13.8km @ 8.1%, 21 hairpins) — first leg of the first back-to-back Alpe double since 1979."
-  # result source: france24.com + nbcsports.com — Pogačar solo win (caught Carapaz & Martínez inside final 2km); Martínez +6s, Carapaz +9s; broke Pantani's Alpe d'Huez record
-  result: "Pogačar wins solo on Alpe d'Huez, +0:06 (leads GC by 7:11)"
-  watch:
-    free: "France.tv (France), SBS On Demand (Australia); Channel 5 highlights (UK)"
-    premium: "Peacock (US), FloBikes (Canada), TNT Sports (UK)"
-    youtube_channel: "@LeTourDeFrance"
-    link: "https://www.letour.fr/en"
-  watchability: red
-  recurrence_note: "Annual (route changes yearly)"
-
 # source: https://www.cyclingstage.com/tour-de-france-2026-route/stage-20-tdf-2026/ | tz: official roadbook start 11:20 CEST (UTC+2) → 09:20Z, est. finish 16:30 CEST → 14:30Z. [2026-07-14 refresh: corrected, was 100 min late]
 - id: tdf-2026-stage-20
   name: "Tour de France 2026 — Stage 20: Bourg-d'Oisans → Alpe d'Huez (Col de Sarenne)"
@@ -787,25 +768,6 @@
 
 # ============================== strength ==============================
 
-# source: SAP Center official listing (first event Fri 09:15 PDT) + games.crossfit.com dates article | tz: 09:15 PDT (UTC-7) Jul 24 → 16:15Z. [2026-07-16 refresh: daily competition-start time confirmed 09:15 Fri; per-heat individual schedule still released in-app during Games week — window anchors the day's start. Earlier "4:00 PM" listing was a ticketed/secondary session, not the competition floor.]
-- id: crossfit-games-2026-finals-friday
-  name: "2026 CrossFit Games — Finals Day 1 (Individuals, SAP Center)"
-  category: strength
-  tier: locked
-  start_utc: "2026-07-24T16:15:00Z"
-  end_utc: "2026-07-24T20:15:00Z"
-  window: null
-  why: "First arena day of the 20th CrossFit Games finals — top 30 men/women on earth, SAP Center, San Jose CA. (Games open Jul 22 at off-site venues; the arena finals are the pinnacle.) Session start time provisional — check the schedule on the day."
-  # result source: fitnessvolt.com + generationiron.com — leaders after arena Day 1 (final champion crowned Sunday)
-  result: "Sprague (men) & Cringle (women) lead after Day 1"
-  watch:
-    free: "Live stream on YouTube and games.crossfit.com (worldwide)"
-    premium: null
-    youtube_channel: "@CrossFit"
-    link: "https://games.crossfit.com/finals/schedule?type=individuals"
-  watchability: green
-  recurrence_note: "Annual, typically late July/August"
-
 # source: games.crossfit.com dates article | tz: 09:00 PDT (UTC-7) Jul 25 → 16:00Z. [2026-07-16 refresh: daily competition-start time confirmed 09:00 Sat; per-heat individual schedule released in-app during Games week.]
 - id: crossfit-games-2026-finals-saturday
   name: "2026 CrossFit Games — Finals Day 2 (Individuals, SAP Center)"
@@ -940,25 +902,6 @@
 
 # ============================== space ==============================
 # NOTE from agent: Artemis II already flew (Apr 1-11 2026, success). Artemis III revised to late-2027 LEO demo. Starship F12 (May 22 2026) = successful Block 3 debut. BORDERLINE routine rotations flagged: soyuz-ms-29, crew-13, shenzhou-24, axiom-5.
-
-# source: space.com "SpaceX targets July 23 for Starship Flight 13" + mynews13.com (both Jul 22, status GO) | tz: 90-min window opens 17:45 CDT (UTC-5) Starbase / 18:45 EDT → 22:45Z Jul 23, closes 00:15Z Jul 24. [2026-07-23 weekly refresh: Jul 16 first attempt ABORTED at ignition (4 Raptor 3 engines failed to light); recycled and re-pointed to today's GO launch — window clock-time unchanged. Launch dates slip — re-verify day-of.] [2026-07-24 daily intake: Jul 23 attempt SCRUBBED — 24h weather delay, no liftoff; slipped +24h to Jul 24, same clock time (6:45 pm EDT / 2245Z Jul 24, closes 00:15Z Jul 25). Sources: space.com + nextspaceflight. Launch pending tonight — no result yet.]
-- id: starship-flight-13
-  name: "SpaceX Starship Flight 13 (Block 3)"
-  category: space
-  tier: locked
-  start_utc: "2026-07-24T22:45:00Z"
-  end_utc: "2026-07-25T00:15:00Z"
-  window: null
-  why: "First-of-kind: the first time Starship deploys FUNCTIONING satellites (20 Starlink V3s that will unfold arrays and attempt laser links) — every prior flight carried only mass simulators. Second V3 vehicle flight; re-flies today after a Jul 16 abort at ignition. Starbase Pad 2, Boca Chica TX."
-  # result source: universetoday.com + spacenews.com — deployed 20 Starlink V3s (first functioning payload), contact made with all 20; Raptor relight demonstrated; ship splashdown intact in Indian Ocean
-  result: "Success — first 20 Starlink V3s deployed; ship splashdown intact"
-  watch:
-    free: "SpaceX webcast on X (x.com/spacex); NASASpaceflight & Everyday Astronaut restream on YouTube"
-    premium: null
-    youtube_channel: null
-    link: "https://www.spacex.com/launches/"
-  watchability: green
-  recurrence_note: "Integrated flight tests recur every ~6-10 weeks"
 
 # source: https://www.nasa.gov/news-release/nasa-shares-spacex-crew-13-assignments-for-space-station-mission/ | NET mid-Sep → radar. BORDERLINE routine ISS rotation.
 - id: crew-13
