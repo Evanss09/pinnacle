@@ -26,23 +26,6 @@ CATEGORIES:ENDURANCE
 URL:https://www.letour.fr/en
 END:VEVENT
 BEGIN:VEVENT
-UID:crossfit-games-2026-finals-saturday@pinnacle
-DTSTAMP:20260725T160000Z
-DTSTART:20260725T160000Z
-DTEND:20260725T200000Z
-SUMMARY:2026 CrossFit Games — Finals Day 2 (Individuals\, SAP Center)
-DESCRIPTION:🟢 Penultimate day of the Games finals — leaderboard separa
- tion day before Sunday's crowning. SAP Center\, San Jose CA. Session start
-  time provisional.\nResult: Sprague & Cringle lead into final day\nFree: L
- ive stream on YouTube and games.crossfit.com (worldwide)\nhttps://games.cr
- ossfit.com/finals/schedule?type=individuals\nAnnual\, typically late July/
- August
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:STRENGTH
-URL:https://games.crossfit.com/finals/schedule?type=individuals
-END:VEVENT
-BEGIN:VEVENT
 UID:tdf-2026-stage-21@pinnacle
 DTSTAMP:20260726T141500Z
 DTSTART:20260726T141500Z
