@@ -545,26 +545,8 @@
   window: null
   why: "THE queen stage and final GC-decisive day: ~5,600m over Croix de Fer, Télégraphe, Galibier (2,642m) and Col de Sarenne into a second straight Alpe d'Huez summit finish — the yellow jersey is settled here."
   # result source: cyclingnews.com + cyclingweekly.com — Carapaz solos to a 2nd win in 3 days after Kuss crashes late; seals KOM jersey; Pogačar retains yellow into Paris
+  # HELD past 7d (do NOT prune): queen stage has a result but no vault entry — the Jul 28 backfill got stages 19 & 21 but missed 20. Vault add blocked because youtube.com oEmbed is 403 by egress policy (verifier broken, not "no highlight"). Strong candidate: youtube.com/watch?v=CODJnhDoYfY "Étape 20 Tour de France 2026 – Le Bourg-d'Oisans / Alpe d'Huez". Verify by hand + add to vault, then prune. [2026-08-03 daily intake]
   result: "Carapaz wins on Alpe d'Huez; Pogačar retains yellow"
-  watch:
-    free: "France.tv (France), SBS On Demand (Australia); Channel 5 highlights (UK)"
-    premium: "Peacock (US), FloBikes (Canada), TNT Sports (UK)"
-    youtube_channel: "@LeTourDeFrance"
-    link: "https://www.letour.fr/en"
-  watchability: red
-  recurrence_note: "Annual (route changes yearly)"
-
-# source: https://www.cyclingstage.com/tour-de-france-2026-route/stage-21-tdf-2026/ + NBC cross-check | tz: 16:15-19:55 CEST → 14:15-17:55Z
-- id: tdf-2026-stage-21
-  name: "Tour de France 2026 — Stage 21: Thoiry → Paris Champs-Élysées"
-  category: endurance
-  tier: locked
-  start_utc: "2026-07-26T14:15:00Z"
-  end_utc: "2026-07-26T17:40:00Z"
-  window: null
-  why: "Paris finale: three ascents of cobbled Montmartre (1.1km @ 5.9%, last crest 10.3km out) then the Champs-Élysées finish — coronation of the champion with real late-race attacks since 2025."
-  # result source: cyclingnews.com + procyclinguk.com — Van der Poel attacks on the final Montmartre with Pogačar, holds off the chase to win the sprint over Philipsen; Pogačar rolls in safely to seal a record-equalling 5th Tour (Evenepoel 2nd, del Toro 3rd)
-  result: "Van der Poel wins in Paris; Pogačar seals 5th Tour title"
   watch:
     free: "France.tv (France), SBS On Demand (Australia); Channel 5 highlights (UK)"
     premium: "Peacock (US), FloBikes (Canada), TNT Sports (UK)"
@@ -767,25 +749,6 @@
   recurrence_note: "Annual"
 
 # ============================== strength ==============================
-
-# source: games.crossfit.com dates article | tz: 10:00 PDT (UTC-7) Jul 26 → 17:00Z. [2026-07-16 refresh: CORRECTED — Sunday's competition-start time is 10:00 PDT (not 09:00), was 1h early at 16:00Z. Per-heat individual schedule released in-app during Games week.]
-- id: crossfit-games-2026-finals-sunday
-  name: "2026 CrossFit Games — Final Day: Fittest on Earth Crowned"
-  category: strength
-  tier: locked
-  start_utc: "2026-07-26T17:00:00Z"
-  end_utc: "2026-07-26T21:00:00Z"
-  window: null
-  why: "Final events + crowning of the Fittest Man and Woman on Earth at the 20th CrossFit Games. SAP Center, San Jose CA — THE session of the fitness year. Session start time provisional."
-  # result source: boxrox.com + fitnessvolt.com — Sprague becomes the first man to win two non-consecutive titles; Cringle dominates (5 event wins) for the UK's first women's title since Sam Briggs in 2013
-  result: "Sprague & Cringle crowned Fittest on Earth"
-  watch:
-    free: "Live stream on YouTube and games.crossfit.com (worldwide)"
-    premium: null
-    youtube_channel: "@CrossFit"
-    link: "https://games.crossfit.com/finals/schedule?type=individuals"
-  watchability: green
-  recurrence_note: "Annual, typically late July/August"
 
 # source: mostvaluablepromotions.com + ringmagazine.com + skysports.com | tz: card opens 20:00 EDT Aug 8 → 2026-08-09T00:00:00Z (date shift); main-event ringwalk EST. ~23:00 EDT → ~03:00Z. [2026-07-23 refresh: end extended to 04:00Z so the block spans the ~11 PM ET title fight; card-open start (officially confirmed) unchanged.]
 - id: mvpw05-johnson-thorslund-undisputed

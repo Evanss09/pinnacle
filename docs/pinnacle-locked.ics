@@ -26,41 +26,6 @@ CATEGORIES:ENDURANCE
 URL:https://www.letour.fr/en
 END:VEVENT
 BEGIN:VEVENT
-UID:tdf-2026-stage-21@pinnacle
-DTSTAMP:20260726T141500Z
-DTSTART:20260726T141500Z
-DTEND:20260726T174000Z
-SUMMARY:Tour de France 2026 — Stage 21: Thoiry → Paris Champs-Élysées
-DESCRIPTION:🔴 Paris finale: three ascents of cobbled Montmartre (1.1km @
-  5.9%\, last crest 10.3km out) then the Champs-Élysées finish — corona
- tion of the champion with real late-race attacks since 2025.\nResult: Van 
- der Poel wins in Paris\; Pogačar seals 5th Tour title\nFree: France.tv (F
- rance)\, SBS On Demand (Australia)\; Channel 5 highlights (UK)\nPremium: P
- eacock (US)\, FloBikes (Canada)\, TNT Sports (UK)\nhttps://www.letour.fr/e
- n\nAnnual (route changes yearly)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:ENDURANCE
-URL:https://www.letour.fr/en
-END:VEVENT
-BEGIN:VEVENT
-UID:crossfit-games-2026-finals-sunday@pinnacle
-DTSTAMP:20260726T170000Z
-DTSTART:20260726T170000Z
-DTEND:20260726T210000Z
-SUMMARY:2026 CrossFit Games — Final Day: Fittest on Earth Crowned
-DESCRIPTION:🟢 Final events + crowning of the Fittest Man and Woman on Ea
- rth at the 20th CrossFit Games. SAP Center\, San Jose CA — THE session o
- f the fitness year. Session start time provisional.\nResult: Sprague & Cri
- ngle crowned Fittest on Earth\nFree: Live stream on YouTube and games.cros
- sfit.com (worldwide)\nhttps://games.crossfit.com/finals/schedule?type=indi
- viduals\nAnnual\, typically late July/August
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:STRENGTH
-URL:https://games.crossfit.com/finals/schedule?type=individuals
-END:VEVENT
-BEGIN:VEVENT
 UID:wsop-2026-final-table-day-1@pinnacle
 DTSTAMP:20260804T010000Z
 DTSTART:20260804T010000Z
