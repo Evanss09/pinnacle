@@ -546,6 +546,7 @@
   why: "THE queen stage and final GC-decisive day: ~5,600m over Croix de Fer, Télégraphe, Galibier (2,642m) and Col de Sarenne into a second straight Alpe d'Huez summit finish — the yellow jersey is settled here."
   # result source: cyclingnews.com + cyclingweekly.com — Carapaz solos to a 2nd win in 3 days after Kuss crashes late; seals KOM jersey; Pogačar retains yellow into Paris
   # HELD past 7d (do NOT prune): queen stage has a result but no vault entry — the Jul 28 backfill got stages 19 & 21 but missed 20. Vault add blocked because youtube.com oEmbed is 403 by egress policy (verifier broken, not "no highlight"). Strong candidate: youtube.com/watch?v=CODJnhDoYfY "Étape 20 Tour de France 2026 – Le Bourg-d'Oisans / Alpe d'Huez". Verify by hand + add to vault, then prune. [2026-08-03 daily intake]
+  # [2026-08-04 daily intake] Re-tested with WebFetch (the tool CLAUDE.md/README say to use INSTEAD of curl): also HTTP 403. The block is tool-independent — YouTube refuses the sandbox proxy egress IP, not a curl quirk — so no automated run in this environment can verify a youtube link. Proxy healthy (no relay failures). Held 3 days now; escalated to Brad via push notification for a hand-verify before the moment is lost. Still NOT pruning.
   result: "Carapaz wins on Alpe d'Huez; Pogačar retains yellow"
   watch:
     free: "France.tv (France), SBS On Demand (Australia); Channel 5 highlights (UK)"
