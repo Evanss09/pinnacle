@@ -232,6 +232,8 @@
   end_utc: "2026-08-05T09:00:00Z"
   window: null
   why: "Day 2 of poker's ultimate final table — play down toward heads-up. Horseshoe Las Vegas."
+  # result source: espn.com + pokernews.com — 5 busted on night 2 (7→heads-up); end of Day 2 Jumalon 328M vs Saaskilahti 225M (Saaskilahti's 188.5M pot with TT vs Jumalon 43 was the biggest of the ME)
+  result: "Down to heads-up: Jumalon 328M, Saaskilahti 225M"
   watch:
     free: null
     premium: "ESPN live 9pm-12am ET (US cable/ESPN App); Eurosport / TNT Sports / HBO Max internationally"
@@ -249,6 +251,8 @@
   end_utc: "2026-08-06T09:00:00Z"
   window: null
   why: "The world champion of poker is crowned tonight. Horseshoe Las Vegas."
+  # result source: wsop.com + espn.com + pokernews.com — Lucas Jumalon (22, Spokane WA) beats Lauri Saaskilahti (FIN) in 17 heads-up hands; wire-to-wire, 2nd-youngest ME champ ever; $10M to winner, $6M runner-up
+  result: "Lucas Jumalon wins WSOP Main Event ($10M), def. Saaskilahti"
   watch:
     free: null
     premium: "ESPN live from 10:30pm ET (US cable/ESPN App); Eurosport / TNT Sports / HBO Max internationally"
@@ -550,6 +554,7 @@
   # HELD past 7d (do NOT prune): queen stage has a result but no vault entry — the Jul 28 backfill got stages 19 & 21 but missed 20. Vault add blocked because youtube.com oEmbed is 403 by egress policy (verifier broken, not "no highlight"). Strong candidate: youtube.com/watch?v=CODJnhDoYfY "Étape 20 Tour de France 2026 – Le Bourg-d'Oisans / Alpe d'Huez". Verify by hand + add to vault, then prune. [2026-08-03 daily intake]
   # [2026-08-04 daily intake] Re-tested with WebFetch (the tool CLAUDE.md/README say to use INSTEAD of curl): also HTTP 403. The block is tool-independent — YouTube refuses the sandbox proxy egress IP, not a curl quirk — so no automated run in this environment can verify a youtube link. Proxy healthy (no relay failures). Held 3 days now; escalated to Brad via push notification for a hand-verify before the moment is lost. Still NOT pruning.
   # [2026-08-05 daily intake] WebFetch on the oEmbed re-tested a third time: still HTTP 403. Now 11 days past end_utc (4 days beyond the 7d prune line) and still the only ended-with-result event lacking a vault entry. Deliberately continuing to hold — pruning here is the one thing that loses the moment for good. Re-escalated to Brad. A 30-second hand-fix ends this: confirm youtube.com/watch?v=CODJnhDoYfY is the official Le Tour stage-20 highlight, add a vault entry (event_id: tdf-2026-stage-20), then this event prunes normally.
+  # [2026-08-06 daily intake] WebFetch on the oEmbed re-tested a FOURTH day: still HTTP 403. Now 12 days past end_utc. STILL HOLDING (not pruning). Note: the Jul 28 backfill DID verify stages 19 & 21 successfully, so the block is intermittent, not permanent — a future run or hand-check can still vault this. Ready-to-verify candidates surfaced by web search today (any one that returns oEmbed JSON with a matching title is safe to add): youtube.com/watch?v=CODJnhDoYfY (official Le Tour FR, may be geo-locked like ASO's stage-19 was), watch?v=SV7B-ErjhNE, watch?v=--kP-0HJGfA (TNT Sports), watch?v=E5pwi-JUJYU. Prefer a Velon upload to match stages 19/21 if one verifies. Re-escalated to Brad.
   result: "Carapaz wins on Alpe d'Huez; Pogačar retains yellow"
   watch:
     free: "France.tv (France), SBS On Demand (Australia); Channel 5 highlights (UK)"
