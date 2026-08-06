@@ -7,24 +7,23 @@ X-WR-CALNAME:Pinnacle — Radar
 X-WR-TIMEZONE:UTC
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:mvpw06-mayer-cameron-unification@pinnacle
+UID:starship-flight-14@pinnacle
 DTSTAMP:20260801T000000Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
-SUMMARY:🟡 RADAR: Mikaela Mayer vs Chantelle Cameron — Super Welterweig
- ht Unification
-DESCRIPTION:🔴 Confirmed for Sat Aug 29\, 2026: WBA/WBC champ Mayer vs WB
- O champ Cameron\, three-belt 154-lb unification headlining MVPW-06 at bp p
- ulse LIVE\, Birmingham. Time TBD (UK evening card\; unofficial ringwalk es
- timates ~22:00 BST) — upgrade to locked when Sky/MVP publish times.\nPre
- mium: Sky Sports (UK)\; ESPN+ (US)\nhttps://www.mostvaluablepromotions.com
- /mikaela-mayer-vs-chantelle-cameron-set-for-mvpw-06-uk-vs-usa/\nWindow: Au
- gust 2026
+SUMMARY:🟡 RADAR: SpaceX Starship Flight 14 — First Orbital Test (Ship 
+ Catch Attempt)
+DESCRIPTION:🟢 Third Block 3 flight and the program's first orbital Stars
+ hip test — a multi-hour/multi-day orbital profile\, first Starlink V3 de
+ ployment to operational orbit\, and an attempted tower catch of the ship. 
+ Pad B\, Starbase\, Texas. Date/time unannounced\; refresh runs lock it onc
+ e SpaceX sets a launch window.\nFree: SpaceX webcast on X\; live coverage 
+ on NASASpaceflight / Everyday Astronaut\nhttps://www.spacex.com/vehicles/s
+ tarship/\nWindow: Aug-Sep 2026 (NET late Aug 2026\, likely slips)
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
-CATEGORIES:STRENGTH
-URL:https://www.mostvaluablepromotions.com/mikaela-mayer-vs-chantelle-camer
- on-set-for-mvpw-06-uk-vs-usa/
+CATEGORIES:SPACE
+URL:https://www.spacex.com/vehicles/starship/
 END:VEVENT
 BEGIN:VEVENT
 UID:ti-2026-grand-final@pinnacle

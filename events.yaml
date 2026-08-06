@@ -555,6 +555,7 @@
   # [2026-08-04 daily intake] Re-tested with WebFetch (the tool CLAUDE.md/README say to use INSTEAD of curl): also HTTP 403. The block is tool-independent — YouTube refuses the sandbox proxy egress IP, not a curl quirk — so no automated run in this environment can verify a youtube link. Proxy healthy (no relay failures). Held 3 days now; escalated to Brad via push notification for a hand-verify before the moment is lost. Still NOT pruning.
   # [2026-08-05 daily intake] WebFetch on the oEmbed re-tested a third time: still HTTP 403. Now 11 days past end_utc (4 days beyond the 7d prune line) and still the only ended-with-result event lacking a vault entry. Deliberately continuing to hold — pruning here is the one thing that loses the moment for good. Re-escalated to Brad. A 30-second hand-fix ends this: confirm youtube.com/watch?v=CODJnhDoYfY is the official Le Tour stage-20 highlight, add a vault entry (event_id: tdf-2026-stage-20), then this event prunes normally.
   # [2026-08-06 daily intake] WebFetch on the oEmbed re-tested a FOURTH day: still HTTP 403. Now 12 days past end_utc. STILL HOLDING (not pruning). Note: the Jul 28 backfill DID verify stages 19 & 21 successfully, so the block is intermittent, not permanent — a future run or hand-check can still vault this. Ready-to-verify candidates surfaced by web search today (any one that returns oEmbed JSON with a matching title is safe to add): youtube.com/watch?v=CODJnhDoYfY (official Le Tour FR, may be geo-locked like ASO's stage-19 was), watch?v=SV7B-ErjhNE, watch?v=--kP-0HJGfA (TNT Sports), watch?v=E5pwi-JUJYU. Prefer a Velon upload to match stages 19/21 if one verifies. Re-escalated to Brad.
+  # [2026-08-06 weekly/monthly scan] oEmbed re-tested (CODJnhDoYfY, SV7B-ErjhNE, E5pwi-JUJYU) AND via noembed.com proxy: all HTTP 403. Diagnosed at the source: `curl $HTTPS_PROXY/__agentproxy/status` shows the 403 is an ORG EGRESS POLICY denial (youtube.com not on this session's allowlist), recentRelayFailures empty — i.e. a deliberate, permanent block for these routines, NOT the "intermittent IP refusal" earlier comments assumed (the Jul 28 success ran under a different policy). So NO cloud routine here can ever verify a youtube link. Resolution needs a human: either (a) allowlist youtube.com for the Pinnacle routines, or (b) hand-verify CODJnhDoYfY is the official stage-20 highlight and add the vault entry. STILL HOLDING (not pruning) — pruning is the one action that loses the moment. Escalated to Brad.
   result: "Carapaz wins on Alpe d'Huez; Pogačar retains yellow"
   watch:
     free: "France.tv (France), SBS On Demand (Australia); Channel 5 highlights (UK)"
@@ -793,13 +794,15 @@
   watchability: red
   recurrence_note: null
 
-# source: mostvaluablepromotions.com + espn.com | date Aug 29 confirmed, time TBD → radar
+# source: skysports.com + boxingscene.com + mostvaluablepromotions.com | tz: card 19:00 BST (UTC+1) Aug 29 → 18:00Z; main-event ringwalk expected ~22:00 BST → ~21:00Z; end padded to 23:00 BST → 22:00Z. [2026-08-06 monthly scan: PROMOTED radar→locked — Sky/MVP published the 7 PM BST card start]
 - id: mvpw06-mayer-cameron-unification
   name: "Mikaela Mayer vs Chantelle Cameron — Super Welterweight Unification"
   category: strength
-  tier: radar
-  window: "August 2026"
-  why: "Confirmed for Sat Aug 29, 2026: WBA/WBC champ Mayer vs WBO champ Cameron, three-belt 154-lb unification headlining MVPW-06 at bp pulse LIVE, Birmingham. Time TBD (UK evening card; unofficial ringwalk estimates ~22:00 BST) — upgrade to locked when Sky/MVP publish times."
+  tier: locked
+  start_utc: "2026-08-29T18:00:00Z"
+  end_utc: "2026-08-29T22:00:00Z"
+  window: null
+  why: "WBA/WBC champ Mayer vs WBO champ Cameron — three-belt 154-lb unification headlining the all-female MVPW-06 UK-vs-USA card at bp pulse LIVE, Birmingham. Card starts 7 PM BST; main-event ringwalk expected ~10 PM BST."
   watch:
     free: null
     premium: "Sky Sports (UK); ESPN+ (US)"
@@ -854,7 +857,22 @@
   recurrence_note: "Quadrennial"
 
 # ============================== space ==============================
-# NOTE from agent: Artemis II already flew (Apr 1-11 2026, success). Artemis III revised to late-2027 LEO demo. Starship F12 (May 22 2026) = successful Block 3 debut. BORDERLINE routine rotations flagged: soyuz-ms-29, crew-13, shenzhou-24, axiom-5.
+# NOTE from agent: Artemis II already flew (Apr 1-11 2026, success). Artemis III revised to late-2027 LEO demo. Starship F12 (May 22 2026) = successful Block 3 debut; F13 (Jul 24 2026) = first Starlink V3 deploy (pruned). BORDERLINE routine rotations flagged: soyuz-ms-29, crew-13, shenzhou-24, axiom-5.
+
+# source: nasaspaceflight.com + spacenews.com (Musk, Aug 4 2026 earnings call: NET late Aug) | no fixed date/time → radar
+- id: starship-flight-14
+  name: "SpaceX Starship Flight 14 — First Orbital Test (Ship Catch Attempt)"
+  category: space
+  tier: radar
+  window: "Aug-Sep 2026 (NET late Aug 2026, likely slips)"
+  why: "Third Block 3 flight and the program's first orbital Starship test — a multi-hour/multi-day orbital profile, first Starlink V3 deployment to operational orbit, and an attempted tower catch of the ship. Pad B, Starbase, Texas. Date/time unannounced; refresh runs lock it once SpaceX sets a launch window."
+  watch:
+    free: "SpaceX webcast on X; live coverage on NASASpaceflight / Everyday Astronaut"
+    premium: null
+    youtube_channel: "@SpaceX"
+    link: "https://www.spacex.com/vehicles/starship/"
+  watchability: green
+  recurrence_note: null
 
 # source: https://www.nasa.gov/news-release/nasa-shares-spacex-crew-13-assignments-for-space-station-mission/ | NET mid-Sep → radar. BORDERLINE routine ISS rotation.
 - id: crew-13

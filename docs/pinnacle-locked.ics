@@ -130,6 +130,25 @@ CATEGORIES:ADVENTURE
 URL:https://montblanc.utmb.world/races/UTMB
 END:VEVENT
 BEGIN:VEVENT
+UID:mvpw06-mayer-cameron-unification@pinnacle
+DTSTAMP:20260829T180000Z
+DTSTART:20260829T180000Z
+DTEND:20260829T220000Z
+SUMMARY:Mikaela Mayer vs Chantelle Cameron — Super Welterweight Unificati
+ on
+DESCRIPTION:🔴 WBA/WBC champ Mayer vs WBO champ Cameron — three-belt 15
+ 4-lb unification headlining the all-female MVPW-06 UK-vs-USA card at bp pu
+ lse LIVE\, Birmingham. Card starts 7 PM BST\; main-event ringwalk expected
+  ~10 PM BST.\nPremium: Sky Sports (UK)\; ESPN+ (US)\nhttps://www.mostvalua
+ blepromotions.com/mikaela-mayer-vs-chantelle-cameron-set-for-mvpw-06-uk-vs
+ -usa/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:STRENGTH
+URL:https://www.mostvaluablepromotions.com/mikaela-mayer-vs-chantelle-camer
+ on-set-for-mvpw-06-uk-vs-usa/
+END:VEVENT
+BEGIN:VEVENT
 UID:diamond-league-final-2026-day1@pinnacle
 DTSTAMP:20260904T180000Z
 DTSTART:20260904T180000Z
