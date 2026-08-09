@@ -769,6 +769,8 @@
   end_utc: "2026-08-09T04:00:00Z"
   window: null
   why: "All four bantamweight belts + Ring title on the line — undisputed champ Johnson vs undefeated ex-unified champ Thorslund (24-0). Caribe Royale Resort, Orlando; MVPW-05 card opens 8 PM ET, main-event ringwalk expected ~11 PM ET."
+  # result source: ESPN (espn.com/boxing/story/_/id/49565966) + Sky Sports + FightMag
+  result: "Thorslund def. Johnson UD (100-90 ×3), undisputed bantamweight"
   watch:
     free: null
     premium: "ESPN / ESPN App (US); Sky Sports (UK)"
