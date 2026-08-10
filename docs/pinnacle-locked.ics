@@ -7,25 +7,6 @@ X-WR-CALNAME:Pinnacle — Locked
 X-WR-TIMEZONE:UTC
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:tdf-2026-stage-20@pinnacle
-DTSTAMP:20260725T092000Z
-DTSTART:20260725T092000Z
-DTEND:20260725T143000Z
-SUMMARY:Tour de France 2026 — Stage 20: Bourg-d'Oisans → Alpe d'Huez (C
- ol de Sarenne)
-DESCRIPTION:🔴 THE queen stage and final GC-decisive day: ~5\,600m over C
- roix de Fer\, Télégraphe\, Galibier (2\,642m) and Col de Sarenne into a 
- second straight Alpe d'Huez summit finish — the yellow jersey is settled
-  here.\nResult: Carapaz wins on Alpe d'Huez\; Pogačar retains yellow\nFre
- e: France.tv (France)\, SBS On Demand (Australia)\; Channel 5 highlights (
- UK)\nPremium: Peacock (US)\, FloBikes (Canada)\, TNT Sports (UK)\nhttps://
- www.letour.fr/en\nAnnual (route changes yearly)
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:ENDURANCE
-URL:https://www.letour.fr/en
-END:VEVENT
-BEGIN:VEVENT
 UID:wsop-2026-final-table-day-1@pinnacle
 DTSTAMP:20260804T010000Z
 DTSTART:20260804T010000Z

@@ -541,30 +541,6 @@
 
 # ============================== endurance ==============================
 
-# source: https://www.cyclingstage.com/tour-de-france-2026-route/stage-20-tdf-2026/ | tz: official roadbook start 11:20 CEST (UTC+2) → 09:20Z, est. finish 16:30 CEST → 14:30Z. [2026-07-14 refresh: corrected, was 100 min late]
-- id: tdf-2026-stage-20
-  name: "Tour de France 2026 — Stage 20: Bourg-d'Oisans → Alpe d'Huez (Col de Sarenne)"
-  category: endurance
-  tier: locked
-  start_utc: "2026-07-25T09:20:00Z"
-  end_utc: "2026-07-25T14:30:00Z"
-  window: null
-  why: "THE queen stage and final GC-decisive day: ~5,600m over Croix de Fer, Télégraphe, Galibier (2,642m) and Col de Sarenne into a second straight Alpe d'Huez summit finish — the yellow jersey is settled here."
-  # result source: cyclingnews.com + cyclingweekly.com — Carapaz solos to a 2nd win in 3 days after Kuss crashes late; seals KOM jersey; Pogačar retains yellow into Paris
-  # HELD past 7d (do NOT prune): queen stage has a result but no vault entry — the Jul 28 backfill got stages 19 & 21 but missed 20. Vault add blocked because youtube.com oEmbed is 403 by egress policy (verifier broken, not "no highlight"). Strong candidate: youtube.com/watch?v=CODJnhDoYfY "Étape 20 Tour de France 2026 – Le Bourg-d'Oisans / Alpe d'Huez". Verify by hand + add to vault, then prune. [2026-08-03 daily intake]
-  # [2026-08-04 daily intake] Re-tested with WebFetch (the tool CLAUDE.md/README say to use INSTEAD of curl): also HTTP 403. The block is tool-independent — YouTube refuses the sandbox proxy egress IP, not a curl quirk — so no automated run in this environment can verify a youtube link. Proxy healthy (no relay failures). Held 3 days now; escalated to Brad via push notification for a hand-verify before the moment is lost. Still NOT pruning.
-  # [2026-08-05 daily intake] WebFetch on the oEmbed re-tested a third time: still HTTP 403. Now 11 days past end_utc (4 days beyond the 7d prune line) and still the only ended-with-result event lacking a vault entry. Deliberately continuing to hold — pruning here is the one thing that loses the moment for good. Re-escalated to Brad. A 30-second hand-fix ends this: confirm youtube.com/watch?v=CODJnhDoYfY is the official Le Tour stage-20 highlight, add a vault entry (event_id: tdf-2026-stage-20), then this event prunes normally.
-  # [2026-08-06 daily intake] WebFetch on the oEmbed re-tested a FOURTH day: still HTTP 403. Now 12 days past end_utc. STILL HOLDING (not pruning). Note: the Jul 28 backfill DID verify stages 19 & 21 successfully, so the block is intermittent, not permanent — a future run or hand-check can still vault this. Ready-to-verify candidates surfaced by web search today (any one that returns oEmbed JSON with a matching title is safe to add): youtube.com/watch?v=CODJnhDoYfY (official Le Tour FR, may be geo-locked like ASO's stage-19 was), watch?v=SV7B-ErjhNE, watch?v=--kP-0HJGfA (TNT Sports), watch?v=E5pwi-JUJYU. Prefer a Velon upload to match stages 19/21 if one verifies. Re-escalated to Brad.
-  # [2026-08-06 weekly/monthly scan] oEmbed re-tested (CODJnhDoYfY, SV7B-ErjhNE, E5pwi-JUJYU) AND via noembed.com proxy: all HTTP 403. Diagnosed at the source: `curl $HTTPS_PROXY/__agentproxy/status` shows the 403 is an ORG EGRESS POLICY denial (youtube.com not on this session's allowlist), recentRelayFailures empty — i.e. a deliberate, permanent block for these routines, NOT the "intermittent IP refusal" earlier comments assumed (the Jul 28 success ran under a different policy). So NO cloud routine here can ever verify a youtube link. Resolution needs a human: either (a) allowlist youtube.com for the Pinnacle routines, or (b) hand-verify CODJnhDoYfY is the official stage-20 highlight and add the vault entry. STILL HOLDING (not pruning) — pruning is the one action that loses the moment. Escalated to Brad.
-  result: "Carapaz wins on Alpe d'Huez; Pogačar retains yellow"
-  watch:
-    free: "France.tv (France), SBS On Demand (Australia); Channel 5 highlights (UK)"
-    premium: "Peacock (US), FloBikes (Canada), TNT Sports (UK)"
-    youtube_channel: "@LeTourDeFrance"
-    link: "https://www.letour.fr/en"
-  watchability: red
-  recurrence_note: "Annual (route changes yearly)"
-
 # source: https://brussels.diamondleague.com/en/programme-results/ | tz: 20:00-22:05 CEST → 18:00-20:05Z
 - id: diamond-league-final-2026-day1
   name: "Wanda Diamond League Final 2026 — Day 1 (Memorial Van Damme, Brussels)"

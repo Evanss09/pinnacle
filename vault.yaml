@@ -201,6 +201,20 @@
   event_id: tdf-2026-stage-19
   verified: "2026-07-28"
 
+# oembed title: "DRAMATIC CLIMB OF ALPE D'HUEZ 😮 | Men's Tour de France Stage 20 Race Highlights | TNT Sports Cycling" | channel: TNT Sports Cycling
+# Hand-verified locally 2026-08-09 (cloud routines can't reach youtube — org egress policy; see events.yaml hold notes).
+# No Velon stage-20 upload found to match 19/21. The long-held CODJnhDoYfY candidate (ALPE D'HUEZ Officiel) turned out
+# to be a 45-SECOND clip, not a highlight — checked via lengthSeconds on the watch page. TNT is the rights-holder edit (11:33).
+- id: tdf-2026-stage-20-sarenne
+  title: "Carapaz Takes the Queen Stage — Tour de France 2026 Stage 20"
+  subject: "Richard Carapaz"
+  date: "2026-07-25"
+  category: endurance
+  video_url: "https://www.youtube.com/watch?v=--kP-0HJGfA"
+  one_liner: "Over the Galibier and the Col de Sarenne, Carapaz solos to a second Alpe d'Huez win in three days to seal the KOM jersey, as Pogačar defends yellow into Paris."
+  event_id: tdf-2026-stage-20
+  verified: "2026-08-09"
+
 # oembed title: "The best race finish you will EVER see 🫨 | Tour de France 2026 Stage 21 Highlights" | channel: Velon
 - id: tdf-2026-stage-21-paris
   title: "Montmartre Finale — Tour de France 2026 Stage 21"
@@ -233,3 +247,42 @@
   one_liner: "Starship opens its payload door in space for the first operational time, releasing 20 Starlink V3 satellites before an intact ship splashdown."
   event_id: starship-flight-13
   verified: "2026-07-28"
+
+# ---- backfilled 2026-08-09 BY HAND from a local session: the cloud routines lost ALL youtube egress
+# ---- (org policy denial, diagnosed 2026-08-06 — see git history of events.yaml stage-20 hold notes), so
+# ---- since ~Aug 1 no routine can verify a link and every ending event was silently going unvaulted.
+# ---- All three below: oEmbed 200 with matching title, channel = World Series of Poker (the ORGANIZER's
+# ---- own channel), playabilityStatus OK, 19-24 min full highlight edits — verified locally 2026-08-09.
+
+# oembed title: "HIGHLIGHTS | $10,000 Main Event | Final Table" | channel: World Series of Poker
+- id: wsop-2026-final-table-day-1-jumalon
+  title: "Jumalon Takes Command — WSOP Main Event Final Table Day 1"
+  subject: "Lucas Jumalon"
+  date: "2026-08-03"
+  category: mind
+  video_url: "https://www.youtube.com/watch?v=DtBU-JcgnkU"
+  one_liner: "Nine return to the Horseshoe for poker's crown; two fall, and 22-year-old Lucas Jumalon stacks 212 million — double his nearest rival — to take command."
+  event_id: wsop-2026-final-table-day-1
+  verified: "2026-08-09"
+
+# oembed title: "HIGHLIGHTS | $10,000 Main Event | Final Table Pt 2" | channel: World Series of Poker
+- id: wsop-2026-final-table-day-2-biggest-pot
+  title: "The 188 Million Pot — WSOP Main Event Final Table Day 2"
+  subject: "Lauri Saaskilahti"
+  date: "2026-08-04"
+  category: mind
+  video_url: "https://www.youtube.com/watch?v=_IiFpKlPB1k"
+  one_liner: "Five bust in a single night, and Saaskilahti drags the biggest pot of the whole Main Event — 188.5 million with pocket tens — to force heads-up against Jumalon."
+  event_id: wsop-2026-final-table-day-2
+  verified: "2026-08-09"
+
+# oembed title: "HIGHLIGHTS | $10,000 Main Event | Final Table Finale" | channel: World Series of Poker
+- id: wsop-2026-final-table-day-3-champion
+  title: "Wire to Wire — Jumalon is World Champion"
+  subject: "Lucas Jumalon"
+  date: "2026-08-05"
+  category: mind
+  video_url: "https://www.youtube.com/watch?v=OjAlvTqwQuc"
+  one_liner: "Seventeen heads-up hands settle it — 22-year-old Lucas Jumalon beats Lauri Saaskilahti for $10 million and becomes the second-youngest Main Event champion ever."
+  event_id: wsop-2026-final-table-day-3
+  verified: "2026-08-09"
