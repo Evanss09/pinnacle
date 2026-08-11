@@ -204,25 +204,6 @@
 
 # ============================== mind ==============================
 
-# source: espnpressroom.com WSOP 2026 schedule + pokernews | tz: Aug 3 18:00 PDT (UTC-7) → 2026-08-04T01:00:00Z
-- id: wsop-2026-final-table-day-1
-  name: "WSOP Main Event 2026 — Final Table Day 1"
-  category: mind
-  tier: locked
-  start_utc: "2026-08-04T01:00:00Z"
-  end_utc: "2026-08-04T09:00:00Z"
-  window: null
-  why: "Poker's world championship: 9 players from a July 13 freeze return for the crown. Horseshoe Las Vegas."
-  # result source: reviewjournal.com + pgt.com/cardplayer.com — Day 1 played 9→7 (Evagorou 9th, Boos 8th); Lucas Jumalon (22, Spokane WA) leads on 212M, ~2x nearest (Han Feng 106.5M)
-  result: "Day 1: field down to 7; Jumalon leads (212M)"
-  watch:
-    free: null
-    premium: "ESPN2 live 9pm-12am ET (US cable/ESPN App); Eurosport / TNT Sports / HBO Max internationally"
-    youtube_channel: null
-    link: "https://espnpressroom.com/us/press-releases/2026/06/espn-and-world-series-of-poker-announce-programming-schedule-for-2026-main-event/"
-  watchability: red
-  recurrence_note: "Annual"
-
 # source: espnpressroom + pokerfuse | tz: Aug 4 18:00 PDT → 2026-08-05T01:00:00Z
 - id: wsop-2026-final-table-day-2
   name: "WSOP Main Event 2026 — Final Table Day 2"

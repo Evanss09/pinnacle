@@ -7,24 +7,6 @@ X-WR-CALNAME:Pinnacle — Locked
 X-WR-TIMEZONE:UTC
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:wsop-2026-final-table-day-1@pinnacle
-DTSTAMP:20260804T010000Z
-DTSTART:20260804T010000Z
-DTEND:20260804T090000Z
-SUMMARY:WSOP Main Event 2026 — Final Table Day 1
-DESCRIPTION:🔴 Poker's world championship: 9 players from a July 13 freez
- e return for the crown. Horseshoe Las Vegas.\nResult: Day 1: field down to
-  7\; Jumalon leads (212M)\nPremium: ESPN2 live 9pm-12am ET (US cable/ESPN 
- App)\; Eurosport / TNT Sports / HBO Max internationally\nhttps://espnpress
- room.com/us/press-releases/2026/06/espn-and-world-series-of-poker-announce
- -programming-schedule-for-2026-main-event/\nAnnual
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:MIND
-URL:https://espnpressroom.com/us/press-releases/2026/06/espn-and-world-seri
- es-of-poker-announce-programming-schedule-for-2026-main-event/
-END:VEVENT
-BEGIN:VEVENT
 UID:wsop-2026-final-table-day-2@pinnacle
 DTSTAMP:20260805T010000Z
 DTSTART:20260805T010000Z
