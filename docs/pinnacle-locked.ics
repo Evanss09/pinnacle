@@ -7,24 +7,6 @@ X-WR-CALNAME:Pinnacle — Locked
 X-WR-TIMEZONE:UTC
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:wsop-2026-final-table-day-2@pinnacle
-DTSTAMP:20260805T010000Z
-DTSTART:20260805T010000Z
-DTEND:20260805T090000Z
-SUMMARY:WSOP Main Event 2026 — Final Table Day 2
-DESCRIPTION:🔴 Day 2 of poker's ultimate final table — play down toward
-  heads-up. Horseshoe Las Vegas.\nResult: Down to heads-up: Jumalon 328M\, 
- Saaskilahti 225M\nPremium: ESPN live 9pm-12am ET (US cable/ESPN App)\; Eur
- osport / TNT Sports / HBO Max internationally\nhttps://espnpressroom.com/u
- s/press-releases/2026/06/espn-and-world-series-of-poker-announce-programmi
- ng-schedule-for-2026-main-event/\nAnnual
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:MIND
-URL:https://espnpressroom.com/us/press-releases/2026/06/espn-and-world-seri
- es-of-poker-announce-programming-schedule-for-2026-main-event/
-END:VEVENT
-BEGIN:VEVENT
 UID:wsop-2026-final-table-day-3@pinnacle
 DTSTAMP:20260806T010000Z
 DTSTART:20260806T010000Z

@@ -204,25 +204,6 @@
 
 # ============================== mind ==============================
 
-# source: espnpressroom + pokerfuse | tz: Aug 4 18:00 PDT → 2026-08-05T01:00:00Z
-- id: wsop-2026-final-table-day-2
-  name: "WSOP Main Event 2026 — Final Table Day 2"
-  category: mind
-  tier: locked
-  start_utc: "2026-08-05T01:00:00Z"
-  end_utc: "2026-08-05T09:00:00Z"
-  window: null
-  why: "Day 2 of poker's ultimate final table — play down toward heads-up. Horseshoe Las Vegas."
-  # result source: espn.com + pokernews.com — 5 busted on night 2 (7→heads-up); end of Day 2 Jumalon 328M vs Saaskilahti 225M (Saaskilahti's 188.5M pot with TT vs Jumalon 43 was the biggest of the ME)
-  result: "Down to heads-up: Jumalon 328M, Saaskilahti 225M"
-  watch:
-    free: null
-    premium: "ESPN live 9pm-12am ET (US cable/ESPN App); Eurosport / TNT Sports / HBO Max internationally"
-    youtube_channel: null
-    link: "https://espnpressroom.com/us/press-releases/2026/06/espn-and-world-series-of-poker-announce-programming-schedule-for-2026-main-event/"
-  watchability: red
-  recurrence_note: "Annual"
-
 # source: pokernews + pokerfuse | tz: Aug 5 18:00 PDT → 2026-08-06T01:00:00Z (ESPN TV window from 22:30 EDT)
 - id: wsop-2026-final-table-day-3
   name: "WSOP Main Event 2026 — Final Table Day 3 (Champion Crowned)"
