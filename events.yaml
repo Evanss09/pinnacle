@@ -204,25 +204,6 @@
 
 # ============================== mind ==============================
 
-# source: pokernews + pokerfuse | tz: Aug 5 18:00 PDT → 2026-08-06T01:00:00Z (ESPN TV window from 22:30 EDT)
-- id: wsop-2026-final-table-day-3
-  name: "WSOP Main Event 2026 — Final Table Day 3 (Champion Crowned)"
-  category: mind
-  tier: locked
-  start_utc: "2026-08-06T01:00:00Z"
-  end_utc: "2026-08-06T09:00:00Z"
-  window: null
-  why: "The world champion of poker is crowned tonight. Horseshoe Las Vegas."
-  # result source: wsop.com + espn.com + pokernews.com — Lucas Jumalon (22, Spokane WA) beats Lauri Saaskilahti (FIN) in 17 heads-up hands; wire-to-wire, 2nd-youngest ME champ ever; $10M to winner, $6M runner-up
-  result: "Lucas Jumalon wins WSOP Main Event ($10M), def. Saaskilahti"
-  watch:
-    free: null
-    premium: "ESPN live from 10:30pm ET (US cable/ESPN App); Eurosport / TNT Sports / HBO Max internationally"
-    youtube_channel: null
-    link: "https://espnpressroom.com/us/press-releases/2026/06/espn-and-world-series-of-poker-announce-programming-schedule-for-2026-main-event/"
-  watchability: red
-  recurrence_note: "Annual"
-
 # source: liquipedia TI 2026 + gosugamers | grand final Sun Aug 23 Shanghai, time TBA → radar
 - id: ti-2026-grand-final
   name: "The International 2026 — Grand Final"
