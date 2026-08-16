@@ -707,6 +707,8 @@
   end_utc: "2026-08-16T04:00:00Z"
   window: null
   why: "Unanimous P4P #1 Islam Makhachev defends the welterweight title vs #1 contender Ian Machado Garry; Xfinity Mobile Arena, Philadelphia. Main event ~2h into the main card (~03:00Z); co-main is Dern vs Robertson for the strawweight belt."
+  # result source: ESPN (espn.com/mma/story/_/id/49591854) + UFC.com official scorecards + Forbes
+  result: "Makhachev def. Machado Garry UD (49-46, 49-46, 48-47), retains WW title; record 17th straight UFC win"
   watch:
     free: null
     premium: "Paramount+ (US — no PPV surcharge under new UFC deal)"
