@@ -680,6 +680,13 @@
 # ============================== strength ==============================
 
 # source: mostvaluablepromotions.com + ringmagazine.com + skysports.com | tz: card opens 20:00 EDT Aug 8 → 2026-08-09T00:00:00Z (date shift); main-event ringwalk EST. ~23:00 EDT → ~03:00Z. [2026-07-23 refresh: end extended to 04:00Z so the block spans the ~11 PM ET title fight; card-open start (officially confirmed) unchanged.]
+# HELD past 7-day prune (end_utc Aug 9 04:00Z; now Aug 17 09:06Z = 8d) by the 2026-08-17 daily intake:
+# result is set but there is NO vault entry, and the youtube.com egress policy has REGRESSED again
+# (curl + WebFetch both 403/EGRESS_BLOCKED; proxy status shows connect_rejected 403 for www.youtube.com).
+# Strong candidate found via web search: https://www.youtube.com/watch?v=JfiGu17EC_Y
+# ("FULL FIGHT HIGHLIGHT RECAP - MVPW05", Most Valuable Promotions official channel) — UNVERIFIED, do NOT
+# commit to vault until oEmbed passes. Re-allow youtube.com in the environment egress policy, verify by hand,
+# add the vault entry, THEN prune. Do NOT silently delete this — the moment is lost for good if you do.
 - id: mvpw05-johnson-thorslund-undisputed
   name: "Cherneka Johnson vs Dina Thorslund — Undisputed Bantamweight Title"
   category: strength
