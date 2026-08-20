@@ -26,21 +26,6 @@ CATEGORIES:SPACE
 URL:https://www.spacex.com/vehicles/starship/
 END:VEVENT
 BEGIN:VEVENT
-UID:ti-2026-grand-final@pinnacle
-DTSTAMP:20260801T000000Z
-DTSTART;VALUE=DATE:20260801
-DTEND;VALUE=DATE:20260802
-SUMMARY:🟡 RADAR: The International 2026 — Grand Final
-DESCRIPTION:🟢 Dota 2's world championship Bo5 decider\, Aug 23 at Orient
- al Sports Center\, Shanghai (main event Aug 20-23)\; time TBA.\nFree: Twit
- ch (twitch.tv/dota2ti) and YouTube — free worldwide\nhttps://liquipedia.
- net/dota2/The_International/2026\nWindow: Aug 2026\nAnnual
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-CATEGORIES:MIND
-URL:https://liquipedia.net/dota2/The_International/2026
-END:VEVENT
-BEGIN:VEVENT
 UID:blue-moon-mk1-pathfinder@pinnacle
 DTSTAMP:20260901T000000Z
 DTSTART;VALUE=DATE:20260901

@@ -204,13 +204,15 @@
 
 # ============================== mind ==============================
 
-# source: liquipedia TI 2026 + gosugamers | grand final Sun Aug 23 Shanghai, time TBA → radar
+# source: dotesports + esports.gg + gamesreviews (broadcast schedule) | tz: Grand Final Sun Aug 23, 10:00 PT (UTC-7) / 13:00 ET (UTC-4) → 17:00Z; Bo5 window to 22:00Z. [2026-08-20 weekly refresh: PROMOTED radar→locked — grand-final-day broadcast start widely reported at 10 AM PT / 1 PM ET]
 - id: ti-2026-grand-final
   name: "The International 2026 — Grand Final"
   category: mind
-  tier: radar
-  window: "Aug 2026"
-  why: "Dota 2's world championship Bo5 decider, Aug 23 at Oriental Sports Center, Shanghai (main event Aug 20-23); time TBA."
+  tier: locked
+  start_utc: "2026-08-23T17:00:00Z"
+  end_utc: "2026-08-23T22:00:00Z"
+  window: null
+  why: "Dota 2's world championship Bo5 decider, Aug 23 at Oriental Sports Center, Shanghai (main event Aug 20-23); broadcast start 10 AM PT / 1 PM ET."
   watch:
     free: "Twitch (twitch.tv/dota2ti) and YouTube — free worldwide"
     premium: null
@@ -680,9 +682,9 @@
 # ============================== strength ==============================
 
 # source: mostvaluablepromotions.com + ringmagazine.com + skysports.com | tz: card opens 20:00 EDT Aug 8 → 2026-08-09T00:00:00Z (date shift); main-event ringwalk EST. ~23:00 EDT → ~03:00Z. [2026-07-23 refresh: end extended to 04:00Z so the block spans the ~11 PM ET title fight; card-open start (officially confirmed) unchanged.]
-# HELD past 7-day prune (end_utc Aug 9 04:00Z; now Aug 17 09:06Z = 8d) by the 2026-08-17 daily intake:
-# result is set but there is NO vault entry, and the youtube.com egress policy has REGRESSED again
-# (curl + WebFetch both 403/EGRESS_BLOCKED; proxy status shows connect_rejected 403 for www.youtube.com).
+# HELD past 7-day prune (end_utc Aug 9 04:00Z; now Aug 20 11:17Z = 11d) — held by daily intakes since 2026-08-17,
+# re-confirmed by the 2026-08-20 weekly refresh: result is set but there is NO vault entry, and the youtube.com
+# egress policy is STILL BLOCKED (curl + WebFetch both 403/EGRESS_BLOCKED this run; all non-allowlisted hosts denied).
 # Strong candidate found via web search: https://www.youtube.com/watch?v=JfiGu17EC_Y
 # ("FULL FIGHT HIGHLIGHT RECAP - MVPW05", Most Valuable Promotions official channel) — UNVERIFIED, do NOT
 # commit to vault until oEmbed passes. Re-allow youtube.com in the environment egress policy, verify by hand,

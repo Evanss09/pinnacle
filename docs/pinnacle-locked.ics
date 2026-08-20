@@ -45,6 +45,21 @@ CATEGORIES:STRENGTH
 URL:https://www.ufc.com/event/ufc-330
 END:VEVENT
 BEGIN:VEVENT
+UID:ti-2026-grand-final@pinnacle
+DTSTAMP:20260823T170000Z
+DTSTART:20260823T170000Z
+DTEND:20260823T220000Z
+SUMMARY:The International 2026 — Grand Final
+DESCRIPTION:🟢 Dota 2's world championship Bo5 decider\, Aug 23 at Orient
+ al Sports Center\, Shanghai (main event Aug 20-23)\; broadcast start 10 AM
+  PT / 1 PM ET.\nFree: Twitch (twitch.tv/dota2ti) and YouTube — free worl
+ dwide\nhttps://liquipedia.net/dota2/The_International/2026\nAnnual
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:MIND
+URL:https://liquipedia.net/dota2/The_International/2026
+END:VEVENT
+BEGIN:VEVENT
 UID:utmb-2026@pinnacle
 DTSTAMP:20260828T154500Z
 DTSTART:20260828T154500Z
