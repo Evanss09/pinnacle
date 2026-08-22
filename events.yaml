@@ -708,6 +708,13 @@
   recurrence_note: null
 
 # source: ufc.com/event/ufc-330 + paramountplus.com | tz: main card 21:00 EDT Aug 15 → 2026-08-16T01:00:00Z (date shift)
+# ⚠️ HOLD 2026-08-22: result present, NO vault entry, and youtube.com egress is BLOCKED again (curl 403 +
+# WebFetch EGRESS_BLOCKED, proxy connect_rejected on www.youtube.com — same regression as the mvpw05 hold above).
+# end_utc crosses +7 days at 2026-08-23T04:00Z, i.e. BEFORE the next 09:00 run — do NOT let that run silently
+# prune this. No free official highlight URL surfaced in search (UFC gates highlights to Paramount+/Fight Pass);
+# the candidate to hand-verify lives on the @ufc channel ("UFC 330 highlights"). Re-allow youtube.com in the
+# environment egress policy, verify a highlight by hand via oEmbed, add the vault entry (event_id: this id), THEN
+# prune. Verification broke — this is NOT "no highlight exists." Losing this loses Makhachev's record 17th win.
 - id: ufc-330-makhachev-machado-garry
   name: "UFC 330: Makhachev vs Machado Garry"
   category: strength
