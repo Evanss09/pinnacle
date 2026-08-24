@@ -213,6 +213,8 @@
   end_utc: "2026-08-23T22:00:00Z"
   window: null
   why: "Dota 2's world championship Bo5 decider, Aug 23 at Oriental Sports Center, Shanghai (main event Aug 20-23); broadcast start 10 AM PT / 1 PM ET."
+  # result source: Reuters (via Lufkin Daily News / Yardbarker) + egamersworld + GosuGamers — Team Spirit 3-2 TEAM VISION in the Bo5 GF, record 3rd Aegis
+  result: "Team Spirit def. TEAM VISION 3-2 (Bo5), record 3rd TI title"
   watch:
     free: "Twitch (twitch.tv/dota2ti) and YouTube — free worldwide"
     premium: null
