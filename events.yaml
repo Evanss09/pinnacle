@@ -205,6 +205,11 @@
 # ============================== mind ==============================
 
 # source: dotesports + esports.gg + gamesreviews (broadcast schedule) | tz: Grand Final Sun Aug 23, 10:00 PT (UTC-7) / 13:00 ET (UTC-4) → 17:00Z; Bo5 window to 22:00Z. [2026-08-20 weekly refresh: PROMOTED radar→locked — grand-final-day broadcast start widely reported at 10 AM PT / 1 PM ET]
+# ✅ SWEPT IN EARLY 2026-08-25 (local session) — NOT a hold: this had not reached its prune date, but the cloud
+# routines had no youtube egress, so it was verified and vaulted while a local session had a working verifier
+# rather than left for a blocked routine to lose. o3W28o7jLYo, oEmbed HTTP 200, title "[EN] TEAM VISION vs Team
+# Spirit - Game 5 - The International 2026 - Grand Final", channel "dota2" (official), duration 5090s = 1:24:50.
+# Vaulted as ti-2026-grand-final-spirit-third-aegis. Free to prune on the normal schedule.
 - id: ti-2026-grand-final
   name: "The International 2026 — Grand Final"
   category: mind
@@ -214,11 +219,6 @@
   window: null
   why: "Dota 2's world championship Bo5 decider, Aug 23 at Oriental Sports Center, Shanghai (main event Aug 20-23); broadcast start 10 AM PT / 1 PM ET."
   # result source: Reuters (via Lufkin Daily News / Yardbarker) + egamersworld + GosuGamers — Team Spirit 3-2 TEAM VISION in the Bo5 GF, record 3rd Aegis
-# ✅ SWEPT IN EARLY 2026-08-25 (local session) — NOT a hold: this had not reached its prune date, but the cloud
-# routines had no youtube egress, so it was verified and vaulted while a local session had a working verifier
-# rather than left for a blocked routine to lose. o3W28o7jLYo, oEmbed HTTP 200, title "[EN] TEAM VISION vs Team
-# Spirit - Game 5 - The International 2026 - Grand Final", channel "dota2" (official), duration 5090s = 1:24:50.
-# Vaulted as ti-2026-grand-final-spirit-third-aegis. Free to prune on the normal schedule.
   result: "Team Spirit def. TEAM VISION 3-2 (Bo5), record 3rd TI title"
   watch:
     free: "Twitch (twitch.tv/dota2ti) and YouTube — free worldwide"

@@ -1,7 +1,10 @@
 # THE VAULT — curated greatest recorded performances.
-# Every link verified via YouTube oEmbed on the date in `verified` — TWO checks: HTTP 200 with a
-# matching title/channel, AND the video's duration (oEmbed returns no length, so a teaser passes a
-# title match on its own). Duration is recorded in each entry's `# oembed title:` comment.
+# Every link is oEmbed-verified on the date in `verified`.
+# SINCE 2026-08-25 verification is TWO checks: HTTP 200 with a matching title/channel, AND the
+# video's duration recorded and judged (oEmbed returns no length, so a teaser passes a title match
+# on its own). Entries verified BEFORE that date were title-checked only and have NOT been
+# duration-audited — 3 of 29 entries currently carry a duration. Auditing the other 26 is open work:
+# re-check one whenever you touch it, and add `| duration <m:ss> (<n>s)` to its comment.
 # Refresh runs append the best moment from each finished tracked event.
 
 # oembed title: "INEOS 1:59 Challenge Live" | channel: INEOS 1:59 Challenge
@@ -44,7 +47,7 @@
   one_liner: "The only top of the final for a ninth world title."
   verified: "2026-07-10"
 
-# oembed title: "Simone Biles pulls off yet another vault that's never been done before at Gymnastics Worlds" | channel: NBC Sports
+# oembed title: "Simone Biles pulls off yet another vault that's never been done before at Gymnastics Worlds" | channel: NBC Sports | duration 0:51 (51s) (re-verified 2026-08-25; short BY DESIGN — a single-effort moment, see CLAUDE.md §Vault additions)
 - id: biles-yurchenko-double-pike
   title: "Yurchenko Double Pike — The Biles II"
   subject: "Simone Biles"
@@ -64,7 +67,7 @@
   one_liner: "A 15th world record, one centimeter higher again."
   verified: "2026-07-10"
 
-# oembed title: "Starship's Fifth Flight Test" | channel: SpaceX
+# oembed title: "Starship's Fifth Flight Test" | channel: SpaceX | duration 3:28 (208s) (re-verified 2026-08-25; short BY DESIGN — a single-effort moment, see CLAUDE.md §Vault additions)
 - id: spacex-chopsticks-catch
   title: "Starship Flight 5 — First Booster Catch"
   subject: "SpaceX"
@@ -146,7 +149,7 @@
   one_liner: "A set down after losing the opening tiebreak, Sinner won three straight to retain the title."
   verified: "2026-07-14"
 
-# oembed title: "Julián Alvarez Goal | Argentina 3-1 Switzerland | FIFA World Cup 2026™" | channel: FIFA
+# oembed title: "Julián Alvarez Goal | Argentina 3-1 Switzerland | FIFA World Cup 2026™" | channel: FIFA | duration 0:10 (10s) (re-verified 2026-08-25; short BY DESIGN — a single-effort moment, see CLAUDE.md §Vault additions)
 - id: alvarez-wc-quarterfinal-goal
   title: "Álvarez's Extra-Time Screamer"
   subject: "Julián Álvarez"
