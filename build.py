@@ -157,8 +157,9 @@ def validate(events, vault, channels):
                                 "(fresh entry — possible typo; pruned events are expected to age out)")
 
     # A finished event is deleted 7 days after end_utc. If it ages out with no vault
-    # entry, the highlight is gone for good — and the daily intake skips vault adds
-    # silently whenever link verification fails. Warn while there's still time to fix.
+    # entry, the highlight is gone for good — so warn while there's still time to fix.
+    # Past 7 days the event is being HELD (verification blocked, or awaiting a
+    # no-highlight call), so the message flips from a countdown to an overdue sweep.
     vault_event_ids = {v.get("event_id") for v in vault if v.get("event_id")}
     for ev in events:
         eid = ev.get("id")
@@ -168,7 +169,12 @@ def validate(events, vault, channels):
         if ended > today or eid in vault_event_ids:
             continue
         days_ago = (today - ended).days
-        if days_ago >= 4:
+        if days_ago > 7:
+            # Past the prune date but still here: it is being HELD (verification blocked,
+            # or awaiting a no-highlight call). Not a countdown — an overdue sweep.
+            warnings.append(f"events.yaml [{eid}]: HELD past prune, {days_ago - 7}d overdue with no "
+                            f"vault entry — verify a highlight or mark it no-highlight")
+        elif days_ago >= 4:
             warnings.append(f"events.yaml [{eid}]: ended {days_ago}d ago with no vault entry — "
                             f"pruned in {7 - days_ago}d and the highlight is lost for good")
 
