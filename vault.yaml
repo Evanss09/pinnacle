@@ -286,3 +286,34 @@
   one_liner: "Seventeen heads-up hands settle it — 22-year-old Lucas Jumalon beats Lauri Saaskilahti for $10 million and becomes the second-youngest Main Event champion ever."
   event_id: wsop-2026-final-table-day-3
   verified: "2026-08-09"
+
+# ---- backfilled 2026-08-25 BY HAND from a local session: youtube egress regressed AGAIN in the cloud
+# ---- routines from ~2026-08-17 (curl 403 + WebFetch EGRESS_BLOCKED, proxy connect_rejected on
+# ---- www.youtube.com), so both events below sat HELD past their 7-day prune with a result but no vault
+# ---- entry. See the resolved hold notes in events.yaml and CLAUDE.md §Notes & Quirks.
+# ---- Both verified locally 2026-08-25: oEmbed HTTP 200 with a matching title on the promoter's OWN
+# ---- channel, AND duration checked (yt-dlp --print duration, cross-checked against "lengthSeconds" on
+# ---- the watch page) so a short clip cannot pass on title alone — the 45-second CODJnhDoYfY trap that
+# ---- nearly got vaulted as the TdF stage-20 highlight.
+
+# oembed title: "FULL FIGHT HIGHLIGHT RECAP - MVPW05 | Undisputed Glory & A Night of Statement Wins" | channel: MVP - Most Valuable Promotions (the promoter's own channel) | duration 11:11 (671s)
+- id: mvpw05-thorslund-undisputed-bantamweight
+  title: "Thorslund Takes Every Belt — MVPW-05"
+  subject: "Dina Thorslund"
+  date: "2026-08-08"
+  category: strength
+  video_url: "https://www.youtube.com/watch?v=JfiGu17EC_Y"
+  one_liner: "Thorslund shuts out Cherneka Johnson 100-90 on all three cards in Orlando to leave with every bantamweight belt and the Ring title."
+  event_id: mvpw05-johnson-thorslund-undisputed
+  verified: "2026-08-25"
+
+# oembed title: "Relive UFC 330 in SLOW MOTION 👀 | Fight Motion" | channel: UFC (official — UFC gates full-fight highlights to Paramount+/Fight Pass, so Fight Motion is the free official recap) | duration 8:21 (501s)
+- id: ufc-330-makhachev-17th-straight
+  title: "A Record 17th Straight — UFC 330"
+  subject: "Islam Makhachev"
+  date: "2026-08-15"
+  category: strength
+  video_url: "https://www.youtube.com/watch?v=fj59zJqgyLw"
+  one_liner: "Makhachev outpoints Ian Machado Garry to keep the welterweight title and take the longest win streak in UFC history — the whole Philadelphia card relived in UFC's own slow-motion recap."
+  event_id: ufc-330-makhachev-machado-garry
+  verified: "2026-08-25"

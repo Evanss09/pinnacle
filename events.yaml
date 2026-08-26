@@ -684,13 +684,12 @@
 # ============================== strength ==============================
 
 # source: mostvaluablepromotions.com + ringmagazine.com + skysports.com | tz: card opens 20:00 EDT Aug 8 → 2026-08-09T00:00:00Z (date shift); main-event ringwalk EST. ~23:00 EDT → ~03:00Z. [2026-07-23 refresh: end extended to 04:00Z so the block spans the ~11 PM ET title fight; card-open start (officially confirmed) unchanged.]
-# HELD past 7-day prune (end_utc Aug 9 04:00Z; now Aug 20 11:17Z = 11d) — held by daily intakes since 2026-08-17,
-# re-confirmed by the 2026-08-20 weekly refresh: result is set but there is NO vault entry, and the youtube.com
-# egress policy is STILL BLOCKED (curl + WebFetch both 403/EGRESS_BLOCKED this run; all non-allowlisted hosts denied).
-# Strong candidate found via web search: https://www.youtube.com/watch?v=JfiGu17EC_Y
-# ("FULL FIGHT HIGHLIGHT RECAP - MVPW05", Most Valuable Promotions official channel) — UNVERIFIED, do NOT
-# commit to vault until oEmbed passes. Re-allow youtube.com in the environment egress policy, verify by hand,
-# add the vault entry, THEN prune. Do NOT silently delete this — the moment is lost for good if you do.
+# ✅ HOLD RESOLVED 2026-08-25 (local session). Held past the 7-day prune from 2026-08-17 because the youtube.com
+# egress policy regressed (curl 403 + WebFetch EGRESS_BLOCKED, proxy connect_rejected on www.youtube.com) and the
+# result was set with no vault entry. The held candidate JfiGu17EC_Y was hand-verified locally: oEmbed HTTP 200,
+# title "FULL FIGHT HIGHLIGHT RECAP - MVPW05 | Undisputed Glory & A Night of Statement Wins", channel
+# "MVP - Most Valuable Promotions" (the promoter's own), duration 671s = 11:11 (full highlight, not a clip).
+# Vaulted as mvpw05-thorslund-undisputed-bantamweight. This event is now free to prune on the normal schedule.
 - id: mvpw05-johnson-thorslund-undisputed
   name: "Cherneka Johnson vs Dina Thorslund — Undisputed Bantamweight Title"
   category: strength
@@ -710,13 +709,13 @@
   recurrence_note: null
 
 # source: ufc.com/event/ufc-330 + paramountplus.com | tz: main card 21:00 EDT Aug 15 → 2026-08-16T01:00:00Z (date shift)
-# ⚠️ HOLD 2026-08-22: result present, NO vault entry, and youtube.com egress is BLOCKED again (curl 403 +
-# WebFetch EGRESS_BLOCKED, proxy connect_rejected on www.youtube.com — same regression as the mvpw05 hold above).
-# end_utc crosses +7 days at 2026-08-23T04:00Z, i.e. BEFORE the next 09:00 run — do NOT let that run silently
-# prune this. No free official highlight URL surfaced in search (UFC gates highlights to Paramount+/Fight Pass);
-# the candidate to hand-verify lives on the @ufc channel ("UFC 330 highlights"). Re-allow youtube.com in the
-# environment egress policy, verify a highlight by hand via oEmbed, add the vault entry (event_id: this id), THEN
-# prune. Verification broke — this is NOT "no highlight exists." Losing this loses Makhachev's record 17th win.
+# ✅ HOLD RESOLVED 2026-08-25 (local session). Held from 2026-08-22 past the +7d prune because the result was set
+# with no vault entry while youtube.com egress was blocked (curl 403 + WebFetch EGRESS_BLOCKED, proxy
+# connect_rejected on www.youtube.com — same regression as the mvpw05 hold above). Hand-verified locally: the
+# @ufc channel has no free full-fight highlight for UFC 330 (those are gated to Paramount+/Fight Pass), so the
+# vaulted pick is UFC's own free post-event recap fj59zJqgyLw — oEmbed HTTP 200, title
+# "Relive UFC 330 in SLOW MOTION 👀 | Fight Motion", channel "UFC", duration 501s = 8:21 (full recap, not a clip).
+# Vaulted as ufc-330-makhachev-17th-straight. This event is now free to prune on the normal schedule.
 - id: ufc-330-makhachev-machado-garry
   name: "UFC 330: Makhachev vs Machado Garry"
   category: strength
