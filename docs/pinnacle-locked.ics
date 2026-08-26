@@ -7,44 +7,6 @@ X-WR-CALNAME:Pinnacle — Locked
 X-WR-TIMEZONE:UTC
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:mvpw05-johnson-thorslund-undisputed@pinnacle
-DTSTAMP:20260809T000000Z
-DTSTART:20260809T000000Z
-DTEND:20260809T040000Z
-SUMMARY:Cherneka Johnson vs Dina Thorslund — Undisputed Bantamweight Titl
- e
-DESCRIPTION:🔴 All four bantamweight belts + Ring title on the line — u
- ndisputed champ Johnson vs undefeated ex-unified champ Thorslund (24-0). C
- aribe Royale Resort\, Orlando\; MVPW-05 card opens 8 PM ET\, main-event ri
- ngwalk expected ~11 PM ET.\nResult: Thorslund def. Johnson UD (100-90 ×3)
- \, undisputed bantamweight\nPremium: ESPN / ESPN App (US)\; Sky Sports (UK
- )\nhttps://www.mostvaluablepromotions.com/johnson-vs-thorslund-headlines-m
- vpw-05-aug-8-on-espn/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:STRENGTH
-URL:https://www.mostvaluablepromotions.com/johnson-vs-thorslund-headlines-m
- vpw-05-aug-8-on-espn/
-END:VEVENT
-BEGIN:VEVENT
-UID:ufc-330-makhachev-machado-garry@pinnacle
-DTSTAMP:20260816T010000Z
-DTSTART:20260816T010000Z
-DTEND:20260816T040000Z
-SUMMARY:UFC 330: Makhachev vs Machado Garry
-DESCRIPTION:🔴 Unanimous P4P #1 Islam Makhachev defends the welterweight 
- title vs #1 contender Ian Machado Garry\; Xfinity Mobile Arena\, Philadelp
- hia. Main event ~2h into the main card (~03:00Z)\; co-main is Dern vs Robe
- rtson for the strawweight belt.\nResult: Makhachev def. Machado Garry UD (
- 49-46\, 49-46\, 48-47)\, retains WW title\; record 17th straight UFC win\n
- Premium: Paramount+ (US — no PPV surcharge under new UFC deal)\nhttps://
- www.ufc.com/event/ufc-330
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:STRENGTH
-URL:https://www.ufc.com/event/ufc-330
-END:VEVENT
-BEGIN:VEVENT
 UID:ti-2026-grand-final@pinnacle
 DTSTAMP:20260823T170000Z
 DTSTART:20260823T170000Z
