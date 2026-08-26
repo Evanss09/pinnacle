@@ -1,5 +1,7 @@
 # THE VAULT — curated greatest recorded performances.
-# Every link verified via YouTube oEmbed (HTTP 200 + title match) on the date in `verified`.
+# Every link verified via YouTube oEmbed on the date in `verified` — TWO checks: HTTP 200 with a
+# matching title/channel, AND the video's duration (oEmbed returns no length, so a teaser passes a
+# title match on its own). Duration is recorded in each entry's `# oembed title:` comment.
 # Refresh runs append the best moment from each finished tracked event.
 
 # oembed title: "INEOS 1:59 Challenge Live" | channel: INEOS 1:59 Challenge
@@ -287,13 +289,16 @@
   event_id: wsop-2026-final-table-day-3
   verified: "2026-08-09"
 
-# ---- backfilled 2026-08-25 BY HAND from a local session: youtube egress regressed AGAIN in the cloud
-# ---- routines from ~2026-08-17 (curl 403 + WebFetch EGRESS_BLOCKED, proxy connect_rejected on
-# ---- www.youtube.com), so both events below sat HELD past their 7-day prune with a result but no vault
-# ---- entry. See the resolved hold notes in events.yaml and CLAUDE.md §Notes & Quirks.
-# ---- Both verified locally 2026-08-25: oEmbed HTTP 200 with a matching title on the promoter's OWN
-# ---- channel, AND duration checked (yt-dlp --print duration, cross-checked against "lengthSeconds" on
-# ---- the watch page) so a short clip cannot pass on title alone — the 45-second CODJnhDoYfY trap that
+# ---- All THREE below backfilled 2026-08-25 BY HAND from a local session, because youtube egress
+# ---- regressed AGAIN in the cloud routines from 2026-08-16 (curl 403 + WebFetch EGRESS_BLOCKED,
+# ---- proxy connect_rejected on www.youtube.com). NOT the same situation for all three:
+# ----   * mvpw05 and ufc-330 sat HELD past their 7-day prune with a result and no vault entry —
+# ----     see the ✅ HOLD RESOLVED notes in events.yaml and CLAUDE.md §Notes & Quirks.
+# ----   * the TI grand final was NEVER held: it ended 2026-08-23 and was swept in early, while the
+# ----     local session had working egress, rather than being left for a blocked routine to lose.
+# ---- All three verified the same way: oEmbed HTTP 200 with a matching title on the event's own
+# ---- official channel, AND duration checked ("lengthSeconds" on the watch page, cross-checked with
+# ---- yt-dlp) — a title match alone would not have caught the 45-second CODJnhDoYfY teaser that
 # ---- nearly got vaulted as the TdF stage-20 highlight.
 
 # oembed title: "FULL FIGHT HIGHLIGHT RECAP - MVPW05 | Undisputed Glory & A Night of Statement Wins" | channel: MVP - Most Valuable Promotions (the promoter's own channel) | duration 11:11 (671s)
@@ -314,7 +319,7 @@
   date: "2026-08-15"
   category: strength
   video_url: "https://www.youtube.com/watch?v=fj59zJqgyLw"
-  one_liner: "Makhachev outpoints Ian Machado Garry to keep the welterweight title and take the longest win streak in UFC history — the whole Philadelphia card relived in UFC's own slow-motion recap."
+  one_liner: "Makhachev outpoints Ian Machado Garry to keep the welterweight title and take the longest win streak in UFC history — the card's best exchanges in slow motion, UFC's own post-event recap."
   event_id: ufc-330-makhachev-machado-garry
   verified: "2026-08-25"
 

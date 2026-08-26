@@ -64,7 +64,7 @@ Host on GitHub Pages (free). Keep build.py dependency-light: `pyyaml` + stdlib. 
   result: "Spain 1-0 Argentina (AET)"   # optional; filled by the daily intake after the event ends
 ```
 
-**Event lifecycle:** a locked event stays in `events.yaml` for **7 days after `end_utc`** — it feeds the dashboard's *Just Ended* section. The daily intake fills `result:` ~24 h after the end, appends the highlight to `vault.yaml`, and deletes the event once it's more than 7 days past. Don't hand-prune ended events early.
+**Event lifecycle:** a locked event stays in `events.yaml` for **7 days after `end_utc`** — it feeds the dashboard's *Just Ended* section. The daily intake fills `result:` ~24 h after the end, appends the highlight to `vault.yaml`, and deletes the event once it's more than 7 days past. Don't hand-prune ended events early. **The 7 days is not unconditional:** an event carrying a `⚠️ HOLD` comment, or one with a `result:` and no vault entry, is held past the prune until a session can verify a highlight or mark it `✅ NO HIGHLIGHT` — losing the moment is worse than an event lingering.
 
 **vault.yaml schema:**
 
@@ -81,7 +81,7 @@ Host on GitHub Pages (free). Keep build.py dependency-light: `pyyaml` + stdlib. 
   verified: "2026-07-22"               # date the link was oEmbed-verified (a link-check stamp, NOT an added-date)
 ```
 
-**Link verification = two checks.** oEmbed HTTP 200 with a matching `title`/`author_name`, **and** a duration check — oEmbed returns no length, so a 45-second teaser passes a title match on its own (the `CODJnhDoYfY` near-miss on TdF stage 20, caught 2026-08-09). Read `lengthSeconds` off the watch page (`curl -s "https://www.youtube.com/watch?v=<ID>" | grep -o '"lengthSeconds":"[0-9]*"' | head -1`) or `yt-dlp --print duration`; reject anything under **~240 s** as a clip, and record the duration in the verification comment. Full details and the egress history are in CLAUDE.md §Vault additions.
+**Link verification = two checks.** oEmbed HTTP 200 with a matching `title`/`author_name`, **and** a duration check — oEmbed returns no length, so a 45-second teaser passes a title match on its own (the `CODJnhDoYfY` near-miss on TdF stage 20, caught 2026-08-09). Read `lengthSeconds` off the watch page (`curl -s "https://www.youtube.com/watch?v=<ID>" | grep -o '"lengthSeconds":"[0-9]*"' | head -1`) or `yt-dlp --print duration`, and **always** record the duration in the verification comment. Under ~4 minutes is a **judgment trigger, not a reject**: a single-effort moment is legitimately short (`alvarez-wc-quarterfinal-goal` 10 s, `biles-yurchenko-double-pike` 51 s, `spacex-chopsticks-catch` 208 s are all correct entries), but a multi-hour event compressed into under 4 minutes is a teaser — reject that. Full details and the egress history are in CLAUDE.md §Vault additions.
 
 **ICS generation rules (both feeds):**
 - `TRANSP:TRANSPARENT` (doesn't block free/busy), **no VALARM components** (truly silent).
