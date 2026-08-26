@@ -317,3 +317,14 @@
   one_liner: "Makhachev outpoints Ian Machado Garry to keep the welterweight title and take the longest win streak in UFC history — the whole Philadelphia card relived in UFC's own slow-motion recap."
   event_id: ufc-330-makhachev-machado-garry
   verified: "2026-08-25"
+
+# oembed title: "[EN] TEAM VISION vs Team Spirit - Game 5 - The International 2026 - Grand Final" | channel: dota2 (official — matches the event's own youtube_channel; PGL/DotaCinema edits are reuploads, not the rights holder) | duration 1:24:50 (5090s)
+- id: ti-2026-grand-final-spirit-third-aegis
+  title: "Game 5 for the Aegis — The International 2026 Grand Final"
+  subject: "Team Spirit"
+  date: "2026-08-23"
+  category: mind
+  video_url: "https://www.youtube.com/watch?v=o3W28o7jLYo"
+  one_liner: "The full deciding game of a 3-2 Bo5 in Shanghai — Team Spirit beat TEAM VISION to take a third Aegis, more than any team in Dota history."
+  event_id: ti-2026-grand-final
+  verified: "2026-08-25"
