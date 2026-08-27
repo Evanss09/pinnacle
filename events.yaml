@@ -688,7 +688,7 @@
 
 # ============================== strength ==============================
 
-# source: skysports.com + boxingscene.com + mostvaluablepromotions.com | tz: card 19:00 BST (UTC+1) Aug 29 → 18:00Z; main-event ringwalk expected ~22:00 BST → ~21:00Z; end padded to 23:00 BST → 22:00Z. [2026-08-06 monthly scan: PROMOTED radar→locked — Sky/MVP published the 7 PM BST card start]
+# source: skysports.com + boxingscene.com + mostvaluablepromotions.com | tz: card 19:00 BST (UTC+1) Aug 29 → 18:00Z; main-event ringwalk from ~21:30 BST → ~20:30Z; end padded to 23:00 BST → 22:00Z. [2026-08-06 monthly scan: PROMOTED radar→locked — Sky/MVP published the 7 PM BST card start. 2026-08-27 weekly refresh: re-verified card start 7 PM BST; Sky now reports main-event ring walks from 9:30 PM BST — start/end UTC unchanged.]
 - id: mvpw06-mayer-cameron-unification
   name: "Mikaela Mayer vs Chantelle Cameron — Super Welterweight Unification"
   category: strength
@@ -696,7 +696,7 @@
   start_utc: "2026-08-29T18:00:00Z"
   end_utc: "2026-08-29T22:00:00Z"
   window: null
-  why: "WBA/WBC champ Mayer vs WBO champ Cameron — three-belt 154-lb unification headlining the all-female MVPW-06 UK-vs-USA card at bp pulse LIVE, Birmingham. Card starts 7 PM BST; main-event ringwalk expected ~10 PM BST."
+  why: "WBA/WBC champ Mayer vs WBO champ Cameron — three-belt 154-lb unification headlining the all-female MVPW-06 UK-vs-USA card at bp pulse LIVE, Birmingham. Card starts 7 PM BST; main-event ring walks from ~9:30 PM BST."
   watch:
     free: null
     premium: "Sky Sports (UK); ESPN+ (US)"
@@ -753,12 +753,12 @@
 # ============================== space ==============================
 # NOTE from agent: Artemis II already flew (Apr 1-11 2026, success). Artemis III revised to late-2027 LEO demo. Starship F12 (May 22 2026) = successful Block 3 debut; F13 (Jul 24 2026) = first Starlink V3 deploy (pruned). BORDERLINE routine rotations flagged: soyuz-ms-29, crew-13, shenzhou-24, axiom-5.
 
-# source: nasaspaceflight.com + spacenews.com (Musk, Aug 4 2026 earnings call: NET late Aug) | no fixed date/time → radar
+# source: nasaspaceflight.com + space.com + FCC filing | no fixed date/time → radar. [2026-08-27 weekly refresh: NET has slipped past "late Aug" — estimates now span FCC NET Aug 28, Musk "end of Aug", Isaacman "early Sep", COMPASS slide NET Sep 15; still no announced window.]
 - id: starship-flight-14
   name: "SpaceX Starship Flight 14 — First Orbital Test (Ship Catch Attempt)"
   category: space
   tier: radar
-  window: "Aug-Sep 2026 (NET late Aug 2026, likely slips)"
+  window: "Aug-Sep 2026 (NET ranges Aug 28–mid Sep 2026, unannounced)"
   why: "Third Block 3 flight and the program's first orbital Starship test — a multi-hour/multi-day orbital profile, first Starlink V3 deployment to operational orbit, and an attempted tower catch of the ship. Pad B, Starbase, Texas. Date/time unannounced; refresh runs lock it once SpaceX sets a launch window."
   watch:
     free: "SpaceX webcast on X; live coverage on NASASpaceflight / Everyday Astronaut"
@@ -768,13 +768,13 @@
   watchability: green
   recurrence_note: null
 
-# source: https://www.nasa.gov/news-release/nasa-shares-spacex-crew-13-assignments-for-space-station-mission/ | NET mid-Sep → radar. BORDERLINE routine ISS rotation.
+# source: nasa.gov Crew-13 assignments + NASA Aug 3 2026 announcement (via WFTV/Houston Public Media) | NET Sep 12 2026, launch time not yet set → radar. BORDERLINE routine ISS rotation. [2026-08-27 weekly refresh: NET firmed from "mid-Sep" to a Sep 12 target date; stays radar — no confirmed launch time yet.]
 - id: crew-13
   name: "NASA/SpaceX Crew-13 Launch to ISS"
   category: space
   tier: radar
-  window: "Sep 2026 (NET mid-Sep)"
-  why: "Crewed Dragon rotation — Watkins (commander), Delaney, Kutryk (CSA), Teteryatnikov (Roscosmos) to Expedition 75. Cape Canaveral SLC-40, Florida."
+  window: "Sep 2026 (NET Sep 12)"
+  why: "Crewed Dragon rotation — Watkins (commander), Delaney, Kutryk (CSA), Teteryatnikov (Roscosmos) to Expedition 75/76; NASA targets Sep 12, launch time TBA. Cape Canaveral SLC-40, Florida."
   watch:
     free: "NASA+ and NASA YouTube; SpaceX webcast on X"
     premium: null

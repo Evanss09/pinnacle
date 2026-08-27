@@ -19,7 +19,8 @@ DESCRIPTION:🟢 Third Block 3 flight and the program's first orbital Stars
  Pad B\, Starbase\, Texas. Date/time unannounced\; refresh runs lock it onc
  e SpaceX sets a launch window.\nFree: SpaceX webcast on X\; live coverage 
  on NASASpaceflight / Everyday Astronaut\nhttps://www.spacex.com/vehicles/s
- tarship/\nWindow: Aug-Sep 2026 (NET late Aug 2026\, likely slips)
+ tarship/\nWindow: Aug-Sep 2026 (NET ranges Aug 28–mid Sep 2026\, unannou
+ nced)
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:SPACE
@@ -49,10 +50,10 @@ DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:🟡 RADAR: NASA/SpaceX Crew-13 Launch to ISS
 DESCRIPTION:🟢 Crewed Dragon rotation — Watkins (commander)\, Delaney\,
-  Kutryk (CSA)\, Teteryatnikov (Roscosmos) to Expedition 75. Cape Canaveral
-  SLC-40\, Florida.\nFree: NASA+ and NASA YouTube\; SpaceX webcast on X\nht
- tps://plus.nasa.gov/\nWindow: Sep 2026 (NET mid-Sep)\nISS Dragon crew rota
- tions recur ~every 6 months
+  Kutryk (CSA)\, Teteryatnikov (Roscosmos) to Expedition 75/76\; NASA targe
+ ts Sep 12\, launch time TBA. Cape Canaveral SLC-40\, Florida.\nFree: NASA+
+  and NASA YouTube\; SpaceX webcast on X\nhttps://plus.nasa.gov/\nWindow: S
+ ep 2026 (NET Sep 12)\nISS Dragon crew rotations recur ~every 6 months
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:SPACE
