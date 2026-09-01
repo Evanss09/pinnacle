@@ -44,6 +44,23 @@ CATEGORIES:SPACE
 URL:https://www.blueorigin.com/blue-moon
 END:VEVENT
 BEGIN:VEVENT
+UID:chess-olympiad-2026-final-round@pinnacle
+DTSTAMP:20260901T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:🟡 RADAR: 46th Chess Olympiad — Final Round (Samarkand)
+DESCRIPTION:🟢 The decisive final round of chess's biggest team event —
+  every federation's best boards\, gold decided on tiebreaks as often as no
+ t. Samarkand\, Uzbekistan\, Sep 15-28\; final round expected Sep 28\, time
+ s TBA.\nFree: FIDE YouTube official broadcast + Chess.com coverage — fre
+ e (verify at lock time)\nhttps://en.wikipedia.org/wiki/46th_Chess_Olympiad
+ \nWindow: Sep 2026\nBiennial
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MIND
+URL:https://en.wikipedia.org/wiki/46th_Chess_Olympiad
+END:VEVENT
+BEGIN:VEVENT
 UID:crew-13@pinnacle
 DTSTAMP:20260901T000000Z
 DTSTART;VALUE=DATE:20260901
@@ -115,6 +132,24 @@ STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:MOTOR
 URL:https://www.formula1.com/en/racing/2026
+END:VEVENT
+BEGIN:VEVENT
+UID:hyrox-elite-series-2026-hamburg@pinnacle
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🟡 RADAR: HYROX Elite Series Race 1 — Hamburg (Elite 15 Singles
+ )
+DESCRIPTION:🟢 Season opener of the invite-only Elite Series (the format 
+ replacing Majors): the world's top 15 men and women race head-to-head at H
+ amburg Messe\, Fri Oct 30\; podium spots earn Worlds qualification. Sessio
+ n times TBA.\nFree: HYROX official YouTube live stream — free worldwide\
+ nhttps://hyrox.com/elite-series-races/\nWindow: Oct 2026\n5 Elite Series r
+ aces per season\; races 3-5 unannounced (expect Jan-May 2027)
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ENDURANCE
+URL:https://hyrox.com/elite-series-races/
 END:VEVENT
 BEGIN:VEVENT
 UID:ifsc-salt-lake-city-2026@pinnacle
@@ -286,15 +321,16 @@ DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:🟡 RADAR: FIDE World Chess Championship 2026: Gukesh vs Sindarov
 DESCRIPTION:🟢 Chess's ultimate title match — every game is the final. 
- Gukesh (IND) defends vs Candidates winner Sindarov (UZB)\; provisionally N
- ov 23-Dec 17\, host city TBD.\nFree: FIDE YouTube/Twitch official broadcas
- t + Chess.com and ChessBase India coverage — free\nhttps://liquipedia.ne
- t/chess/FIDE_World_Chess_Championship/2026\nWindow: Nov 2026\nBiennial (ev
- ery 2 years)
+ Gukesh (IND) defends vs Candidates winner Sindarov (UZB) in Geneva\, Nov 2
+ 5-Dec 15 — youngest WC match in history\, both players 20. Game times TB
+ A\; lock per-game entries when FIDE publishes the schedule.\nFree: FIDE Yo
+ uTube/Twitch official broadcast + Chess.com and ChessBase India coverage 
+ — free\nhttps://www.fide.com/geneva-to-host-fide-world-championship-matc
+ h-2026/\nWindow: Nov 2026\nBiennial (every 2 years)
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:MIND
-URL:https://liquipedia.net/chess/FIDE_World_Chess_Championship/2026
+URL:https://www.fide.com/geneva-to-host-fide-world-championship-match-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:cs2-pgl-major-singapore-2026-grand-final@pinnacle
@@ -328,6 +364,23 @@ STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:ADVENTURE
 URL:https://www.theeddieaikau.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:fide-world-rapid-blitz-2026@pinnacle
+DTSTAMP:20261201T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:🟡 RADAR: FIDE World Rapid & Blitz Championships 2026
+DESCRIPTION:🟢 The year-end speed-chess world titles — the field (Magnu
+ s included\, most years) plays for two crowns in six days. Host/dates unan
+ nounced\; traditionally Dec 26-31. Lock the Rapid and Blitz final days sep
+ arately once FIDE announces.\nFree: FIDE YouTube official broadcast — fr
+ ee\nhttps://www.fide.com/fide-world-championship-cycle-2025-2026/\nWindow:
+  Dec 2026\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MIND
+URL:https://www.fide.com/fide-world-championship-cycle-2025-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:pipe-masters-2026@pinnacle
@@ -456,6 +509,23 @@ CATEGORIES:MIND
 URL:https://tatasteelchess.com/en
 END:VEVENT
 BEGIN:VEVENT
+UID:freestyle-chess-wc-2027@pinnacle
+DTSTAMP:20270201T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:🟡 RADAR: FIDE Freestyle Chess World Championship 2027 — Weisse
+ nhaus
+DESCRIPTION:🟢 Chess960's world title at Schloss Weissenhaus\, Feb 12-14\
+ , 2027 — Magnus Carlsen defends the crown he won there in Feb 2026 (his 
+ 21st world title). Women's WC runs the week prior\, Feb 5-7.\nFree: Freest
+ yle Chess YouTube + Chess.com coverage — free\nhttps://www.freestyle-che
+ ss.com/\nWindow: Feb 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MIND
+URL:https://www.freestyle-chess.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:super-bowl-lxi@pinnacle
 DTSTAMP:20270201T000000Z
 DTSTART;VALUE=DATE:20270201
@@ -487,6 +557,23 @@ STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:ENDURANCE
 URL:https://www.baa.org/races/boston-marathon
+END:VEVENT
+BEGIN:VEVENT
+UID:london-marathon-2027@pinnacle
+DTSTAMP:20270401T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:🟡 RADAR: TCS London Marathon 2027 (Two-Day Double)
+DESCRIPTION:🔴 One-off two-day London Marathon\, Apr 24-25\, 2027 — 100
+ \,000 runners across the weekend. Elite races split across the two days\; 
+ day allocation announced end of Sep 2026 (secondary press claims women Sat
+  / men Sun — unconfirmed).\nFree: BBC One / iPlayer (UK)\nPremium: FloTr
+ ack (US)\nhttps://www.londonmarathonevents.co.uk/london-marathon\nWindow: 
+ Apr 2027\nAnnual (two-day format is 2027-only)
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ENDURANCE
+URL:https://www.londonmarathonevents.co.uk/london-marathon
 END:VEVENT
 BEGIN:VEVENT
 UID:ucl-2026-27-semifinals@pinnacle
@@ -557,6 +644,23 @@ STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:MOTOR
 URL:https://acm.mc/en/epreuves/formula-1-grand-prix-de-monaco/
+END:VEVENT
+BEGIN:VEVENT
+UID:hyrox-worlds-2027-hong-kong@pinnacle
+DTSTAMP:20270601T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:🟡 RADAR: PUMA HYROX World Championships 2027 — Hong Kong
+DESCRIPTION:🟢 The pinnacle of fitness racing — top 0.5% of HYROX athle
+ tes qualify\; Elite 15 title races at AsiaWorld-Expo\, Jun 10-13\, 2027 (f
+ irst Worlds in APAC). 2026 Stockholm final was decided by 2 seconds at the
+  line. Elite session days TBA.\nFree: HYROX official YouTube live stream 
+ — free worldwide\nhttps://hyrox.com/event/puma-hyrox-world-championships
+ -hong-kong/\nWindow: Jun 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ENDURANCE
+URL:https://hyrox.com/event/puma-hyrox-world-championships-hong-kong/
 END:VEVENT
 BEGIN:VEVENT
 UID:le-mans-2027@pinnacle
@@ -653,6 +757,22 @@ STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:ADVENTURE
 URL:https://www.redbullxalps.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:sydney-marathon-2027@pinnacle
+DTSTAMP:20270801T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:🟡 RADAR: TCS Sydney Marathon 2027
+DESCRIPTION:🟡 The newest Marathon Major over the Harbour Bridge to the O
+ pera House — expected Sun Aug 29\, 2027 (third-party consensus\; organis
+ er date not yet published\; 2026 elites started 6:30 AM AEST).\nFree: SBS 
+ + SBS On Demand (Australia)\; extended broadcast on official YouTube\nhttp
+ s://www.tcssydneymarathon.com/\nWindow: Aug 2027\nAnnual
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:ENDURANCE
+URL:https://www.tcssydneymarathon.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:world-athletics-champs-2027@pinnacle

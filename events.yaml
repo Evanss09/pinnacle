@@ -203,6 +203,7 @@
   recurrence_note: "Every 4 years"
 
 # ============================== mind ==============================
+# NOTE (2026-08-31 recalibration): mind events are weighted UP. Monthly scans: watch for (a) GCT 2027 schedule (Sinquefield Cup + GCT Finals now on the master list; 2026 season ended Aug 27-28, Pragg won), (b) FIDE's new "Total Chess World Championship" tour (fide.com announced WR&B champions qualify for it — unassessed), (c) WR&B 2026 host announcement.
 
 # source: dotesports + esports.gg + gamesreviews (broadcast schedule) | tz: Grand Final Sun Aug 23, 10:00 PT (UTC-7) / 13:00 ET (UTC-4) → 17:00Z; Bo5 window to 22:00Z. [2026-08-20 weekly refresh: PROMOTED radar→locked — grand-final-day broadcast start widely reported at 10 AM PT / 1 PM ET]
 # ✅ SWEPT IN EARLY 2026-08-25 (local session) — NOT a hold: this had not reached its prune date, but the cloud
@@ -243,20 +244,65 @@
   watchability: green
   recurrence_note: "Annual"
 
-# source: wikipedia WCC 2026 + fide.com call-for-bids | provisionally Nov 23-Dec 17 2026, host TBD → radar
+# source: fide.com geneva-to-host announcement (2026-08-28) | GENEVA CONFIRMED, Nov 25-Dec 15 per FIDE's release; Wikipedia's table says Nov 24-Dec 12 — CONFLICT, FIDE is the anchor until the detailed schedule publishes; no game times/venue yet → radar
 - id: wcc-2026-gukesh-sindarov
   name: "FIDE World Chess Championship 2026: Gukesh vs Sindarov"
   category: mind
   tier: radar
   window: "Nov 2026"
-  why: "Chess's ultimate title match — every game is the final. Gukesh (IND) defends vs Candidates winner Sindarov (UZB); provisionally Nov 23-Dec 17, host city TBD."
+  why: "Chess's ultimate title match — every game is the final. Gukesh (IND) defends vs Candidates winner Sindarov (UZB) in Geneva, Nov 25-Dec 15 — youngest WC match in history, both players 20. Game times TBA; lock per-game entries when FIDE publishes the schedule."
   watch:
     free: "FIDE YouTube/Twitch official broadcast + Chess.com and ChessBase India coverage — free"
     premium: null
     youtube_channel: "@FIDE_chess"
-    link: "https://liquipedia.net/chess/FIDE_World_Chess_Championship/2026"
+    link: "https://www.fide.com/geneva-to-host-fide-world-championship-match-2026/"
   watchability: green
   recurrence_note: "Biennial (every 2 years)"
+
+# source: chessbase.com chess-calendar-2026 + wikipedia 46th Chess Olympiad | Sep 15-28 2026, Samarkand; round times unverified → radar. Added 2026-08-31 per Brad's more-chess recalibration — weekly refresh: verify final-round date/time + watch links.
+- id: chess-olympiad-2026-final-round
+  name: "46th Chess Olympiad — Final Round (Samarkand)"
+  category: mind
+  tier: radar
+  window: "Sep 2026"
+  why: "The decisive final round of chess's biggest team event — every federation's best boards, gold decided on tiebreaks as often as not. Samarkand, Uzbekistan, Sep 15-28; final round expected Sep 28, times TBA."
+  watch:
+    free: "FIDE YouTube official broadcast + Chess.com coverage — free (verify at lock time)"
+    premium: null
+    youtube_channel: "@FIDE_chess"
+    link: "https://en.wikipedia.org/wiki/46th_Chess_Olympiad"
+  watchability: green
+  recurrence_note: "Biennial"
+
+# source: fide.com WC-cycle page (no listing) + worldrapidandblitz2025.fide.com precedent (Doha, Dec 25-31 2025) | 2026 host/dates UNANNOUNCED as of 2026-08-31; Dec 26-31 slot is the historical pattern, not a sourced date → radar
+- id: fide-world-rapid-blitz-2026
+  name: "FIDE World Rapid & Blitz Championships 2026"
+  category: mind
+  tier: radar
+  window: "Dec 2026"
+  why: "The year-end speed-chess world titles — the field (Magnus included, most years) plays for two crowns in six days. Host/dates unannounced; traditionally Dec 26-31. Lock the Rapid and Blitz final days separately once FIDE announces."
+  watch:
+    free: "FIDE YouTube official broadcast — free"
+    premium: null
+    youtube_channel: "@FIDE_chess"
+    link: "https://www.fide.com/fide-world-championship-cycle-2025-2026/"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: freestyle-chess.com road-to-weissenhaus-2027 (2026-08-11) | Feb 12-14 2027 confirmed (Women's WC Feb 5-7); NOTE: the Grand Slam TOUR was scrapped — one 3-day WC per year is the whole in-person circuit now → radar
+- id: freestyle-chess-wc-2027
+  name: "FIDE Freestyle Chess World Championship 2027 — Weissenhaus"
+  category: mind
+  tier: radar
+  window: "Feb 2027"
+  why: "Chess960's world title at Schloss Weissenhaus, Feb 12-14, 2027 — Magnus Carlsen defends the crown he won there in Feb 2026 (his 21st world title). Women's WC runs the week prior, Feb 5-7."
+  watch:
+    free: "Freestyle Chess YouTube + Chess.com coverage — free"
+    premium: null
+    youtube_channel: null
+    link: "https://www.freestyle-chess.com/"
+  watchability: green
+  recurrence_note: "Annual"
 
 # source: liquipedia PGL Singapore 2026 + hltv | grand final Sun Dec 13, Singapore Indoor Stadium, time TBA → radar
 - id: cs2-pgl-major-singapore-2026-grand-final
@@ -493,6 +539,53 @@
 
 # ============================== endurance ==============================
 
+# source: https://hyrox.com/elite-series-races/ (official 2026/27 Elite Series calendar) | E15 Singles Fri Oct 30, session times TBA → radar. NOTE: the HYROX Cruise (Oct 21-25) was originally billed as hosting this race — it moved to Hamburg; do NOT add the cruise.
+- id: hyrox-elite-series-2026-hamburg
+  name: "HYROX Elite Series Race 1 — Hamburg (Elite 15 Singles)"
+  category: endurance
+  tier: radar
+  window: "Oct 2026"
+  why: "Season opener of the invite-only Elite Series (the format replacing Majors): the world's top 15 men and women race head-to-head at Hamburg Messe, Fri Oct 30; podium spots earn Worlds qualification. Session times TBA."
+  watch:
+    free: "HYROX official YouTube live stream — free worldwide"
+    premium: null
+    youtube_channel: "@HYROX_OFFICIAL"
+    link: "https://hyrox.com/elite-series-races/"
+  watchability: green
+  recurrence_note: "5 Elite Series races per season; races 3-5 unannounced (expect Jan-May 2027)"
+
+# source: https://hyrox.com/elite-series-races/ | tz: E15 Men 18:30, E15 Women 20:00 GMT (UTC+0, London in Dec) → 18:30Z; end padded to 21:30Z
+- id: hyrox-elite-series-2026-london
+  name: "HYROX Elite Series Race 2 — London (Elite 15 Singles)"
+  category: endurance
+  tier: locked
+  start_utc: "2026-12-03T18:30:00Z"
+  end_utc: "2026-12-03T21:30:00Z"
+  window: null
+  why: "Elite 15 Singles under the lights at ExCeL London — men 18:30, women 20:00 local; top 3 punch tickets to the Hong Kong Worlds."
+  watch:
+    free: "HYROX official YouTube live stream — free worldwide"
+    premium: null
+    youtube_channel: "@HYROX_OFFICIAL"
+    link: "https://hyrox.com/elite-series-races/"
+  watchability: green
+  recurrence_note: "5 Elite Series races per season"
+
+# source: https://hyrox.com/event/puma-hyrox-world-championships-hong-kong/ | Jun 10-13 2027 confirmed, Elite-day schedule unpublished → radar
+- id: hyrox-worlds-2027-hong-kong
+  name: "PUMA HYROX World Championships 2027 — Hong Kong"
+  category: endurance
+  tier: radar
+  window: "Jun 2027"
+  why: "The pinnacle of fitness racing — top 0.5% of HYROX athletes qualify; Elite 15 title races at AsiaWorld-Expo, Jun 10-13, 2027 (first Worlds in APAC). 2026 Stockholm final was decided by 2 seconds at the line. Elite session days TBA."
+  watch:
+    free: "HYROX official YouTube live stream — free worldwide"
+    premium: null
+    youtube_channel: "@HYROX_OFFICIAL"
+    link: "https://hyrox.com/event/puma-hyrox-world-championships-hong-kong/"
+  watchability: green
+  recurrence_note: "Annual"
+
 # source: https://brussels.diamondleague.com/en/programme-results/ | tz: 20:00-22:05 CEST → 18:00-20:05Z
 - id: diamond-league-final-2026-day1
   name: "Wanda Diamond League Final 2026 — Day 1 (Memorial Van Damme, Brussels)"
@@ -578,6 +671,40 @@
   watchability: green
   recurrence_note: "Annual"
 
+# source: chicagomarathon.com/runners/runner-information (official race-day schedule) | tz: pro start 7:30 CDT (UTC-5, US DST ends Nov 1) → 12:30Z; end padded 2.5h
+- id: chicago-marathon-2026
+  name: "Bank of America Chicago Marathon 2026"
+  category: endurance
+  tier: locked
+  start_utc: "2026-10-11T12:30:00Z"
+  end_utc: "2026-10-11T15:00:00Z"
+  window: null
+  why: "48th running of the flat, fast Major where the men's world record fell in 2023 — pro men and women off at 7:30 AM through Grant Park. Added 2026-08-31: all seven Marathon Majors now tracked."
+  watch:
+    free: "NBC 5 Chicago / Telemundo Chicago + free stream at nbcchicago.com (7 AM-3 PM CT)"
+    premium: "Peacock simulstream (2025 pattern, unconfirmed for 2026); FloSports/Eurosport intl"
+    youtube_channel: null
+    link: "https://www.chicagomarathon.com/"
+  watchability: green
+  recurrence_note: "Annual"
+
+# source: nyrr.org/tcsnycmarathon/race-day/the-start (official start timeline) | tz TRAP: US DST ENDS race morning Nov 1 2026 (02:00) — all starts are EST (UTC-5), not EDT: pro women 8:35 EST → 13:35Z, pro men 9:05 EST → 14:05Z; end padded to men's winner ~16:30Z
+- id: nyc-marathon-2026
+  name: "TCS New York City Marathon 2026"
+  category: endurance
+  tier: locked
+  start_utc: "2026-11-01T13:35:00Z"
+  end_utc: "2026-11-01T16:30:00Z"
+  window: null
+  why: "50th running of the five-borough race — the biggest marathon on earth. Pro women 8:35 AM, pro men 9:05 AM EST, Verrazzano to Central Park. Added 2026-08-31 per the all-Majors recalibration."
+  watch:
+    free: "ABC7 NY (local OTA) + free stream at ABC7NY.com / ABC7 app 7 AM-1 PM ET (US); free NYRR app has uninterrupted pro-race coverage"
+    premium: "ESPN2 national (US); ESPN International / Eurosport elsewhere"
+    youtube_channel: null
+    link: "https://www.nyrr.org/tcsnycmarathon"
+  watchability: green
+  recurrence_note: "Annual"
+
 # source: baa.org / meetboston | radar beyond horizon; elites ~09:00 EDT
 - id: boston-marathon-2027
   name: "Boston Marathon 2027"
@@ -591,6 +718,53 @@
     youtube_channel: null
     link: "https://www.baa.org/races/boston-marathon"
   watchability: red
+  recurrence_note: "Annual"
+
+# source: marathon.tokyo/en/about/outline (official) | tz: start 09:10 JST (UTC+9, no DST) Mar 7 → 00:10Z; end padded 2.5h. Locked: date + time both official.
+- id: tokyo-marathon-2027
+  name: "Tokyo Marathon 2027"
+  category: endurance
+  tier: locked
+  start_utc: "2027-03-07T00:10:00Z"
+  end_utc: "2027-03-07T02:40:00Z"
+  window: null
+  why: "20th edition of Asia's Marathon Major — 40,000 runners from the Metropolitan Government Building, elites and mass field off together at 9:10 AM JST."
+  watch:
+    free: "TVer free stream + Nippon TV (Japan)"
+    premium: "FloTrack (US); Eurosport (Europe)"
+    youtube_channel: null
+    link: "https://www.marathon.tokyo/en/"
+  watchability: red
+  recurrence_note: "Annual"
+
+# source: londonmarathonevents.co.uk 2027-double FAQs | Apr 24-25 2027 confirmed BUT one-off TWO-DAY format; elite day allocation announced end of Sep 2026, start times only "likely" 09:00/09:30 BST → radar. Weekly refresh: re-check ~Oct 1 2026 and lock the elite day(s).
+- id: london-marathon-2027
+  name: "TCS London Marathon 2027 (Two-Day Double)"
+  category: endurance
+  tier: radar
+  window: "Apr 2027"
+  why: "One-off two-day London Marathon, Apr 24-25, 2027 — 100,000 runners across the weekend. Elite races split across the two days; day allocation announced end of Sep 2026 (secondary press claims women Sat / men Sun — unconfirmed)."
+  watch:
+    free: "BBC One / iPlayer (UK)"
+    premium: "FloTrack (US)"
+    youtube_channel: null
+    link: "https://www.londonmarathonevents.co.uk/london-marathon"
+  watchability: red
+  recurrence_note: "Annual (two-day format is 2027-only)"
+
+# source: therunningchannel.com + runningcalendar.com.au + Travelling Fit (official travel partner) | Sun Aug 29 2027 is THIRD-PARTY consensus only — not on tcssydneymarathon.com yet; 2026 elite start was 06:30 AEST → radar until organiser publishes
+- id: sydney-marathon-2027
+  name: "TCS Sydney Marathon 2027"
+  category: endurance
+  tier: radar
+  window: "Aug 2027"
+  why: "The newest Marathon Major over the Harbour Bridge to the Opera House — expected Sun Aug 29, 2027 (third-party consensus; organiser date not yet published; 2026 elites started 6:30 AM AEST)."
+  watch:
+    free: "SBS + SBS On Demand (Australia); extended broadcast on official YouTube"
+    premium: null
+    youtube_channel: "@tcssydneymarathon"
+    link: "https://www.tcssydneymarathon.com/"
+  watchability: yellow
   recurrence_note: "Annual"
 
 # source: worldathletics.org beijing27 | Sep 11-19 2027 → radar
@@ -706,6 +880,7 @@
   recurrence_note: null
 
 # source: matchroomboxing.com | date Sep 5 confirmed, only EXPECTED ringwalk ~22:00 IST → radar
+# 2026-08-31: re-judged under the TIGHTENED boxing rule (PINNACLE.md §5) and KEPT — undisputed at 140 + top-3 women's P4P + historic Croke Park farewell = era-defining. Most future cards will NOT clear this bar.
 - id: taylor-pili-croke-park-undisputed
   name: "Katie Taylor vs Flora Pili — Undisputed Super Lightweight, Croke Park Farewell"
   category: strength
@@ -751,7 +926,8 @@
   recurrence_note: "Quadrennial"
 
 # ============================== space ==============================
-# NOTE from agent: Artemis II already flew (Apr 1-11 2026, success). Artemis III revised to late-2027 LEO demo. Starship F12 (May 22 2026) = successful Block 3 debut; F13 (Jul 24 2026) = first Starlink V3 deploy (pruned). BORDERLINE routine rotations flagged: soyuz-ms-29, crew-13, shenzhou-24, axiom-5.
+# NOTE from agent: Artemis II already flew (Apr 1-11 2026, success). Artemis III revised to late-2027 LEO demo. Starship F12 (May 22 2026) = successful Block 3 debut; F13 (Jul 24 2026) = first Starlink V3 deploy (pruned).
+# 2026-08-31 recalibration (PINNACLE.md §5): space is weighted UP — ALL crewed launches qualify outright; the old BORDERLINE flags on soyuz-ms-29 / crew-13 / shenzhou-24 / axiom-5 are resolved as IN. Stop flagging crew rotations as borderline.
 
 # source: nasaspaceflight.com + space.com + FCC filing | no fixed date/time → radar. [2026-08-27 weekly refresh: NET has slipped past "late Aug" — estimates now span FCC NET Aug 28, Musk "end of Aug", Isaacman "early Sep", COMPASS slide NET Sep 15; still no announced window.]
 - id: starship-flight-14

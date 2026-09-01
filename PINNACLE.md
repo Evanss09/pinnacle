@@ -92,6 +92,8 @@ Host on GitHub Pages (free). Keep build.py dependency-light: `pyyaml` + stdlib. 
 
 ## 5. Elimination-only rules (the filter)
 
+> **Taste recalibration (Brad, 2026-08-31):** the calendar was skewing toward combat sports and poker. Direction: boxing/UFC and poker are now *very-top-only* (a handful of era-defining events per year, not per month), while **space launches, chess/mind events, and intellectual feats get MORE weight**, along with endurance/hybrid events in the Hyrox/marathon mold. When a borderline call comes up, lean *in* for space/mind/endurance and lean *out* for combat/poker.
+
 | Domain | What enters the calendar |
 |---|---|
 | NHL / NBA | Championship series only. Potential clinching games + any Game 7 → **locked**. Series start → one radar note. |
@@ -101,23 +103,25 @@ Host on GitHub Pages (free). Keep build.py dependency-light: `pyyaml` + stdlib. 
 | Super Bowl | The game itself (+ conference championships → radar only). |
 | Tennis slams | Finals only. |
 | Chess WCC | Entire match (every game is the final). Candidates: last 3 rounds + any tiebreak. |
-| Norway Chess / Tata Steel / Freestyle GS | Final round day + armageddon/playoffs. |
+| Norway Chess / Tata Steel / Freestyle GS / Sinquefield Cup / GCT Finals | Final round day + armageddon/playoffs/knockout finals. |
+| FIDE World Rapid & Blitz | Final day of the Rapid + final day of the Blitz (two entries). |
+| Poker | WSOP Main Event **final day only** (the day the champion is crowned). No other poker — no earlier final-table days, no Triton/high-roller series (tightened 2026-08-31). |
 | Esports (TI, LoL Worlds, CS2 Majors) | Grand finals only; semis → radar. |
 | F1 | Monaco + any race where the title can be clinched + season finale. |
-| Le Mans / Isle of Man TT / UTMB / Kona / marathons majors / WSM / CrossFit Games finals | The event **is** the pinnacle — include whole (key sessions only for multi-day: e.g. Le Mans start + final 2 hours as separate entries). |
+| Le Mans / Isle of Man TT / UTMB / Kona / World Marathon Majors (all seven, elite races) / HYROX Elite Series + Worlds / WSM / CrossFit Games finals | The event **is** the pinnacle — include whole (key sessions only for multi-day: e.g. Le Mans start + final 2 hours as separate entries; marathons = elite-race window; HYROX = the Elite 15 Singles day of each Elite Series race — 5/season, the format that replaced Majors in 2026/27 — plus the World Championships Elite days). |
 | IFSC | World Championships finals + World Cup finals rounds only (not qualis). |
 | Red Bull Rampage / Cliff Diving finals / X-Alps / WSL Finals | Whole event (they're short). |
-| Rocket launches | Starship integrated tests, crewed launches, first-of-kind missions only. Routine Starlink = excluded. |
+| Rocket launches / space | Weighted UP (2026-08-31): Starship flights, **all crewed launches** (ISS/Tiangong rotations and private missions count — crewed = pinnacle, drop the "borderline routine rotation" hedging), first-of-kind missions, lunar/planetary landing attempts, new-vehicle debut flights, and major mission milestones (sample returns, flagship first light). Routine Starlink/satellite ops still excluded. |
 | Big wave (Eddie, Nazaré) / one-off feats | Radar until greenlit, then locked. |
-| Boxing / UFC | Undisputed/unification title fights and title fights between top-3 P4P only. |
+| Boxing / UFC | **Era-defining fights only** (tightened 2026-08-31 — the old "undisputed/unification OR top-3 P4P" bar let in too many cards). An event qualifies only if it is an undisputed/title fight **AND** either headlined by a top-3 pound-for-pound fighter or the consensus biggest fight of the year. Expect a handful per year. When in doubt, leave it out. |
 
-**Master event list** (already culled by Brad — seed events.yaml from this):
+**Master event list** (culled by Brad; recalibrated 2026-08-31 — more mind/space/endurance, less combat/poker):
 Team: FIFA WC, UCL final, Stanley Cup Final, World Series, NBA Finals, Super Bowl, Rugby WC (2027), Cricket WC/T20 finals.
-Mind: World Chess Championship, Candidates, Norway Chess, Tata Steel, Freestyle Chess GS, The International, LoL Worlds final, CS2 Major finals, WSOP Main Event final table.
+Mind: World Chess Championship, Candidates, Norway Chess, Tata Steel, Freestyle Chess GS, Sinquefield Cup + GCT Finals, FIDE World Rapid & Blitz, The International, LoL Worlds final, CS2 Major finals, WSOP Main Event final day only.
 Adventure: IFSC WCups+Worlds, Red Bull Rampage, Cliff Diving, X-Alps, UTMB, Ironman Worlds, Vendée Globe (2028), Eddie Aikau/Nazaré, WSL Finals, one-off specials.
-Endurance/athletics: World Athletics Champs, Diamond League Final, Berlin + Boston marathons, Tour de France (mountain queen stages + final GC-decisive stage + Paris), cycling Worlds.
-Motor/machines: F1 (per rule above), Le Mans, Isle of Man TT, rocket launches.
-Strength/combat: World's Strongest Man, CrossFit Games, UFC/boxing per rule, Olympics 2028/2030.
+Endurance/athletics: World Athletics Champs, Diamond League Final, all seven World Marathon Majors (Tokyo, Boston, London, Sydney, Berlin, Chicago, NYC — elite races), HYROX World Championships, Tour de France (mountain queen stages + final GC-decisive stage + Paris), cycling Worlds.
+Motor/machines: F1 (per rule above), Le Mans, Isle of Man TT, rocket launches & space milestones (per rule above — weighted up).
+Strength/combat: World's Strongest Man, CrossFit Games, UFC/boxing per (tightened) rule, Olympics 2028/2030.
 
 **Currently live (July 2026), seed immediately:** World Cup semifinals July 14–15, final July 19 (MetLife, ~20:00 ET); Tour de France in progress (identify remaining queen stages + Paris finale); Wimbledon finals this weekend if not passed.
 

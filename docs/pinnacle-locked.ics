@@ -207,6 +207,56 @@ CATEGORIES:ADVENTURE
 URL:https://www.ironman.com/races/im-world-championship
 END:VEVENT
 BEGIN:VEVENT
+UID:chicago-marathon-2026@pinnacle
+DTSTAMP:20261011T123000Z
+DTSTART:20261011T123000Z
+DTEND:20261011T150000Z
+SUMMARY:Bank of America Chicago Marathon 2026
+DESCRIPTION:🟢 48th running of the flat\, fast Major where the men's worl
+ d record fell in 2023 — pro men and women off at 7:30 AM through Grant P
+ ark. Added 2026-08-31: all seven Marathon Majors now tracked.\nFree: NBC 5
+  Chicago / Telemundo Chicago + free stream at nbcchicago.com (7 AM-3 PM CT
+ )\nPremium: Peacock simulstream (2025 pattern\, unconfirmed for 2026)\; Fl
+ oSports/Eurosport intl\nhttps://www.chicagomarathon.com/\nAnnual
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:ENDURANCE
+URL:https://www.chicagomarathon.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:nyc-marathon-2026@pinnacle
+DTSTAMP:20261101T133500Z
+DTSTART:20261101T133500Z
+DTEND:20261101T163000Z
+SUMMARY:TCS New York City Marathon 2026
+DESCRIPTION:🟢 50th running of the five-borough race — the biggest mara
+ thon on earth. Pro women 8:35 AM\, pro men 9:05 AM EST\, Verrazzano to Cen
+ tral Park. Added 2026-08-31 per the all-Majors recalibration.\nFree: ABC7 
+ NY (local OTA) + free stream at ABC7NY.com / ABC7 app 7 AM-1 PM ET (US)\; 
+ free NYRR app has uninterrupted pro-race coverage\nPremium: ESPN2 national
+  (US)\; ESPN International / Eurosport elsewhere\nhttps://www.nyrr.org/tcs
+ nycmarathon\nAnnual
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:ENDURANCE
+URL:https://www.nyrr.org/tcsnycmarathon
+END:VEVENT
+BEGIN:VEVENT
+UID:hyrox-elite-series-2026-london@pinnacle
+DTSTAMP:20261203T183000Z
+DTSTART:20261203T183000Z
+DTEND:20261203T213000Z
+SUMMARY:HYROX Elite Series Race 2 — London (Elite 15 Singles)
+DESCRIPTION:🟢 Elite 15 Singles under the lights at ExCeL London — men 
+ 18:30\, women 20:00 local\; top 3 punch tickets to the Hong Kong Worlds.\n
+ Free: HYROX official YouTube live stream — free worldwide\nhttps://hyrox
+ .com/elite-series-races/\n5 Elite Series races per season
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:ENDURANCE
+URL:https://hyrox.com/elite-series-races/
+END:VEVENT
+BEGIN:VEVENT
 UID:f1-2026-abu-dhabi-finale@pinnacle
 DTSTAMP:20261206T130000Z
 DTSTART:20261206T130000Z
@@ -222,5 +272,21 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:MOTOR
 URL:https://www.formula1.com/en/racing/2026/united-arab-emirates
+END:VEVENT
+BEGIN:VEVENT
+UID:tokyo-marathon-2027@pinnacle
+DTSTAMP:20270307T001000Z
+DTSTART:20270307T001000Z
+DTEND:20270307T024000Z
+SUMMARY:Tokyo Marathon 2027
+DESCRIPTION:🔴 20th edition of Asia's Marathon Major — 40\,000 runners 
+ from the Metropolitan Government Building\, elites and mass field off toge
+ ther at 9:10 AM JST.\nFree: TVer free stream + Nippon TV (Japan)\nPremium:
+  FloTrack (US)\; Eurosport (Europe)\nhttps://www.marathon.tokyo/en/\nAnnua
+ l
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:ENDURANCE
+URL:https://www.marathon.tokyo/en/
 END:VEVENT
 END:VCALENDAR
